@@ -1,0 +1,199 @@
+﻿#
+# NMS_MutFutureWM
+# Monsters From Mutant Future
+# January 1, 2019
+
+;Start
+## placeholder
+1,{Dice~1d10} Spidergoats
+## pseudonymous Gamma World 1e Monsters 
+1,{Dice~1d6} Thinker Androids
+1,{Dice~1d6} Worker Androids
+1,{Dice~1d6} Warrior Androids
+1,{Dice~1d4} Intelligent Dog Men Mutants
+1,{Dice~1d6} Giant Riding Insects
+1,{Dice~3d6} Evil Intelligent Badger Mutants
+1,an Ultrablack Mutant Oil Carp
+1,{Dice~1d8} Acidic Lily Pads
+1,{Dice~1d10} Carnivorous Radioactive Moths
+1,{Dice~1d4} Giant Winged Phase Worms
+1,{Dice~1d12} Wild Nimble Horse Ogres
+1,Intelligent Bone-Eating Giant Mothman
+1,a Centisteed
+1,a shape-changing Lizard-Fish
+1,{Dice~1d10} Death-Field Generator Shrubs
+1,a Giant Petrify-Biting Carp
+1,{Dice~1d6} Pyrocaustic Goldfish
+1,{Dice~1d10} Transparent Hyperfishmen
+1,a Giant Leaping Glidefish
+1,{Dice~1d6} Photosynthetic People
+1,{Dice~1d10} Poison Pirahnas
+1,a Flightless Sonic Destructor Beetle
+1,{Dice~1d10} Telepathic Demisnake Men
+1,{Dice~1d20} Irritable Rabbit Men
+1,{Dice~1d20} Chameleonic Riding Bunnies
+1,{Dice~1d3} Ambulatory Porcupine Bush
+1,{Dice~1d4} Pesky Radioactive Lizard-Plants
+1,a Levitating Kleptomaniac Dwarf
+1,a Dissolver-Vine
+1,a Gigantic 10-Armed Hyperintelligent Snake
+1,an Albino Exploder-Pod Tree
+1,a flock of {Dice~1d3} Lesser Obbs
+1,a Greater Obb
+1,a Telekinetic Four-Armed Mutant-Man
+1,{Dice~1d3} Spiked Sword Beetles
+1,{Dice~1d10} Radiation Emitting Palm Trees
+1,{Dice~1d8} Ambulatory Horse-Trees
+1,{Dice~2d6} Giant Hyper-Dogs
+1,{Dice~5d6} Carapace Oxen
+1,a Bulette
+1,{Dice~1d4} Medieval Militaristic Brainmutant
+1,Clever Aquatic Prehensile Vines
+1,{Dice~1d10} Peaceful Brainosaurus Rexes
+1,a Giant Flightless Mosquito
+1,{Dice~1d4} Feathered Levitating Barracuda
+1,a Sonic-Blaster Lily Plant
+1,{Dice~1d4} Friendly Flying Lion-Snakes
+1,a Paralyzer Beetle
+1,{Dice~1d10} Seed-Teleporting Sword-grass Nodes
+##Mutant Future Monsters that Don't Already Exist in Gamma World 1e
+1,{Dice~2d4} Accipitoids
+1,{Dice~1d4} Clone Neutralizer Androids
+1,{Dice~1d4} Medic Androids
+1,{Dice~4d6} Giant Ants
+1,{Dice~2d3} Horror Ants
+1,{Dice~2d4} Albino Apes
+1,{Dice~5d8} Apemen
+1,{Dice~5d6} Higher Baboons
+1,{Dice~1d3} Brain Lashers
+1,{Dice~3d6} Brain Plants
+1,{Dice~2d6} Burn Leeches
+1,{Dice~2d6} Burrow Tubers
+1,{Dice~2d6} Canisoids
+1,{Dice~1d3} Carcass Scavengers
+1,{Dice~1d10} Castoroids
+1,{Dice~2d6} Cephalopoids
+1,{Dice~2d20} Chargers
+1,{Dice~3d6} Chicken Wolves
+1,{Dice~1d6} Chitterlings
+1,{Dice~1d11} Cockroachoids
+1,{Dice~3d6} Encephalized Coyotes
+1,{Dice~1d4} Commando Cyborgs
+1,{Dice~1d10} Death Birds
+1,{Dice~1d20} Electrophants
+1,{Dice~3d6} Eloi
+1,{Dice~1d4} Eye Dogs
+1,{Dice~2d4} Insectoid Eyes
+1,{Dice~5d10} Feeders
+1,{Dice~2d4} Flame Plants
+1,{Dice~2d6} Giant Carnivorous Flies
+## pickup here MF page 72
+1,a Fungal Grove
+1,{Dice~2d6} Gamma Sloths
+1,{Dice~1d4} Gamma Wyrms
+1,{Dice~1d10} Glue Flowers
+1,{Dice~2d4} Goliaths
+1,{Dice~1d3} Gray Worms
+1,{Dice~2d4} Flame Plants
+1,a Humanoid Mass
+1,an Insect Swarm
+1,{Dice~1d10} Irradiated
+1,{Dice~2d6} Jellyfish Plants
+1,{Dice~2d4} Kamata
+1,{Dice~1d4} Kanga
+1,{Dice~1d4} Kelpers
+1,{Dice~2d10} Kernel Plants
+1,a Giant Land Squid
+1,{Dice~2d6} Leapers
+1,{Dice~1d4} Giant Leeches
+1,{Dice~3d8} Leech Rabbits
+1,{Dice~2d10} Lobstrosities
+1,{Dice~1d6} Magma Plants
+1,{Dice~2d4} Man Beasts
+1,{Dice~1d4} Mansquitos
+1,{Dice~2d4} Mants
+1,{Dice~1d4} Medusoids
+1,{Dice~2d10} Gamma Meerkats
+1,{Dice~1d6} Morningstar Plants
+1,{Dice~3d4} Mummy Plants
+1,{Dice~1d10} Narcoleps
+1,{Dice~2d6} Night Globes
+1,{Dice~1d4} Nightgoats
+1,{Dice~1d10} Null Plants
+1,{Dice~1d4} Tigrisoids
+1,{Dice~1d4} Lionoids
+1,{Dice~1d4} Pantheroids
+1,{Dice~2d4} Pigmen
+1,{Dice~2d10} Piranha Butterflies
+1,{Dice~1d4} Pod Plants
+1,{Dice~2d4} Porcine Devourers
+1,{Dice~2d4} Puddle Worms
+1,{Dice~2d6} Giant Killer Puffballs
+1,{Dice~2d4} Pufferoids
+1,{Dice~2d4} Pumpkinmen
+1,{Dice~2d10} Quenches
+1,{Dice~1d6} Quickens
+1,{Dice~1d4} Quillcats
+1,{Dice~3d6} Rabboxen
+1,a Radiation Whale
+1,{Dice~1d4} Giant Rhagodessa
+1,{Dice~1d20} Rock Shells
+1,{Dice~2d6} Rot Dogs
+1,{Dice~1d4} Screech Bushes
+1,{Dice~2d4} Squirinoids
+1,{Dice~2d8} Carnivorous Sheep
+1,{Dice~1d4} Skin Stealers
+1,a Skinner Tree
+1,{Dice~1d4} Sky Rays
+1,{Dice~1d4} Slunks
+1,{Dice~1d4} Sporers
+1,{Dice~1d4} Stalker Plants
+1,{Dice~1d10} Stink Beetles
+1,{Dice~2d4} Suidoids
+1,{Dice~2d10} Vampire Stars
+1,a Tripod
+1,{Dice~1d3} Ventrilovines
+1,{Dice~1d4+2} Vile Slashers
+1,{Dice~2d6} Vomit Flies
+1,a Wailer
+1,{Dice~1d6} Xeno Cattle
+1,{Dice~1d10} Zap Vines
+1,{Dice~1d8} Zunicorns
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

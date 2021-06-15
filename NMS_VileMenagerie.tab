@@ -1,0 +1,65 @@
+﻿#
+# NMS_VileMenagerie
+# Taken from the Vancian Magic Supplement
+#
+# July 2018 WIP
+
+%AC%,0
+%NoAppearing%,0
+%HD%,0
+%Move%,0
+
+
+;Start
+1,[Size] [Loco] [Type],AC %AC%,Move %Move%",[Attack],[Special]
+
+;Size
+1,A 4 Hit Die
+1,{Dice~1d4} - 3 HD
+1,{Dice~1d6} - 2 HD
+1,{Dice~2d4} - 1 HD
+
+;Type
+1,Amoeboid|AC=2|
+1,Crustacean|AC=3|
+1,Insectoid|AC=4|
+1,Reptillian|AC=5|
+1,Amphibian|AC=6|
+1,Mammalian|AC=7|
+1,Avian|AC=8|
+1,Mollusc|AC=9|
+
+;Loco
+1,Slithering|Move=6|
+1,Hopping|Move=6|
+1,Skittering|Move=9|
+1,Loping|Move=12|
+1,Buzzing|Move=15|
+1,Flapping|Move=18|
+
+;Attack
+1,Stinging tail 1d4
+1,Lashing tendrils 1d4
+1,Crushers/Horns 1d6
+1,Rending claws 1d6
+1,Slicing mandibles 1d8
+1,Razor teeth 1d8
+ 
+:!Special
+1,Acid Blood - 1d4 after being wounded
+2,Acid Spit - 1d6 ranged attack
+3,Big - double HD with half movement
+4,Blood-sucking - drain d6 damage/round after hitting
+5,Draining -1 Strength per hit
+6,Fast - half hit dice double movement double attacks
+7,Invisible -4 to hit
+8,Ooze - dissolves metal
+9,Phase - moves through walls
+10,Poison - save +4 or die
+11,Psychic - save vs paralysis or stunned
+12,Prehensile tongue - extra attack as giant frog
+13,Regenerate 1 hp/round
+14,Severing/mangling - crit incapacitates limb or beheads
+15,Stinking -2 to hit within 10'
+16-20,{Lockout~Special,16-20}[Special] AND [Special]{Unlock~Special,16-20}
+

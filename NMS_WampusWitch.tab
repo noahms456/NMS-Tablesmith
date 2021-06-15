@@ -1,0 +1,229 @@
+﻿#
+# NMS_WampusWitch
+#
+# November 1, 1, - incidentally the day that the 1, election was decided.
+# This is based on Erik Jensen's terrific batch of tables from the Lumberlands'
+# freebie called Limited Edition Pumpkin Spice Wampus Country.
+# I took some liberties with the format but it works!
+# Much love and admiration to Erik and his associate Dr. Lovebeard, purveyor of fine snake oil and other cordials
+#
+
+;Start
+1,This witch is named [Name]. She is a witch because she [Origin]. She hates [Spite], and is known for [Method].
+_She has [Appearance] and wears [Dress]. It is rumored that [Quirks]. She can be seen riding about on [Conveyance].
+_Her pet is [Minion], and she is weak against [Vulnerability]. She is never far from her [Implement]
+
+;Name
+1,[Title] [Title1]
+1,[Title1] [Title]
+1,[Title] [Dickensian Names.Female First] [Title1]
+1,[Title1] [NMS_DarkestDungeonNames.Start]
+
+
+;Title
+1,Goody
+1,Haradan
+1,Mrs.
+1,Miss
+1,Madame
+1,Frau
+1,Mama
+1,Mother
+1,Granny
+1,Grandmother
+1,Lady
+1,Baroness
+1,Contessa
+1,Yaya
+1,Nunu
+1,Gaga
+1,Missy
+1,Queeny
+1,Mademoiselle
+1,Sissy
+1,Sister
+1,Auntie
+1,[Color.Start]
+
+;Title1
+1,[Color.Start]
+1,Rat1,Roach1,Beetle1,Crow1,Spider1,Cobweb1,Hemlock1,Ivy1,Sumac1,Belladonna1,Wolfsbane1,Wood1,Oak1,Leaf1,Twig1,Stump1,Face1,Head1,Belly1,Hand1,Foot1,Blood1,Bile1,Spittle1,Bone1,Puke1,Snot1,Dung1,Grave1,Tomb1,Headstone1,Ghost1,Gallows1,Iron1,Steel1,Glass1,Coal1,Brass1,Lead1,Spoil1,Ruin1,Wreck1,Wrack1,Broken1,Spill1,Crack
+
+;Origin
+1,was jilted in love
+1,jilted her wizard lover
+1,died of unrequited love
+1,died hopelessly barren
+1,killed her children
+1,killed her child
+1,died in childbirth
+1,cruelly murdered someone
+1,died by exposure
+1,willingly made a foul pact
+1,foolishly made an evil bargain
+1,naively made an unholy oath
+1,consumed devil-flesh
+1,sought forbidden knowledge
+1,was born unnaturally to another witch
+1,was cursed by the King
+1,was cursed by the President
+1,cursed the King
+1,was unjustly cursed
+
+;Spite
+1,children
+1,pretty young women
+1,clergy
+1,virtuous men
+1,newlyweds
+1,newborn infants
+1,livestock
+1,those who are outwardly upstanding, but secretly corrupt
+1,churches
+1,fairies
+1,oak trees
+1,fresh water
+1,sunlight
+1,preachers
+1,virgins
+
+;Method
+1,eating naughty children and runaways
+1,kidnaping brides-to-be
+1,cursing infants whose mothers are impious
+1,capturing and seducing young knights
+1,thriving on cannibalism
+1,plagueing livestock
+1,befouling the local waters
+1,stealing the breath of sleeping people to stay young
+1,stealing forgotten objects and punishes the former owner
+1,robbing graves for nefarious purposes
+1,punishing the sexually liberal
+1,harrying travellers on “her road”
+
+;Appearance
+1,crooked nose
+1,beaklike nose
+1,extreme warts
+1,greenish skin
+1,sallow skin
+1,yellow skin
+1,transparent skin
+1,exceedingly gaunt
+1,outlandishly fat
+1,hideously thin
+1,superfluous skin hangs; ‘melting’ appearance
+1,savage couture (bone in nose, feathers in hair)
+1,frightening primitive mask
+1,feet are backward
+1,cloven hooves
+1,fingernails are long and twisted
+1,one hand is skeletal
+1,eyes are whites only
+1,eyes are stitched shut
+1,eyes are embers of flame
+1,insect-shaped bulges move freely beneath her skin
+1,tusk-like teeth
+1,shark-like teeth
+1,third eye on forehead
+1,third eye on palm of a hand
+1,patches of reptilian scales
+1,patches of fur
+1,patches of feathers
+1,animalistic facial feature (pig nose, donkey’s ears)
+1,facial tattooing
+1,covered in scars or brand-marks
+
+;Dress
+1,buck naked (woad optional)
+1,covered in dirt and moss or leaves
+1,shift woven of spider-webs
+1,peasant clothing
+1,matron’s clothing
+1,decaying clothing of nobility
+1,dusty military coat from a former lover
+1,dark robes
+1,furs and hides
+1,clothing made of untanned flesh
+1,a dress made of meat
+1,a gown of human skin
+
+;Quirks
+1,can remove her own body parts
+1,causes flowers to wilt
+1,no plant will grow where she has tread
+1,spoils food as she passes and wine turns to vinegar
+1,doors unlock at her approach
+1,vomits forth insects
+1,vomits forth spiders
+1,vomits forth worms
+1,vomits forth maggots
+1,vomits forth serpents
+1,her song is Death
+1,holy symbols and books burst into flame at her touch
+1,has immediate clairvoyance wherever her name is spoken
+1,has blood, that when mixed with wine, is a healing salve
+1,has blood, that when mixed with wine, is an undetectable poison
+1,can hear the secrets of the dead by listening at their graves
+1,posseses an Evil Eye that causes barrenness and impotency
+1,has teeth, that if planted, will produce a tree whose fruit are infant goblins
+1,can take the shape of anyone whose hair or fingernail-clippings she has eaten
+1,can remove any curse with a kiss - any curse but her own, that is
+1,cannot refuse aid requested in the name of (a particular god, the king, love)
+1,cannot see an honest man whose eyes are closed
+1,if she spits upon the ground, the spittle becomes rattlesnakes
+1,if caught out at sunrise, she turns to stone
+1,if caught out at sunrise, she crumbles to dust
+1,if caught out at sunrise, she must retreat
+1,if caught out at sunrise, she immolates
+1,her emotions affect the local weather, causing storms
+1,he who strikes the killing-blow upon her takes on all her debts, mundane and mystical
+
+;Vulnerability
+1,her own [Implement]
+1,her own reflection
+1,her own voice
+1,her own bloodline
+1,a precious material (gold, silver, diamond)
+1,mundane animal (duck, salmon) or related product (eggs)
+1,mundane plant (hollyberry, potato)
+1,utterance of a fairly common word
+1,a mundane material (bronze, stone, water)
+1,particular moon-phase, holiday or unusual occurrence (coronation of a new king, etc)
+1,particular profession (tailor, wainwright, pageboy)
+
+;Conveyance
+1,sittable household item (broom, mop, sawhorse, rocking-chair)
+1,immense kitchen object (mortar & pestle, bowl, beer-stein)
+1,storage object (barrel, crate, trunk, chest, burlap sack)
+1,rowboat/canoe
+1,snowshoes or skis
+1,anachronistic object (vacuum cleaner, velocipede)
+1,giant egg
+1,chariot/coach drawn by (black steeds, skinless hounds, blinded orphans)
+1,saddle/howdah on the back of a giant version of a mundane animal (vole, pillbug, sow)
+1,transforms into a flying creature (screech owl, bat, giant moth - human head optional)
+1,transforms into (mist, dark cloud, puddle of blood, shifting sands)
+1,skeletal/zombie (horse, stag, emu)
+
+;Implement
+1,sewing item (needle, bobbin, bolt of cloth, spinning-wheel, carding-combs)
+1,grooming item (straight razor, scissors/shears)
+1,something choppy (meat cleaver, woodsman’s hatchet)
+1,standard weapon (dagger, spear) made of something unusual
+1,skull, corpse, or body-part (cat’s skull, mummified infant, fox-tail)
+1,walking-stick, cane, staff
+1,creepy light source (candlestick, lantern, hand of glory)
+1,something to choke with (chains, rope/noose, length of sewing-thread)
+
+;Minion
+1,familiar (cat, toad, raven, owl, the usual suspects)
+1,homunculus, imp, or demonling
+1,sentient animated object (tome, ottoman, scythe, dressing-mirror, mounted moose head)
+1,superior-to-the-norm specimen (lesser undead, goblinoid)
+1,mind-controlled knight or huntsman
+1,several somethings stitched into one massive being (use any low-level random encounter table you have at hand)
+1,sentient dung-pile or patch of moss (use slime stats)
+1,floating, talking (skull, jack-o-lantern, severed dog’s head)
+1,alligator or boa (possibly albino)
+1,giant version of vicious mammal (bobcat, coyote, jackal, wolverine, skunk)

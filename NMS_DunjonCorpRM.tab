@@ -1,0 +1,153 @@
+﻿#
+# NMS_DunjonCorpRM (Random Monsters)
+#
+# 
+# Noah Stevens
+# Reskin Everything
+# July 11, 2018
+
+:Start
+1,[Level1]
+2,[Level2]
+3,[Level3]
+4,[Level4]
+5,[Level5]
+6,[Level6]
+7,[Level7]
+8,[Level8]
+9,[Level9]
+10,[Level10]
+
+;Low
+10,[Level1]
+5,[Level2]
+1,[Level3]
+
+;Medium
+10,[Level2]
+5,[Level3]
+3,[Level4]
+1,[Level5]
+
+;Hard
+10,[Level7]
+5,[Level8]
+3,[Level9]
+1,[Level10]
+
+;Extreme
+10,[Level8]
+3,[Level9]
+1,[Level10]
+
+
+;Level1
+1,{Dice~1d10} Giant Bats
+1,{Dice~1d4} Fire Beetles
+1,{Dice~1d20+5} Gibberlings
+1,{Dice~5d4} Giant Rats
+1,{Dice~1d3} Rot Grubs
+1,{Dice~1d8} Skeletons
+1,{Dice~1d4} Animal Skeletons
+1,{Dice~1d3} Zombies
+
+;Level2
+1,{Dice~2d6+1} Giant Intelligent Centipede
+1,{Dice~1d4+1} NPC Adventurers
+1,a Coffer Corpse
+1,{Dice~2d4} Kith Wireheads
+1,{Dice~1d6} Giant Carnivorous Sentient Flies
+1,{Dice~1d8} Skulks
+1,{Dice~2d6+3} Radstirges
+1,{Dice~1d4} Giant Mutant Toads
+
+;Level3
+1,{Dice~1d4+1} NPC Adventurers
+1,a Dark Creeper
+1,{Dice~1d6} Fire Snakes
+1,a Gelatinous Cube
+1,{Dice~1d4} Ghouls
+1,{Dice~1d4} Huecuva
+1,an Iron Cobra
+1,{Dice~1d4+1} Wererats
+1,a Meazel
+1,a Necrophidius
+1,an Ochre Jelly 
+1,{Dice~1d4} Phase Spiders
+
+;Level4
+1,{Dice~1d3} Albino Apes
+1,a Caterwaul
+1,{Dice~1d4+1} NPC Adventurers
+1,a Dark Stalker
+1,a Flame Horror
+1,{Dice~1d2} Gargoyles
+1,{Dice~1d4} Ghasts
+1,a Gray Ooze
+1,a Giant Leech
+1,a Rust Monster
+1,a Giant Python
+1,{Dice~1d2} Rot Zombies
+1,a Wind Terror
+
+;Level5
+1,an Animated Iron Statue
+1,an Animated Stone Statue
+1,2 Caryatid Columns
+1,{Dice~1d4+1} NPC Adventurers
+1,a Cloaker
+1,a Crypt Aberration
+1,{Dice~1d3} Dopplegangers
+1,{Dice~1d3} Giant Horned Chameleons
+1,{Dice~1d2} Lesser Seran'kaths
+1,{Dice~1d4} Shadows
+1,a Crawling Death
+
+;Level6
+1,{Dice~1d2} Carcass Scavengers
+1,{Dice~1d4+1} NPC Adventurers
+1,a Djinni
+1,a Mustard Jelly
+1,a Raksasha
+1,{Dice~1d3} Phase Spiders
+1,{Dice~1d2} Giant Trolls
+1,a Spirit Troll
+1,a Vision of Horror
+1,{Dice~1d4} Wights
+1,{Dice~1d2} Wraiths
+
+:Level7
+1,a Black Pudding
+1,{Dice~1d4+1} NPC Adventurers
+1,an Eye of Chaos, Fear, and Flame
+1,{Dice~1d3} Stone Giants
+1,an Invisible Stalker
+1,a Lurker Above
+1,{Dice~1d2} Mummies
+1,{Dice~1d2} Spirit Nagas
+1,{Dice~1d2} Night Hags
+1,a Para-Elemental of Smoke
+1,a Specter
+
+;Level8
+1,{Dice~1d3} NPC Adventurers
+1,a Death Knight
+1,{Dice~1d3} Chasme Demons
+1,a Ghost
+1,a Clay Golem
+1,a Skeleton Warrior
+1,a Trapper
+
+;Level9
+1,{Dice~1d3} NPC Adventurers
+1,a Crimson Death
+1,a Gray Slaad
+1,a Stone Golem
+1,a Guardian Naga
+1,a Nycadaemon
+
+;Level10
+1,{Dice~1d2} NPC Adventurers
+1,a Death Slaad
+1,an Iron Golem
+1,a Lich

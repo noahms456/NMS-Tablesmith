@@ -1,0 +1,76 @@
+﻿#
+# NMS_MoldvayWM1
+#
+# Moldvay Wandering Monsters
+# Noah Stevens
+# June 21, 2018
+
+:Start
+1,[Level1]
+
+;Level1
+1,{Dice~1d8} Acolytes
+1,{Dice~1d8} Bandits
+1,{Dice~1d8} Fire Beetles
+1,{Dice~1d6} Dwarves
+1,{Dice~1d6} Gnomes
+1,{Dice~2d4} Goblins
+1,{Dice~1d4} Green Slimes
+1,{Dice~3d6} Halflings
+1,{Dice~1d10} Killer Bees
+1,{Dice~4d4} Kobolds
+1,{Dice~1d3} Giant Geckos
+1,{Dice~2d4} Orcs
+1,{Dice~1d10} Giant Shrews
+1,{Dice~3d4} Skeletons
+1,{Dice~1d6} Cobras
+1,{Dice~1d4} Crab Spiders
+1,{Dice~3d6} Sprites
+1,{Dice~1d10} Stirges
+1,{Dice~1d8} Traders
+1,{Dice~2d6} Wolves
+
+;Level2
+1,{Dice~1d8} Oil Beetles
+1,{Dice~1d6} Berserkers
+1,{Dice~1d4} Mountain Lions
+1,{Dice~1d4} Elves
+1,{Dice~1d6} Ghouls
+1,{Dice~1d6} Gnolls
+1,A Gray Ooze
+1,{Dice~1d6} Hobgoblins
+1,{Dice~1d4} Draco Lizards
+1,{Dice~2d4} Lizard Men
+1,{Dice~1d10} Neanderthals
+1,{Dice~2d6} Nobles
+1,{Dice~2d4} Pixies
+1,{Dice~1d6} Robber Flies
+1,{Dice~2d6} Rock Baboons
+1,{Dice~1d8} Pit Vipers
+1,{Dice~1d3} Giant Black Widow Spiders
+1,{Dice~1d8} Troglodytes
+1,{Dice~2d4} Veterans
+1,{Dice~2d4} Zombies
+
+;Level3
+1,{Dice~1d6} White Apes
+1,{Dice~1d6} Tiger Beetles
+1,{Dice~2d4} Bugbears
+1,{Dice~1d3} Carrion Crawlers
+1,{Dice~1d6} Dopplegangers
+1,{Dice~2d4} Driver Ants
+1,{Dice~1d6} Gargoyles
+1,A Gelatinous Cube
+1,{Dice~1d6} Harpies
+1,{Dice~1d6} Crystal Living Statues
+1,{Dice~1d8} Wererats
+1,{Dice~1d4} Mediums
+1,{Dice~1d3} Medusae
+1,{Dice~1d4+4} NPC Adventurers
+1,An Ochre Jelly
+1,{Dice~1d6} Ogres
+1,{Dice~1d8} Shadows
+1,{Dice~1d3} Giant Tarantula Spiders
+1,{Dice~1d6} Thouls
+1,{Dice~1d6} Wights
+

@@ -1,0 +1,121 @@
+﻿#
+# NMS_ImprovedUndead
+#
+
+:Start
+1,[Type], [Special]
+
+;Type
+1,skeleton
+1,zombie
+1,ghoul
+1,ghast
+1,ghost
+1,wight
+1,wraith
+1,shadow
+1,phantasm
+1,coffer corpse
+1,death knight
+1,lich
+
+:Special
+1,energy-draining touch (ability score damage; will save resists)
+2,level-draining touch (lose xp; will save resists)
+3,searing gaze (1d6 damage with a look)
+4,touch of cold (1d4 damage; immune to fire spells)
+5,chill aura (all within 100’ take 1d4 damage; immune to fire spells)
+6,blood drain (causes 1d4 damage + 1 stamina point each round)
+7,flight/levitation
+8,transformation (rat, cat, bat, wolf, worm; or mist, dust, spirit; etc.)
+9,extraordinary strength (strength 22+)
+10,swift (2 actions per round)
+11,slow (1 action every 2 rounds)
+12,immune to non-magical weapons
+13,immune to non-silvered weapons
+14,resistant to spells (50% chance of any spell not affecting it)
+15,cannot be killed without special ritual (stake through heart, exorcism, destruction of phylactery, form burned in fire, etc.)
+16,paralysis with touch (will save to resist)
+17,translucent/transparent/invisible
+18,issues a curse with every strike (see appendix c of dcc book or some other source)
+19,casts spells as wizard of level 1d4+1
+20,continues to worship a dark god in undeath; casts spells as cleric of level 1d4+1; can turn living/lawful/good as a cleric turns unholy
+21,embalmed in oil and rags, and susceptible to flame - takes 1d10 extra points of fire damage on strikes
+22,infested with vermin, and upon destruction 1d6 leap out to attack for 1 hp damage each
+23,enchanted with pyromantic runes and explodes upon destruction for 1d8 damage to all within 10 feet
+24,semi-ethereal, increasing ac by 1d10, determined at the start of each round
+25,necromantic backlash when struck, causing 1d6 points of damage to attacker (save for no damage)
+26,accompanied by haunted music, will save at –(1d6) or pcs and npcs charmed for 3 rounds
+27,stealthy, always has surprise (free actions first round)
+28,spider-climb
+29,spreads disease on strike, fortitude save to resist
+30,a foule stenche - aura of disease within 10 feet, fortitude save +3 to resist
+31,black bilious humours – weapons that strike it become stuck
+32,cloud of flies – distracts foes in combat, no spells with somatic or verbal components may be cast
+33,revenant – attracted to one particular pc/npc (a murderer?) and will attack no others
+34,sleep of ages – each strike on it causes the character to age a year
+35,weak necromancy – has only 1 hp before dissipating the material form
+36,compelled to count items – when faced with e.g. caltrops or pins, will stop attacks for 1d8 rounds
+37,crawling horde – when destroyed, summons or conjures 1d3-1 more of the same
+38,knitted flesh and wired bone – any individuals encountered are actually a single colossal individual
+39,they hunger – will attack wounded first, and pause to feed on the dead
+40,mouldy – each strike showers the attacker in spores for a fortitude save or acquire lung rot
+41,melancholic humours – each strike, pcs must make a will save or lose the next round out of sadness
+42,packed with sawdust – coins and other small items found inside and low value treasure spills out when struck
+43,send more paramedics! – as intelligent in death as they were in life
+44,failing enchantment – lose 1d4 hp per round but healed full amount of damage by any spell effects
+45,jealous – will not stray from the treasure it guards/was interred with
+46,strong runic soulbinding – maximum possible hp, discernible enchantment warning
+47,unnerving laughter – will save or lose action this round, attackers
+48,hades’ glamour – killed or incapacitated characters spirited away to the court of the dead
+49,milling about – will not chase, but will attack first any who attack them
+50,grandma, no! – related to a randomly determined character or npc party member, that character must make will save to attack
+51,incorporeal in light, but attackable in darkness
+52,autumnal shroud – attended by a cloud of dead leaves that strike at players every other round for 1d6 (reflex save for no damage)
+53,book- or scroll-bound – priceless texts attached to them via string/nails/wire/glue
+54,slightly mechanized – tick tock gives the approach away (no surprise) but add another hd and an orichalcum gear at the heart
+55,steam driven – a steam mephit is bottled inside the abdomen and this animates the corpse
+56,dusty – a dust mephit resides in the corpse’s head and any hits cause blindness/choking
+57,sanguine humors – bloody mess (any hits on pcs or by pcs cause a intense splash of gore that wrecks the future reaction checks of intelligent creatures until cleaned)
+58,phlegmatic humors – spits a gob of ethereal slime that drains level/xp/lowers action dice
+59,choleric humors – sucks the moisture out of everything nearby – hits from undead desiccate pcs for extra 1d6 damage and thirst
+60,elemental-ridden – also enchanted with some weak elemental and cannot be turned, no damage from that attack type
+61,demon-plagued – a demon/devil resides within and it cannot be turned, is semi-intelligent and will bargain for release
+62,teleporter – teleports struck pcs d100 feet in random direction, or else whole party
+63,insidious designs – paralysis/invisibility on struck characters
+64,convincing argument – charms all struck characters, or all characters within 20 feet who hear the whispers
+65,death is but a doorway – upon being put down, a portal to the ethereal/astral/negative/dread plane opens
+66,time-limited – at midnight or 3am, vanishes/clatters to ground
+67,scurrilous – gains +20” to move, spider climbs, digs at 20” through loose earth
+68,serially connected – each “death” of the group reduces the hd of the next member by 1 (total hd equal to number appearing)
+69,the words of a random 1d5 level spell are inscribed on the skull/skin/robes in permanent ink
+70,biological matrix – animated by non-necromantic forces (e.g. colonization by vines/tendrils)
+71,palladium coated – reflects spells cast at it to nearest attacker
+72,johnny shearsfingers - +1d6 attacks per round of wicked blades
+73,rawhide and bloody – hidden in darkness, no chance for spotting, loves stairwells and cupboards
+74,gateframe – ribcage/arms/skull/whatever allows extradimensional incursions from outsiders
+75,berserk - +1d6-3 attacks per round at +1d10-3 to hit (re-roll each round)
+76,glowing menace – radiates powerful mutagenic forces, exposure for more than 3 rounds causes minor corruptions
+77,davy jones – seeks to drag grappled foes into the water
+78,cold embrace – on successful claw+claw hit, massive temporary massive loss of strength (down by half)
+79,fluxed – when destroyed, arises again 1d6 times each time at ½ hp
+80,thundercrack deafens characters within 100’ when it is destroyed/put down
+81,lost flock – adds +2 levels to cleric’s calculated level when turning
+82,weary – will not attack but begs for release (other effects may apply at dm’s discretion)
+83,unreasonable atheists – only turnable by neutral clerics
+84,dishonored – no chance of turning by good or neutral clerics, but may be turned by warriors of strength/stamina/personality 15 or higher
+85,beloved – the villagers have been looking for this one
+86,actually a “probe” of some powerful patron – destruction will cause wrath but can be conversed with as mouthpiece
+87,chamomile and valerian – surrounded by herbal fog of sleep, will save at 1d20 or slumber, make save = dazed 1st round
+88,fey hatred – preferentially attacks elves/those bonded to elf king
+89,against the natural order – walks on ceilings/through walls/turning makes it stronger
+90,bad harmonics – usually incorporeal undead are corporeal and mostly helpless; corporeal undead wink in and out of material plane every other round
+91,truth of the grave – will answer questions put to it (roll 1d6: 1-3 honest, 4-6 malicious lies)
+92,suggestible – will follow orders from randomly aligned characters
+93,floaters – on successful claw/claw attack will float away with character at 20’ up per round
+94,free roaming - +1d100 hit points, no chance of turning (1 individual only!)
+95,friendly, talkative
+96,mostly dead – in the process of total revivification and will finish in 1d10 turns
+97,tickly – will not damage but only cause struck characters to laugh as per tasha’s uncontrollable hideous-type
+98,ticklish – will only laugh when struck (no apparent damage); will or fear save at dc 14
+99,almost there – maximum hp, minus 1 – no chance of turning except with luck burn

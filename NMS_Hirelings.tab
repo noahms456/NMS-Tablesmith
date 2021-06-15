@@ -1,0 +1,73 @@
+﻿#
+# NMS_Hirelings
+# Quick and Easy Delineation of Meatshields and Such
+#
+# Based on Shelby's Labyrinth Minions http://www.lordkilgore.com
+# with my own goofy names, and dogs and beasts added
+
+:Start
+1-4,[NonCombatant]
+5-11,[ManAtArms]
+12,[Adventurer]
+13,[Beasts]
+
+# The output is in the format of Name-Job/Class/Role-Armor Class-Hit Points-Quirk
+# Intended to be exported to a table for layout purposes 
+
+;NonCombatant
+1,[Dickensian Names.Male First] [Job] {Dice~1d3+8} {Dice~1d2} [Gear] [Quirk]
+1,[Dickensian Names.Female First] [Job] {Dice~1d3+8} {Dice~1d2} [Gear] [Quirk]
+1,[Dickensian Names.Female First] [Job] {Dice~1d3+8} {Dice~1d2} [Gear] [Quirk]
+1,[Dickensian Names.Last Name Prefix][Dickensian Names.Last Name Suffix] [Job] {Dice~1d3+8} {Dice~1d2} [Gear] [Quirk]
+
+;ManAtArms
+1,[NMS_DarkestDungeonNames.Start] Man-At-Arms {Dice~1d3+10} {Dice~1d8} [Weapons] [Quirk]
+
+;Adventurer
+1,[NMS_DarkestDungeonNames.Start] [Class] {Dice~1d3+8} {Dice~1d2} [Gear] [Quirk]
+
+;Beasts
+1,[NMS_Stardew_Pet_Names.Start] Wardog {Dice~1d3+10} Teeth {Dice~1d6+1}
+
+;Job
+5,Torchbearer
+5,Porter
+2,Cook
+1,Digger
+1,Muleskinner
+1,Carpenter
+1,Teamster
+1,Cartographer
+1,[NMS_Occupations.Start]
+
+;Gear
+1,Club
+1,Candle
+1,Spool of String
+1,Pack of cards
+
+
+:Quirk
+1-10, Normal
+11-15,[NMS_Quirks.Start]
+
+;Weapons
+1,Hand Axe and Shield
+1,Short Sword and Mace
+1,Long Sword and Shield
+1,Short Sword and Spear
+1,Short Sword and Spear and Shield
+1,Short Sword and Short Bow
+1,Long Sword and Axe and Shield
+1,Long Sword and Short Bow
+
+;Class
+2,Fighter L{Dice~1d2+1}
+2,Thief L{Dice~1d2+1}
+1,Cleric L{Dice~1d2}
+1,Wizard L{Dice~1d2}
+1,Elf L{Dice~1d2}
+1,Dwarf L{Dice~1d2}
+1,Halfling L{Dice~1d2}
+
+

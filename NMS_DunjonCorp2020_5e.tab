@@ -1,0 +1,992 @@
+﻿#
+# NMS_3.5 DMG Method of DunjonCorp dungeon generator
+# Noah Stevens
+# May 26, 2020
+# Updated with Mutant Future materials on January 1, 2019
+# Added Dismal Crawl Classics items February 10, 2020
+
+
+# Variables
+%Level%,1
+
+@Level,1,What level of the dungeon do you wish to generate?,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
+
+:Start
+1,[RandomContents].
+
+;RandomContents
+1,The party can encounter {Bold~[Monster=%Level%]}, here.
+1,There are {Bold~[Monster=%Level%]} and {AorAn~[Major]}, in this room.
+1,{Bold~[Monster=%Level%]} guard {Italic~[Treasure]}
+1,The room contains {Bold~[Monster=%Level%]} and a [Trap]
+1,{Bold~[Monster=%Level%]}, {AorAn~[Major]}, and hidden treasure: {Italic~[Treasure]}
+1,{Bold~[Monster=%Level%]}, {AorAn~[Major]}, and a trap: [Trap]
+1,{Bold~[Monster=%Level%]}, hidden {Italic~[Treasure]}, and a trap: [Trap]
+1,{Bold~[Monster=%Level%]}, {AorAn~[Major]}, hidden {Italic~[Treasure]}, trapped with: [Trap]
+1,This room has {AorAn~[Weird]}
+1,There is {AorAn~[Weird]} and hidden {Italic~[Treasure]}, here.
+1,There is {AorAn~[Weird]} here, trapped with [Trap]
+1,{Cap~{AorAn~[Weird]}}, containing {Italic~[Treasure]}. The treasure is [Container] and safeguarded with [TreasureTrap]
+1,There is {Italic~[Treasure]}, hidden here.
+1,A [Trap] keeps the treasure {Italic~[Treasure]} safeguarded.
+1,The room has a powerful trap: [Trap]. The trap is attached to [Major]
+1,The room has a powerful trap: [Trap]. The trap is attached to the seemingly innocuous [Minor]
+7,[Empty]
+
+:Monster
+1,[NMS_DunjonCorpMonsters.Level1]
+2,[NMS_DunjonCorpMonsters.Level2]
+3,[NMS_DunjonCorpMonsters.Level3]
+4,[NMS_DunjonCorpMonsters.Level4]
+5,[NMS_DunjonCorpMonsters.Level5]
+6,[NMS_DunjonCorpMonsters.Level6]
+7,[NMS_DunjonCorpMonsters.Level7]
+8,[NMS_DunjonCorpMonsters.Level8]
+9,[NMS_DunjonCorpMonsters.Level9]
+10,[NMS_DunjonCorpMonsters.Level10]
+11,[NMS_DunjonCorpMonsters.Level11]
+12,[NMS_DunjonCorpMonsters.Level12]
+13,[NMS_DunjonCorpMonsters.Level13]
+14,[NMS_DunjonCorpMonsters.Level14]
+15,[NMS_DunjonCorpMonsters.Level15]
+16,[NMS_DunjonCorpMonsters.Level16]
+17,[NMS_DunjonCorpMonsters.Level17]
+18,[NMS_DunjonCorpMonsters.Level18]
+19,[NMS_DunjonCorpMonsters.Level19]
+20,[NMS_DunjonCorpMonsters.Level20]
+
+;Empty
+1,It is dusty, here. There is also {AorAn~[Minor]}
+1,It is dusty, here. The dust is recently disturbed
+1,It is [Light] here. The air is [Air]
+1,[Air] air, here. There is also {AorAn~[Minor]}
+1,There is a [Smell] smell in this room.
+1,This room was once {AorAn~[Type]}. Within it, there is {AorAn~[Major]} and {AorAn~[Minor]}
+1,There are sproutings of luminescent fungi, here
+1,[NMS_BarrowmazeTrappings.Start]
+1,Graffiti here says [Graffiti] in [Writing]
+1,[NMS_Dess_Corpse.Start]
+1,This room is spotlessly clean and free of dust. In the corner, there is {AorAn~[Minor]}
+1,The metal surfaces of this room are well-polished.
+1,The military-grade surfaces of this room are well-maintained. There is also {AorAn~[Minor]}
+1,Mostly empty and clean, this room smells of [Smell]
+1,An abandoned storage area, with [Storage]
+1,A dimly lit parking zone, with [Parking]
+1,A dusty maintenance area, with [Maintenance]
+1,The lights flicker on and off above a stretch of cubicles. There is also [Cubicle]
+
+
+:Major
+1,alcove containing [NMS_MutFutLoot.Start]
+2,altar
+3,arch
+4,arrow slit in a wall
+6,barrel
+7,bed
+8,bench
+9,bookcase containing a copy of {Italic~[NMS_EvilBooks.Start]}
+10,brazier
+11,cage
+12,cauldron, full of [Liquids]
+13,carpet
+14,carving
+15,casket
+16,catwalk
+17,chair
+18,chandelier
+19,charcoal bin
+20,chasm
+21,chest, holding {Italic~[NMS_MutFutLoot.Start]}
+22,chest, holding {Italic~[NMS_5eTrinkets.Start]}
+23,chute
+24,coat rack
+25,collapsed wall
+26,crate
+27,cupboard
+28,curtain
+29,divan
+30,dome
+31,broken door
+32,dung heap
+33,evil symbol drawn in [Writing]
+34,fallen stones
+35,firepit
+36,fireplace
+37,font of [Liquids]
+38,forge
+39,fountain
+40,broken furniture
+41,gong
+42,pile of hay
+43,hole
+44,blasted hole
+45,idol of [Altar]
+46,iron bars
+47,iron maiden
+48,kiln
+49,ladder
+50,ledge
+51,loom
+52,loose masonry
+53,manacles
+54,manger
+55,mirror
+56,mosaic
+57,mound of rubble. Inside of it there is {Italic~[NMS_MutFutLoot.Start]}
+58,oven
+59,overhang
+60,painting
+61,partially collapsed ceiling
+62,pedestal
+63,peephole
+64,pillar
+65,pillory
+66,shallow pit
+67,platform
+68,pool
+69,portcullis
+70,rack
+71,ramp
+72,recess
+73,relief
+74,sconce
+75,screen
+76,shaft
+77,shelf
+78,shrine
+79,spinning wheel
+80,stall
+81,statue of [Altar]
+82,toppled statue of [Altar]
+83,steps
+84,stool
+85,stuffed beast
+86,sunken area
+87,large table
+88,small table
+89,tapestry
+90,throne
+91,pile of trash, with {Italic~[NMS_MutFutLoot.Start]} hidden underneath
+92,tripod
+93,trough
+94,tub
+95,wall basin
+96,wardrobe
+97,weapon rack
+98,well
+99,winch and pulley
+100,workbench
+101-105,stairs up
+106-110,stairs down
+111-115,chute
+116-120,elevator
+121-124,[NMS_Dess_Corpse.Start]
+125,murder hole in the ceiling
+126,stone circle
+
+:Minor
+1,anvil
+2,ash
+3,backpack
+4,straw bale
+5,bellows
+6,belt
+7,bits of fur
+8,blanket
+9,bloodstain
+10,humanoid bones
+11,animal bones
+12,assorted books
+13,boots
+14,bottle
+15,box
+16,branding iron
+17,broken glass
+18,bucket
+19,candle
+20,candelabra
+21,playing cards
+22,chains
+23,claw marks
+24,cleaver
+25,clothing
+26,cobwebs
+27,cold spot
+28,[NMS_Dess_Corpse.Start]
+29,corpse of [Monster=%Level%]
+30,cracks
+31,dice
+32,discarded weapons
+33,dishes
+34,dripping [Liquids]
+35,drum
+36,dust
+37,engraving
+38,broken equipment
+39,usable equipment
+40,flask
+41,flint and tinder
+42,spoiled foodstuffs
+43,edible foodstuffs
+44,fungus
+45,grinder
+46,hook
+47,horn
+48,hourglass
+49,insects
+50,jar
+51,keg of [Liquids]
+52,key
+53,lamp
+54,lantern
+55,markings
+56,mold
+57,mud
+58,mug
+59,musical instrument
+60,mysterious stain
+61,animal nest
+62,unidentifiable odor
+63,fuel oil
+64,scented oil
+## need paint color here
+65,paint
+66,paper
+67,pillows
+68,broken smoking pipe
+69,pole
+70,pot
+71,pottery shard
+72,pouch
+73,puddle of [Liquids]
+74,rags
+75,razor
+76,rivulet
+77,ropes
+78,runes
+79,sack
+80,scattered stones
+81,scorch marks
+82,nonmagical scroll
+83,empty scroll case
+84,skull
+85,slime
+86,strange sound
+87,spices
+88,spike
+89,teeth
+90,tongs
+91,tools
+92,torch stub
+93,tray
+94,trophy
+95,twine
+96,urn
+97,utensils
+98,whetstone
+99,scraps of wood
+100,scrawled unintelligible words
+101,mop
+102,mop bucket
+103,hyper-mop
+104,power-sprayer
+105-120,[Graffiti] in [Writing]
+121,[NMS_Dess_Corpse.Start]
+122-140,[DismalLoot]
+
+;Trap
+2,patches of green slime
+2,patches of brown mold
+2,patches of shriekers
+2,patches of shriekers and violet fungi
+2,patches of russet mold
+2,thick spiderwebs
+2,yellow mold
+1,[NMS_FantasyTraps.Start]
+1,{Calc~%Level%*10} foot deep pit
+1,{Calc~%Level%*10} foot deep pit with spikes that also do 1d8 damage
+1,{Calc~%Level%*10} foot deep cesspit - DC 15 Dexterity or fall in, DC 15 Constitution or catch random disease
+1,Slowing Gas - victim slowed for 4 turns, DC {Dice~1d10+12} Constitution save
+1,Blinding Gas - victim blinded for 4 turns, DC {Dice~1d10+12} Constitution save
+1,Poison Gas - DC {Dice~1d10+12} Constitution save or {Calc~%Level%*5} damage
+1,Hail Of Needles - 10 attacks per PC as fighter of Level %Level% doing 1 damage each
+1,Falling Stones - victims take 2d6 damage each.
+1,Fusilade Of Darts - 4 attacks per PC as fighter of Level %Level% causing 1d3 damage
+1,Burning Oil Shower - d6 damage plus 1 per round for Level %Level% rounds
+1,Mummy Rot Powder - DC {Dice~1d10+12} Constitution save or cursed as per mummy
+1,Acid Rain - %Level%d4 damage plus damage to items
+1,Javelin - d10 damage plus %Level%d4
+1,Contact Poison - DC {Dice~1d10+12} Constitution save or die
+1,Shocking Grasp - DC {Dice~1d10+12} Dexterity save vs {Calc~%Level%+8}
+1,Cold Glyph - DC {Dice~1d10+12} Constitution save or {Calc~%Level%*2}
+1,Negative Energy Glyph - DC {Dice~1d10+12}Wisdom Save or lose 1 energy level
+1,Phantasmal killer - DC {Dice~1d10+12} Wisdom save or Die, passed = random insanity
+1,Lightning bolt - DC {Dice~1d10+12} Dexterity save or {Dice~5d6} damage, passed = half
+1,Monomolecular scythe - attack everyone as Level %Level% Fighter for d20 damage, crits decapitate as Vorpal Sword
+1,Disintegration Beams - DC {Dice~2d10+5} Dexterity Save or {Calc~%Level%*10} damage
+1,Radiation Field Projector - DC {Dice~1d10+12} Constitution save or random major corruption
+1,Tachyon Bolt - DC {Dice~1d10+12} Dexterity save or age d20 years
+1,Undeath Glyph - Awaken all undead, turn nearby recent dead into zombies
+1,Rust Glyph - DC {Dice~1d10+12} Wisdom save or lose all non-magic metallic items
+1,Sonic Glyph - DC {Dice~1d10+12} Constitution save or deafness for 4 turns
+1,Mud Glyph - DC {Dice~1d10+12} Dexterity save or mired in room for 4 turns
+1,Arrrow trap - unluckiest PC gets Attack with d20+5 1d10 damage
+1,Arrow trap, poisoned - unluckiest PC gets Attack with d20+5 1d10 damage and random poison DC 15
+1,Ball trap - all PCs in marching order DC 15 Dexterity save
+1,Caltrops - DC 14 Dexterity save or 1d6 damage
+1,Caltrops, poisoned - DC 14 Dexterity save or 1d6 damage and poison or disease
+1,Ceiling block falls - 1d3 unluckiest get a DC 14 Dexterity save or 2d12 damage 
+1,Ceiling collapses - everybody DC 14 Dexterity save or 3/4 total HP damage - all stunned
+1,Ceiling lowers - find the mechanism with DC 17 Intelligence check in 4 rounds or all die!
+1,Chute - into an oubliette or down 1d3 levels on whole party
+1,Door, falling - one door has a pit trap behind - roll under Dexterity to avoid falling
+1,Door, one way - will not open from other side
+1,Door, resisting - needs a DC 17 Strength check to open
+1,Door, specific - only opens with specific command or item
+1,Door, spring - door flies open and DC 15 Dexterity save or 1d12 damage
+1,Floor, collapsing - suddenly, the whole party makes DC 15 to avoid falling into the depths
+1,Floor, illusionary - make a DC 13 Wisdom save to disbelieve
+1,Gas, blinding - DC {Dice~1d10+12} Constitution save or -4 to all attacks
+1,Gas, corroding - all items have a 1-5 on Action dice usage to fall apart
+1,Gas, panic - everyone moves at +4 in the Initiative order for {Dice~1d4} turns but all actions are at -1d
+1,Gas, nausea - DC {Dice~1d10+12} Constitution save or roll -2d for initiative and -1d for Actions for {Dice~1d4} turns
+1,Gas, obscuring - vision impaired while random monsters arrive, party loses surprise
+1,Gas, poison - DC {Dice~1d10+12} Constitution save or take 1d6 Stamina damage
+1,Vacuum chamber - within {Dice~1d4+2} turns, the breathable air from this area and nearby {Dice~1d4} rooms is evacuated
+3,Retractable laser turret attacks as Level 3 Magic Missile
+5,Security terminal will scan PCs, ask security questions, summon {Bold~[Monster=%Level%]} if failed
+1,Sprays entire party with [Liquids]
+1,Tachyon accelerator/decelerator - age 50-100 years.
+1,Quark bender - alter alignment by 1 step 1-3 Law/Neut/Chaos or 4-6 Good/Neut/Evil
+1,Graviton Collapser - levitate for 1d10 turns
+1,Sonic Harmonizer - silence 10’ radius for 2d6 turns
+1,Nanoalchemicobot Infestation - turn all metal items to 1-powdery rust 2-malleable plastic 3-brittle plastic 4-ultraluminium 5-ominium 6-gold
+1,Essence Displacer - shift the soul/consciousness of the target into the 1-Astral 2-Ethereal 3-Positive 4-Negative 5-Shadow 6-Alternate Reality
+1,Quantum Rectifier - The PC is replaced by a very similar version from another dimension. Roll d4 twice: 1-reroll 1d4 stats 2-shift alignment 3-change class 4-change race
+1,Physio-de-enervator - gain 2d10 temporary Hit Points
+
+;Weird
+1,puzzle that will [Special] if solved
+1,is half-flooded with waist-high water. The next {Dice~1d4+1} rooms are also flooded
+1,animated mosaics
+1,{Dice~%Level%d4} lewd voxel sculptures. They [Special]
+1,statue from an ancient civilization, which [Special]
+1,broken scientific equipment, that will [Special]
+1,a magic circle: entering it will [Special]
+1,slime patches - 1 in 10 is monstrous but is currently dormant 
+1,{Dice~1d3} shipping containers containing {Dice~2d100} [NMS_Junk.Start]
+1,cryostasis tomb - {Dice~1d4+4} cryopods that contain {Bold~[Monster]} in stasis
+1,{Dice~1d4} mummified corpses: disturbing them causes [Special]
+1,huge fire pit - 10% chance that it is still lit
+1,broken and decaying furniture - space station style
+1,{Dice~1d4} thrones - disturbing them in any way summons {Bold~[Monster]}
+1,altar to some ancient god - praying at it causes [Special]
+1,alarm that activates and causes {Bold~[Monster]} to arrive in next turn
+1,weapon racks - containing {Dice~1d4} ancient mono-scimitars, void grenades, or blasters
+1,hyperbraziers and charcoal - inhaling the pungent fumes causes [Special]
+1,an ancient battle site with {Dice~2d20} skeletons and their wargear
+1,obscene hand-painted frescoes - staring at them for too long causes [Special]
+1,mouldering tapestries that are worth {Dice~2d500} gp but weigh 1000gp
+1,large demon idol from an ancient civilization - worshipping causes [Special]
+1,Gene resequencer - change to random race if interacted with
+1,clone vat - interacting character sacrifices {Dice~1d12} HP and gets faithful/insane/flawed clone
+1,corpse renderer - breaks corpses down into 1d10 potions
+1,trash incinerator - receive 5 gold/AL in antique coins for worhtless items
+1,sauroid pen - either dusty bones or {Bold~{Dice~2d4} Large Dinosaurs} in stasis
+1,pillars of scrutiny: if diverge from some particular random Alignment, then judged and causes [Trap]
+1,altar to [Altar] - donating money causes [Special]
+1,intricate archway - stepping through transports to [Pocket]
+1,illusionary ceiling. The party is able to view the sky outside the dungeon
+1,ancient container - contains small hoard of [Treasure] plus [NMS_Junk.Start]
+1,interactive map dome - some far away region or land
+1,fire - blazing fire in center of room
+1,roaring fireplace
+1,cold fireplace
+1,force field that constrains {Bold~[NMS_DunjonCorpMonsters.Hard]}
+1,a fountain - drinking or bathing in it will [Special]
+1,illusion - touching it will [Special]
+1,infernal machine - interacting with the control panel will [Special]
+1,magically confined monster - {Bold~[NMS_DunjonCorpMonsters.Extreme]}
+1,pedestal - touching it [Special]
+1,pit - it is effectively bottomless, or else the bottom goes to [Pocket]
+1,pool - mysterious waters cause [Special]
+1,stairway to extra-/para-dimensional section of dungeon
+1,tangleweb vines - DC 14 Dexterity save or held fast (whole party)
+1,intricate well - if a PC throws in a coin they make a wish or climb down to [Pocket]
+1,divinity terminal gives access to previously unknown minor godthing 
+1,matter transmittal pad, moves within dungeon or far far away
+1,soul gem - every round a beam attacks random party member, DC {Dice~1d12+6} Wisdom save negates, else soul sucked into Gem
+1,planetarium projector - if disturbed then laser attacks at d24 on each party member for 1d10 damage
+1,bottled city access. The bottle is guarded by {Bold~[NMS_DunjonCorpMonsters.Hard]}
+1,shimmering warpgate to [Pocket]. The gate is guarded by {Bold~[NMS_DunjonCorpMonsters.Extreme]}
+1,hallway of door gates {Dice~1d6} active portals
+1,cubicle zone {Dice~%Level%d100} office cubicles. [Cubicle]
+1,office supply storage facility. [Storage]
+1,server room with {Dice~%Level%d10} humming server machines and {Dice~%Level%d4} artificial intelligences
+3,{Dice~%Level%d20} high-strength storage barrels full of [Liquids]
+1,evolutionary improver machine - adds 1 positive mutation
+1,de-volver Ray - adds 1 negative mutation 
+1,dna resequencer - changes race
+1,rows of cloning tanks with {Dice~1d10} viable clones
+1,shelves of supplies
+1,parking lot with {Dice~2d10} rusted-out automobiles or skimmers. The entry-gate is non-functioning. [Parking]
+1,a very tidy resting spot is nestled in an out of the way part of this room, complete with water and toilet facilities
+1,magic mouth recites a dire warning in several languages and telepathically
+1,food production area. {Dice~%Level%d10} iron ration equivalents are available
+1,maintenance area. There are [Maintenance]
+1,ancient maintenance droid, it will [Special] if repaired
+1,broken collosal war machine, will [Special] if awoken
+1,empty robot charging station
+1,matter replicator device
+1,nanotech doctoring device - restores all HP and removes biological disease and poison
+1,Robodoc terminal
+1,small plasmic energy core - the room is bathed in low-intensity radiation
+1,giant holding tank of mutagenic gel
+1,large holding tank of mutagenic gel that is cracked and leaking. Nearby monsters will have beneficial mutations
+1,nanite cess pit that dissolves organic materials
+1,nanite cess pit that dissolves inorganic materials
+1,rippling breach in space-time that spills out Lovecraftian horrors
+1,pile of broken and busted bipedal combat robots
+1,a pit full of broken worker robots
+1,a bank of humming server stacks that blink seemingly at random
+1,wall-mounted information kiosk
+1,wall-mounted illuso-map of the current level with some rooms not indicated
+1,access hatch to the level's subsurface maintenance area
+1,removable wall panel to a hidden access tunnel
+
+;Special
+1,age victim by {Dice~2d10} years
+1,de-age the victim by {Dice~2d10} years
+1,switch victim to opposite alignment
+1,switch victim's alignment to neutral
+1,bestow lycanthropy - [Creatures.Animal]
+1,cause fear - shun this place and all exits
+1,decrease random ability by 1
+1,increase random ability by 1
+1,cast flesh to stone
+1,grant understanding of an ancient form of random language
+1,grant a limited wish
+1,heal all damage
+1,gate in {Dice~2d4} {Bold~[NMS_DunjonCorpMonsters.Extreme]} to fight
+1,grant an evil {Bold~[NMS_DunjonCorpMonsters.Low]} familiar
+1,infest victims with {Bold~{Dice~2d4} Rot Grubs}
+1,rejuvenate PC or NPC {Dice~2d10} years
+1,turn flesh pitch-black
+1,turn flesh golden
+1,turn flesh transparent
+1,convert the victim to worship of Babylonian deity
+1,convert the victim to worship of Sumerian deity
+1,convert the victim to worship of Egyptian deity
+1,convert the victim to worship of Lovecraftian deity
+1,convert the victim to worship of Saint [NMS_Saints.Start]
+1,madness inducing! Make a DC {Dice~3d12} or the victim is suddenly overcome with [Insanities.Start]
+1,place victim in temporal stasis for d10 turns
+1,place victim in temporal stasis for d10 days
+1,grant a thief level if the victim's DEX 9 or above, but otherwise removes a level
+1,raise victim's charisma to 16
+1,reduce victim's charisma to 4
+1,cripple the victim whose movement speed is halved and temporarily loses {Dice~1d4} Dexterity
+1,bestow a Huge Ruby worth {Calc~%Level%*1000} gold
+1,animated information provider
+1,animated quest giver
+1,anti-magic - all magical effects in room are dispelled
+1,appearing/disappearing - winks in and out of existence every turn
+1,ask - deeply personal questions about pc, grants limited wishes in return
+1,gates in angry {Bold~[NMS_DunjonCorpMonsters.Medium]}
+1,change main class of victim randomly DC {Dice~1d10+12} Wisdom save
+1,switches intellect of PC and henchmen, captive, or nearby NPC DC {Dice~1d10+12} Wisdom save
+1,switches victim's gender with a DC {Dice~1d10+12} Constitution save
+1,Collapsing - floor falls away to reveal gravitational null zone
+1,Direct party to nearby room to complete some minor task in exchange for treasure
+1,Disintegrate all non-magic weapons in party inventory
+1,Dimensional distortion - Width/Length seems larger than maps suggest (multiply dimensions by d10x100 feet) 
+1,Dimensional distortion - Height/Depth - seems larger than maps suggest (multiply dimensions by d10x100 feet)
+1,Enlarge PC or victim for 1d10 turns DC {Dice~1d10+12} Wisdom save
+1,Reduce PC or victim for 1d10 turns DC {Dice~1d10+12} Wisdom save
+1,Enrage PC or victim for 1d10 turns DC {Dice~1d10+12} Wisdom save
+1,Electrical Shock - If Metallic armor worn for {Calc~%Level%*5}
+1,Flesh To Stone PC or victim for 1d10 turns DC {Dice~1d10+12} Wisdom save
+1,Fruit - the room slowly fills with replicated tasty exotic fruit
+1,Gaseous form nanites - PC or victim for 1d10 turns DC {Dice~1d10+12} Constitution save
+1,Geas - implants compulsion to complete minor tasks in PC or victim for 1d10 days. There is DC {Dice~1d10+12} Wisdom save.
+1,Gravity - Greater - initiatives for all at -2d, everyone counts as encumbered
+1,Gravity - Lesser - initiatives for all at +2d, everyone counts as unencumbered
+1,Gravitational null zone - 0 G effects in the bouds of the entire room
+1,Gravity - infrequently varying direction (e.g. on Random Encounter)
+1,Gravity - wildly varying strength
+1,Greed-Producing - victim will be compelled to take all treasures that can feasibly be taken
+1,Intelligent - AI or demon-haunted. Determine personality randomly.
+1,Invisible - photon bending technology renders thing impossible to discern without DC 15 Intelligence save.
+1,Move 10d6 feet in the direction determined randomly
+1,Move the whole party randomly up or down one level
+1,transports the whole party to the inn they previously rested in
+1,Move slightly backward in time to the turn before the party enters the room
+1,Move slightly forward in time to the turn after the party leaves the room
+1,Point to a store of treasure {Dice~3d4+4} rooms away
+1,Poison - hidden needle inflicts {Dice~1d10+12} Constitution save, else Strength and Constitution are halved
+1,Polymorphing - to a random humanoid for {Dice~3d10} turns
+1,Release - a spray of ancient coins worth {Dice~3d1000} - half are counterfeit or token money 
+1,Release - Counterfeit [Treasure]
+1,Release - [NMS_ExpandedJewelry.Start]
+1,Release - [NMS_MagicItem.Start]
+1,Release - Map
+1,Grant 2nd Level Wizard spell allowing transport to [Pocket]
+1,Wish Fulfillment
+1,Wish Fulfillment, Reversal
+1,Transport to [Pocket]
+1,Open to [Pocket]
+
+
+;Treasure
+1,pre-historic coins of [NMS_Materials.Precious_Material_Plus] worth {Dice~%Level%d400} gold
+10,{Dice~%Level%d500} gold 
+10,antique coins worth {Dice~%Level%d600} gold 
+5,{Dice~%Level%d12} [Gems]
+1,[NMS_ExpandedJewelry.Start]
+1,[NMS_MagicItem.Start]
+5,[NMS_MagicItem.Misc] and [Treasure]
+3,High Tech: [NMS_MutFutLoot.Start]
+
+:Container
+1-2,tied in bags
+3-4,stuffed into sacks
+5-6,divided into small coffers
+7-8,stored in chests
+9-10,nestled in huge chests
+11-12,stored in pottery jars
+13-14,held in metal urns
+15-16,in large stone containers
+17-18,locked in iron trunks
+19-20,loose
+21,scattered
+
+:TreasureTrap
+1-2,Contact poison on container
+3-4,contact poison on treasure
+5-6,poisoned needles in lock
+7,poisoned needles in handles
+8,spring darts firing from front of container
+9,spring darts firing up from top of container
+10,spring darts firing up from inside bottom of container
+11-12,blade scything across inside
+13,poisonous insects or reptiles living inside container
+14,gas released by opening container
+15,trapdoor opening in front of container
+16,trapdoor opening 6’ in front of container
+17,stone block dropping in front of the container
+18,spears released from walls when container opened
+19,explosive runes
+20,symbol
+
+##;Symbol
+
+
+:Gems
+1,tiger eye 10gp
+2-3,hematite 25gp
+4-5,native jasper 25gp
+6-7,moonstone 50gp
+8-9,bloodstone 75gp
+10-11,amber 100gp
+12-13,native red coral 100gp
+14,garnet 125gp
+15,native amethyst 250gp
+16,small topaz 500gp
+17,jet 500gp
+18,fire opal 750gp
+19,native oriental amethyst 750gp
+20,black opal 1000gp
+
+;Air
+1,Slight Breezy
+1,Slight, Damp Breezy
+1,Gusting Breezy
+1,Cold
+1,Slight Downdraft
+1,Strong Downdraft
+1,Still
+1,Still, Very Chill
+1,Still, Warm
+1,Slight Updraft
+1,Strong Updraft
+1,Strongly Flowing
+1,Gusting, Strong
+1,Moaning, Strong
+1,Thin, Low-Oxygen
+1,Humid
+1,Humid, Still
+
+;Smell
+1,musty
+1,ozone
+1,rotten flesh
+1,rotten garbage
+1,floral
+1,industrial cleaner
+1,dusty
+1,ozone
+1,earth
+1,mildewy
+
+;Light
+3,dim
+1,dark
+1,bright
+1,pitch black
+
+;Type
+1,antechamber
+1,armory
+1,audience
+1,aviary
+1,banquet
+1,barracks
+1,bath
+1,bedroom
+1,bestiary
+1,cell
+1,chantry
+1,chapel
+1,cistern
+1,classroom
+1,conjuring room
+1,court
+1,crypt
+1,dormitory
+1,entryway
+1,vestibule
+1,gallery
+1,guardroom
+1,hall
+1,great hall
+1,harem
+1,seraglio
+1,kennel
+1,divination room
+1,kitchen
+1,laboratory
+1,library
+1,meditation
+1,observatory
+1,pen
+1,prison
+1,secret chamber
+1,reception room
+1,refrectory
+1,robing room
+1,shrine
+1,smithy
+1,solarium
+1,stable
+1,storage
+1,strongroom
+1,vault
+1,study
+1,temple
+1,throne room
+1,torture chamber
+1,training room
+1,gymnasium
+1,trophy room
+1,museum
+1,waiting room
+1,well
+1,workroom
+1,workshop
+
+;Pocket
+1,Vast Garden
+1,Mushroom Caverns
+1,Ancient Forest
+1,Floating Castle
+1,Mysterious Island
+1,Infinite Sewer
+1,Random Level of Hell
+1,Random Shakespearean Play
+1,Bottled City
+1,Space Station
+1,Elemental Subplane
+1,Distant Future
+1,Alien Outpost
+1,Infinite Hedgemaze
+1,Abandoned Cloud Castle
+1,Grecian Labyrinth
+1,Multi-planar Intersection
+1,Infinite IKEA
+1,Hideous Administrative Zone
+1,Underlight Sea Zone
+1,Magma Lake
+1,Misty Demiplane
+1,Frenchy Demiregion
+1,Avalon
+1,Astral Plane
+1,Ethereal Plane
+1,Dreamlands
+1,Random Elemental Plane
+1,Hellish Parking Lot
+1,Endless Dry Storage
+1,Extradimensional Cleaning Supplies
+1,Haunted Swamp
+1,Demiplanar MegaCrypt
+1,Demiplanar Caverns
+
+;Liquids
+1,detergent cleaning solution
+1,organic stain remover
+10,pure drinkable water
+15,dirty water
+5,tainted water
+5,foul water
+1,fresh ale
+1,stale ale
+1,spoiled ale
+1,spoiled wine
+1,very fine wine
+1,restoration syrup
+1,monster repellant
+1,insecticide
+1,foaming fire retardant
+1,anti-fungal solution
+1,mead
+1,almost-freezing water
+1,caffeinated beverage
+1,random magic potion
+3,mutagenic fluid
+1,caustic waste
+1,radioactive waste
+1,disease-contaminated waste
+1,used medical supplies
+1,high-potency alcohol
+1,disinfectant solvent
+1,molecular acid
+1,caustic reagent
+1,unstable liquid explosive
+1,kerosene
+1,unleaded gasoline
+1,raw sewage
+1,floor shellac
+1,strong coffee
+1,anemic tea
+1,strong tea
+1,herbal tea
+1,nutrient broth
+1,proteinaceous pudding
+1,rich stew
+1,dehydrated corn-proteins
+1,dehydrated potato flakes
+1,nutri-cubes
+1,humanoid kibble
+
+
+:Graffiti
+#Mostly from Barrowmaze I by Greg Gillespie, but I added some of my own with functions
+1,THE ENTRANCE SEALED BEHIND US. CANNOT GET OUT.
+2,THEY ARE COMING.
+3,BEWARE THE POOLS.
+4,DON’T GO ON!
+5,THE DEAD WALK HERE.
+6,ABANDON ALL HOPE, YOU WHO ENTER HERE.
+7,MAKE NO SOUND. THEY WILL SEEK YOU OUT.
+8,I SCREWED THE BARMAID AT THE BRAZEN STRUMPET. LUCIUS WROTE THIS.
+9,ANTILUS WAS HERE.
+10,REMEMBER: UP THEN DOWN.
+11,GAXX SENT US!
+12,BEWARE THE TENTACLE BEAST. IT ATE GALSTAFF.
+13-20,BEYOND, [Monster=%Level%] ATE [Dickensian Names.Start]
+21,BEWARE THE LEOPARD
+22,DANGER AHEAD
+23,[NMS_Street Gangs.Start] Forever!
+24,DRUMS IN THE DARK!
+25,BETRAYAL!
+26,DO NOT USE LEROY!
+27,I screwed the barmaid at The [NMS_Telengard_Inn.Start]. Lucius wrote this.
+28,I will have my revenge upon [NMS_DarkestDungeonNames.Start]
+23,[NMS_Street Gangs.Start] TERRITORY!
+
+;Writing
+1,chalk
+2,paint
+3,blood
+4,charcoal
+5,marker
+6,spraypaint
+7,pencil
+8,dayglo paint
+
+;Cubicle
+1,meaningless tchotchkes to personalize shared cubicle work-zone
+2,sentimental family photos
+3,inspirational posters 
+4,bland artworks, flowers and landscapes
+5,stash of candy bars
+6,obsolete network terminal
+7,glitchy photocopier
+8,mostly-empty vending machine
+9,half-full coffee mug, smells of booze
+10,cup of pens ({Dice~%Level%d4} non-working, 2 working)
+11,paper clips and thumbtacks
+12,garbage receptacles
+13,stack of random forms 
+14,keurig machine/coffee maker
+15,water cooler, empty
+16,wide-screen video monitor
+17,mostly-empty filing cabinets
+18,dusty pneumatic tubes
+19,desk, mostly empty
+20,bottle of pain-killers
+21,bottle of stimulant medication
+22,non-functional unisex restroom, toilet clogged (with a hand-written sign that says DO NOT USE LEROY!)
+23,male lavatories
+24,female lavatories
+25,robot lavatories
+
+;Parking
+1,Garbage receptacles, unused
+2,Unreceptacled garbage
+3,Maintenance access hatch, slightly ajar
+4,Fire extinguisher or hose, valve busted
+5,Vending machine, random items, will steal 25% of money inserted
+6,{Dice~%Level%d10} low-quality vehicles
+7,Stairwell (1d6) 1-2: Up 3-4: Down 5: Both 6:Closed For Maintenance
+8,Security Camera, pointed in dubious direction
+9,Irritable mutant wildlife or vermin
+10,{Dice~1d4} Medium quality vehicles
+11,1 High Quality Vehicle
+12,Puddle of [Liquids], also infectious
+13,Unidentifiable undergarment, infectious
+14,Unwanted contents of stolen purse or wallet
+15,Scooter or motorized bicycle
+16,Crumpled PL-428-x3 “Plunger Requisition” form
+
+;Maintenance
+1,Mop (including the ultra rare plasma mop)
+2,Sanitizers and disinfectants, cause damage as Holy Water to molds/slimes/jellies
+3,Surfactants
+4,Vermin control devices e.g. traps, flamethrowers (2d6!), nerve-gas grenades (1d8 plus paralysis on DC 10 Constitution save), microwave emitter guns (1d10)
+5,Plumbing tools e.g. pipe wrench (1d6 damage)
+6,Overzealous microwave
+7,Omnidisposal unit with antimatter core, highly unstable type
+8,Refrigerant tank and Dewar-Box for meal chilling and emergency cryonics
+9,Coffee creamer, suspiciously smeared expiration date
+10,Various sweeteners e.g. yellow, pink, cyan, and infrared
+11,Napkins and wet-naps, from previous decade. Various franchises
+12,Birthday candles, tucked into a drawer. Tricky type
+13,Floor buffing unit, AI chipped for “Petulant” personality
+14,Floor shellac stripping agent (very caustic, highly inflammable)
+15,Floor shellac (very sticky, highly inflammable)
+16,Non-functional fluorescent light tubes
+17,New in-box plungers, d100 count
+
+;Storage
+1,1d1000 Mk. II terminals, stacked willy-nilly
+2,Replacement vacuum tubes, reel-to-reel holders and boxes of punch cards
+3,Insane cyber-brain on minimal power in a dusty broom closet, needs Vocoder unit to speak and sensors to receive input
+4,Mechanized janitorial exosuit, slightly faulty
+5,Wind-up defibrillator, sans wind-up key
+6,Fire extinguishers, long-expired
+7,1d8 Larval spider-demons, dormant in egg-sacs
+8,Ditto copy of Chapter 7 of Necronomicon “SO YOU WISH TO BE A DEMONOLOGIST”, hand-written notes in margins
+9,1d100 suspicious 40 gallon drums, marked as biohazard (1d8: 1 tar-zombies, 2 ooze-like mutagen, 3 movement sensitive explosive, 4 distilled water, 5 Synthetic Fire Flower juice, 6-8 surfactant/sanitizer)
+10,1d100 cubicle walls, stacked and propped in a pile, yellow-mold infested
+11,Cryo-tube, containing possessed Necromancer
+
+;DismalLoot
+1,Robot chestplate with LAZARUS on it (+2 AC)
+2,Brain Invaders Game (+3 to Wisdom Saves after use)
+3,Magic Maze Game (as Maze spell on user)
+4,Trash Heap 2.0 (Add or subtract Luck modifiers to Scavenge rolls)
+5,Warriors of Wiz (+1 to Attacks after use)
+6,Wizards of Waaagh (+1 to Spell Checks after use)
+7,Strip Poker 3.0 cartridge
+8,Silgurian Laser Pistol
+9,Faulty Silgurian Laser Pistol
+10,Batteries
+11,credits
+12,food food food
+13,Vitajects - HP in combat
+14,Cartridge Reader - Admiral VIC6400
+15,Lazer Sword
+16,Vibroknife
+17,Stun Rod
+18,Stun gun
+19,Dart Gun
+20,Nega-Crystals
+21,Kith pelts
+22,Mushrooms of all kinds
+23,Military Card Key
+24,Research Card Key
+25,Maintenance Card Key
+26,Commercial Card Key
+27,Admin Card Key
+28,Robot Interface Unit
+29,Dispenser Interface Unit
+30,Turret Interface Unit
+31,Mysterious Scroll - Cursed
+32,Mysterious Scroll - Level 1 Spell
+33,Water
+34,Mysterious Stone Tablet - Level 1 Spell and learn about the Wraith Squids 
+35,Water Containers
+36,Vitaject units
+37,Muta-Gone
+38,Credits
+39,Ropes
+40,Iridium Ankhs
+
+;Altar
+1,Business God
+2,Commerce God
+3,Mammon
+4,Dis
+5,Dispater
+6,Orcus
+7,Demogorgon
+8,Bellona
+9,Hades
+10,Hekate
+11,The Cyberlich
+12,Walton
+13,Atlach-Natcha
+14,Quachil-Uttaus
+15,Nyarlathotep
+16,Cthulhu
+17,Hastur
+18,Set
+19,Leviathan
+20,Tsathoggua
+21,some ancient and forgotten god
+22,Saint [NMS_Saints.Start]
+23,a leering daemon
+24,a lusty unnamed devil
+
+## ;Quest - for geasing or questing the party or PCs
+
+;Templates
+1,Space
+2,Void
+3,Mecha
+4,Ice
+5,Nega-
+6,Candy
+7,Crystal
+8,Zombified
+9,Ghost
+10,Cyber
+11,Ghoul
+12,Shadow
+13,Chaos
+14,Frost
+15,Ice
+16,Steam
+17,Corrupted
+18,Infested
+19,T-Virus
+20,G-Virus
+21,Arachno
+22,Flesh
+23,Toxic
+24,Mutant
+
+
+
+
+

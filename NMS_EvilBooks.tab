@@ -1,0 +1,338 @@
+/Outputtype list
+
+# Evil Book Titles
+#
+# Names of books one might find in a library
+#
+# based on Copyright 2005 Bruce A. Gulke
+#
+# Edited and Expanded by Noah Stevens 2018
+#
+
+;Start
+1,[Religion]
+1,[Travelling]
+1,[Biology]
+1,[Magic]
+1,[Art]
+1,[Historical]
+1,[Geography]
+1,[Linguistics]
+
+;Religion
+1,Life of [Lovecraft.Start]
+1,{Cap~[RelThings]} to the {Cap~[Domain]} {Cap~[Rel]}
+1,{Cap~[Adj]} {Cap~[Things]} of the {Cap~[Domain]} {Cap~[Rel]}
+1,{Cap~[Things]} of the {Cap~[Domain]} {Cap~[Rel]}
+1,{Cap~[Story]} of the [Lovecraft.Start]
+
+;Travelling
+1,{Cap~[Travel]} of [Lovecraft.Start]
+
+;Biology
+1,{CapEachWord~[Bio]} of the {Cap~[Lovecraft.Start]}
+1,{Cap~[Lovecraft.Start]} {Cap~[Things]}
+
+;Magic
+1,{Cap~[Adj]} {Cap~[Arcana]} {Cap~[Things]}
+1,{Cap~[Arcana]} {Cap~[Things]}
+1,{Cap~[Adj]} {Cap~[Things]} {Cap~[Regarding]} {Cap~[Arcana]}
+1,{Cap~[Things]} {Cap~[Regarding]} {Cap~[Arcana]}
+1,{Cap~[Guide]} {Cap~[Lovecraft.Start]}
+
+;Art
+1,{Cap~[PoetType]} {Cap~[Poetry]}
+1,{Cap~[PoetType]} {Cap~[Lovecraft.Start]}
+1,{Cap~[Lovecraft.Start]} {Cap~[Poetry]}
+
+;Historical
+1,{Cap~[History]} of the {Cap~[HistType]}
+1,{Cap~[Adj]} {Cap~[Things]} of the {Cap~[HistType]}
+1,{Cap~[Things]} of the {Cap~[HistType]}
+1,{Cap~[Fame]} {Cap~[People]} of the {Cap~[HistType]}
+
+;Geography
+1,{Cap~[Lovecraft.Start]} {Cap~[Geo]} Atlas
+1,{Cap~[GeoThings]} of the {Cap~[Lovecraft.Start]} {Cap~[Geo]}
+1,{Cap~[Activity]} in the {Cap~[Geo]}
+1,{Cap~[Dictionary]} of {Cap~[Language]} {Cap~[Words]}
+
+;Linguistics
+1,{Cap~[Language]}-{Cap~[Language]} Dictionary
+
+;Things
+1,fables
+1,legends
+1,lore
+1,mysteries
+1,myths
+1,powers
+1,rites
+1,rituals
+1,sagas
+1,secrets
+1,strictures
+1,tales
+1,traditions
+
+;RelThings
+1,appeals
+1,champions
+1,hymns
+1,litanies
+1,orders
+1,petitions
+1,prayers
+1,relics
+1,saints
+1,shrines
+1,symbols
+1,temples
+
+;Domain
+1,air
+1,chaos
+1,death
+1,destruction
+1,earth
+1,evil
+1,fire
+1,good
+1,knowledge
+1,law
+1,love
+1,moon
+1,nature
+1,protection
+1,strength
+1,sun
+1,travel
+1,trickster
+1,war
+
+;Rel
+1,cult
+1,cults
+1,deities
+1,deity
+1,divinities
+1,divinity
+1,faith
+1,faiths
+1,god
+1,goddess
+1,goddesses
+1,gods
+1,religion
+1,religions
+
+;Travel
+1,travels
+1,journeys
+1,voyages
+
+;Geo
+1,caverns
+1,desert
+1,forest
+1,hills
+1,moors
+1,mountains
+1,plains
+1,swamp
+
+;GeoThings
+1,animals
+1,climate
+1,hazards
+1,herbs
+1,history
+1,monsters
+1,people
+1,riches
+1,ruins
+1,settlements
+1,tales
+1,weather
+
+;Dictionary
+1,dictionary
+1,glossary
+1,lexicon
+
+;Words
+1,letters
+1,phrases
+1,terms
+1,words
+
+;Bio
+1,bestiary
+1,biology
+1,dietary habits
+1,ecology
+1,mating habits
+
+;Arcana
+1,abjuration
+1,alchemy
+1,conjuration
+1,divination
+1,evocation
+1,illusion
+1,magic
+1,runecraft
+1,thaumaturgy
+1,transmutation
+1,enchantment
+1,necromancy
+1,sorcery
+
+;Guide
+1,book of
+1,compendium on
+1,guide to
+1,manual of
+1,writings on
+1,musings on
+1,visions of
+1,analects of
+1,hymns of
+
+;Regarding
+1,about
+1,concerning
+1,regarding
+
+;History
+1,architecture
+1,armies
+1,art
+1,beliefs
+1,cities
+1,cuisine
+1,customs
+1,dances
+1,heraldry
+1,history
+1,music
+1,languages
+1,rulers
+1,ships
+1,trade
+1,treasures
+1,wars
+1,weapons
+
+;Language
+1,abyssal
+1,aquan
+1,auran
+1,celestial
+1,common
+1,draconic
+1,druidic
+1,dwarven
+1,elven
+1,giant
+1,gnollish
+1,gnomish
+1,goblinoid
+1,ignan
+1,infernal
+1,orcish
+1,sylvan
+1,terran
+
+;Story
+1,legend
+1,stories
+1,tales
+
+;Poetry
+1,ballads
+1,idylls
+1,poems
+1,poetry
+1,songs
+1,verses
+
+;PoetType
+1,ancient
+1,celestial
+1,elven
+1,erotic
+1,mournful
+1,mystic
+1,ominous
+1,sinister
+1,wretched
+1,awful
+1,insane
+1,lyrical
+1,maddening
+
+;HistType
+1,Ancient World
+1,Barbarian Plains
+1,Chaos Lands
+1,Desert Tribes
+1,Eastern Kingdoms
+1,Empire
+1,Island Kingdoms
+1,Mountain Clans
+1,Northern Cultures
+1,Southern Regions
+1,Western Realms
+1,[NonHuman]
+
+;NonHuman
+1,Ghouls
+1,Derro
+1,Faeries
+1,Shoggoths
+1,Deep Ones
+1,Gibberlings
+1,Trolls
+1,Underworld
+
+;Fame
+1,acclaimed
+1,exalted
+1,famous
+1,infamous
+1,legendary
+1,notable
+1,obscure
+1,renowned
+
+;People
+1,adventurers
+1,champions
+1,heroes
+1,nobles
+1,priests
+1,sages
+1,warriors
+1,wizards
+
+;Adj
+1,esoteric
+1,false
+1,forbidden
+1,forgotten
+1,hidden
+1,lost
+1,mystical
+1,sacred
+1,secret
+1,unholy
+1,unknown
+1,veiled
+
+;Activity
+1,fighting
+1,hunting
+1,mining
+1,surviving
+1,travel

@@ -1,0 +1,295 @@
+﻿#
+# Noah's Fantasypunk Mission Generator
+# March 15,2020
+#
+
+;Start
+1,Arrest villainous [Target].
+1,Protect innocent [Target] from [Enemy].
+1,Capture and return [Target] to [AllyFaction].
+1,Protect [AllyFaction] [Habitation] from [Enemy].
+1,[DeliverMessage].
+1,Destroy [Destroy].
+1,Provide assistance to [DisasterSupport].
+1,Distract [Enemy] operatives so another team can perform the Primary mission.
+1,Guard [Ally] operative from [Enemy].
+1,Hijack a sky ship from [Enemy].
+1,Hijack a sailing ship for [EnemyFaction].
+1,Hunt : [Hunt].
+1,Infiltrate : [Infiltrate].
+1,Investigate : [Investigate].
+1,Mediate between [Mediate] and [Mediate].
+1,Negotiate between [Ally] and [Ally]
+1,Neutralize : [Target].
+1,Oversee : [Start]
+1,[Puzzle].
+1,Raid [EnemyFaction] [Habitation].
+1,[Recover].
+1,[Repair].
+1,[Rescue].
+1,Research [Research].
+1,Scout a new dungeon.
+1,Scout a recently discovered temple.
+1,Scout a recently discovered cavern.
+1,Surveillance of [Surveillance].
+1,Test a New piece of Equipment while exploring [AlienSuper] site of interest.
+1,Transport [Target] Prisoner to [AllyFaction].
+1,Transport [AlienSuper] Relic to [AllyFaction] [Habitation].
+1,Transport [Demihuman] Artefact to its rightful owners.
+> [MoreComplex]
+
+:Ally
+01-20,Harpers
+21-30,Guilders
+31-50,[Demihuman] Community
+51-60,Religious Community
+61-70,Insurgent Rebels
+71-75,Minor Noble
+76-80,Major Noble
+81-90,Petty Guild Leader
+91-93,New Human Faction
+94-95,Newly discovered Alien Species
+
+:MoreComplex
+1-80,
+81-100,[Complication]
+
+;Complication
+1,[EnemyFaction] has sent agents to stop you.
+1,[Target] is also attempting to achieve the same mission.
+1,[Enemy] operatives are active in the area.
+1,A horrible disease outbreak will start in {Dice~1d8} hours.
+1,Mars and Bellona dictate none must survive.
+1,Artemis and Justicia dictate none must be harmed.
+1,For the sake of politics, no weapons may be used.
+1,The target must not become aware of your intervention.
+1,The surrounding environs are in the midst of civil war.
+1,The surrounding environs are in the midst of quarantine.
+1,The surrounding environs are in the midst of zombie plague.
+1,You have {Dice~ 1d8} days to complete the mission.
+1,The mission environ is under the cloak of magical darkness.
+1,The mission environ is under a spell of ceaseless daylight.
+
+
+;Target
+1,villainous [Class] NPC
+1,[PettyGuild] Guild operative
+1,Threndian Noble
+1,Imperial Agent
+1,Dragon
+1,Devil
+1,Demon
+1,[EnemyFaction] [Class]
+1,[AllyFaction] [Class]
+
+;Class
+1,Fighter
+1,Wizard
+1,Rogue
+1,Cleric
+1,Druid
+1,Paladin
+1,Anti-Paladin
+1,Barbarian
+1,Commoner
+1,Noble
+1,Psionicist
+
+;Enemy
+1,Goblin
+1,Fae
+1,Morlock
+1,Duergar
+1,Derro
+1,Sathar
+1,Drow
+1,Illithid
+1,Dragon
+1,Demon
+1,Devil
+1,Lesser [PettyGuild] Guild
+1,Lich
+1,Undead
+1,Vampire
+
+;Demihuman
+1,Elf
+1,Dwarf
+1,Gnome
+1,Halfling
+
+;EnemyFaction
+1,Mindbenders
+1,Cthulhu Cult
+1,Sathar Operatives
+1,Illithid Operatives
+
+;AllyFaction
+1,Guild of Professional Dungeon Delvers
+1,The Thieves' Guild
+1,The League for Demihumans
+1,Templars
+1,Fire Guard
+1,Marauders
+1,Anarchists
+1,Wizarding Guild
+1,The Church of the Shining Dodecahedron
+1,The Office of The Emperor 
+1,[PettyGuild] Guild
+
+;PettyGuild
+1,Brewers
+1,Bakers
+1,Jewelers
+1,Pilots
+1,Couriers
+1,Mechanics
+1,Steamfitters
+1,Bankers
+1,Cartographers
+1,Traders
+1,Sailors
+1,Shipmans
+1,Shippers
+1,Fuggers
+1,Artificers
+1,Insurers
+1,Alchemists
+1,Brewers
+1,Roboters
+1,Racers
+1,Mercenaries
+1,Brigands
+1,Mimes
+
+:Habitation
+1-50,Village
+51-65,Town
+66-70,City
+71-75,Base
+76-80,Castle
+81-100,[Building]
+
+:Building
+1-10,Important Citizen's Home
+11-21,Research Lab
+22-50,Shrine
+51,Temple or Place of worship that is really a [AlienSuper] ruin
+
+:AlienSuper
+1-8,Ancient
+9-15,Dralasite
+16-18,Yazirian
+19-21,Vrusk
+22,Sathar
+23-24,Gray
+
+;DeliverMessage
+1,Deliver message to [PettyGuild] Guild member
+1,Deliver message to [AllyFaction] member
+1,Deliver message to a nearby [EnemyFaction] cell
+
+:Destroy
+01-20,[Enemy] plans.
+21-40,[AlienSuper] Relic or Artifact.
+41-70,[Enemy] Weapon. 
+71-90,[Enemy] [Habitation].
+
+:DisasterSupport
+01-30,[Demihuman] [Habitation] following recent natural disaster
+31-45,[Demihuman] [Habitation] with current natural disaster
+46-55,[Demihuman] [Habitation] following recent attack by [EnemyFaction]
+56-60,[Demihuman] [Habitation] with current attack by [EnemyFaction]
+
+:Hunt
+01-30,	Subdue creature harassing [Demihuman] [Habitation]
+31-50,	Capture creature harassing [Demihuman] [Habitation]
+51-55,	Kill creature harassing [Demihuman] [Habitation]
+56-70,	Subdue creature harassing [AllyFaction]
+71-80,	Capture creature harassing [AllyFaction]
+81-85,	Kill creature harassing [AllyFaction]
+86-90,	Subdue creature harassing newly discovered alien species
+91-95,	Capture creature harassing newly discovered alien species
+96-100,	Kill creature harassing newly discovered alien species
+
+:Infiltrate
+01-15,Gain intelligence about [Demihuman] [Object]
+16-30,Sabotage [Demihuman] [Object]
+31-45,Destroy [Demihuman] [Object]
+46-60,Gain intelligence about [Demihuman] [Object]
+61-75,Sabotage [Demihuman] [Object]
+76-90,Destroy [Demihuman] [Object]
+91-98,Gain intelligence about newly discovered species' [Object]
+99,Sabotage newly discovered species' [Object]
+100,Destroy newly discovered species' [Object]
+
+;Object
+1,Installation
+1,Vehicles
+1,Weapons
+1,Plans
+1,Spell
+1,Book
+1,Minor God
+1,Artifact
+1,Ritual
+
+:Investigate
+01-20,Appearance of new population of monsters
+21-30,Theft of critical [Demihuman] [Object]
+31-40,Death of [Ally] NPC
+41-50,Unusual space/time distortion
+51-55,Change to NPC (e.g. he regresses to 15 years old,he slips out of phase,etc.)
+
+:Mediate
+01-02,Clueless [Demihuman] [Habitation]
+03-10,Nearby Planetary Faction
+11-30,Imperial Authorities
+31-40,[Ally] [Habitation]
+41-60,[Demihuman] [Habitation]
+61-70,[EnemyFaction]
+
+:Puzzle
+01-20,Traverse [AlienSuper] site
+21-40,Obtain [AlienSuper] relic/artifact within Maze
+41-60,Escape [EnemyFaction] death trap
+61-80,Uncover secret behind strange circumstances at recently discovered site
+
+:Recover
+01-10,Recover alien technology from [EnemyFaction]
+11-20,Recover alien technology from uninformed [Demihuman] village
+21-50,Recover advanced alien technology from neutral off-world species
+51-90,Recover stolen object/technology from [Demihuman]
+
+:Repair
+01-05,Repair a human-built device targeted by the [EnemyFaction]
+06-20,Repair a human-built device targeted by a [Demihuman] species
+21-40,Repair a human-built device targeted by the Cthulhu Cultists
+41-50,Repair a human-built device targeted by a newly discovered alien species
+51-55,Repair an alien device targeted by the [Demihuman] [PettyGuild]
+56-70,Repair an alien device targeted by the Lesser [PettyGuild]
+71-90,Repair an alien device targeted by the [AlienSuper]
+91-100,Repair an alien device targeted by a newly discovered alien species
+
+:Rescue
+01-10,Rescue NPC from [AllyFaction]
+11-15,Rescue captured [Class] ally from [AllyFaction]
+16-40,Rescue captured [Class] NPC from [EnemyFaction]
+41-50,Recover captured [Class] ally from adversarial off-world species
+51-80,Rescue captured PC [Class] family member from [EnemyFaction]
+81-90,Recover captured [Class] ally from [EnemyFaction]
+
+:Research
+01-20,[AlienSuper] Ancient site
+21-50,Natural planetary phenomenon
+51-75,Natural stellar phenomenon
+76-100,Natural Local Phenomenon
+101-120,Local Dungeon Phenomenon
+
+:Surveillance
+1-80,[Enemy] [Class]
+81-91,suspected [EnemyFaction] [Class]
+92-100,[Ally] [Class]
+101-105,Suspected [AlienSuper] site
+106-115,[AllyFaction] [Class]
+116-190,[Target]

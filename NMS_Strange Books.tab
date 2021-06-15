@@ -1,0 +1,81 @@
+# Strange and Evil Book Descriptions
+#
+# Books a character might find in an evil
+# mage's study or an old library.
+#
+# HTML-formatted
+#
+# Originally created by Bruce A. Gulke
+#
+# Improved by Noah Stevens
+#
+
+:Start
+1,<b>Title:</b> [LN~NMS_EvilBooks.Start]{CR~}
+_<b>Description:</b> [Description]{CR~}
+_<b>Condition:</b> {Cap~[Miscellaneous.General Quality]}{CR~}
+_<b>Value:</b> {Dice~4d4*250} gold crowns.
+
+:Description
+1-6,The book is [LN~Size], with covers of [LN~Cover]. The [LN~Pages] pages are [LN~Binding].
+7,The book is [LN~Size], with covers of [LN~Cover]. The [LN~Pages] pages are [LN~Binding]. In addition, [LN~Special] and [LN~Special].
+8-10,The book is [LN~Size], with covers of [LN~Cover]. The [LN~Pages] pages are [LN~Binding]. In addition, [LN~Special].
+
+:Size
+1-3,a hefty tome
+4-7,a thick work
+8-11,a thin volume
+12-20,average in size
+21-30,a quarto
+31-35,a folio
+36-40,a sixteenmo
+41-43,collosal
+44-50,tiny
+
+:Cover
+1-25,deerhide
+26-28,human skin stretched over thin wood
+29-73,leather
+74-78,polished metal
+79-85,scales glued to thin wood
+86-100,thin wood
+101-110,heavy wood
+111-120,[NMS_Materials.Start]
+
+:Pages
+1,dried skin
+2-13,parchment
+14-15,stamped [NMS_Materials.Start]
+16-20,vellum
+21-23,thin wood
+24-26,woven hemp
+27-28,papyrus
+29-30,[Miscellaneous.Precious Metal] leaf
+31-40,chitin
+
+:Binding
+1-2,bound with metal rings
+3-6,loose
+7-10,sewn into the spine
+11-15,unbound, but wrapped with a hemp cord
+16-20,unbound, but wrapped with a leather cord
+21-30,stuck together with strange glue
+31-40,stapled
+41-45,soldered together
+
+;Special
+1,the book bears a small metal lock
+1,the book is in a case of stained wood
+1,the book is in a locked case
+1,the book is wrapped in a dirty cloth
+1,the book is wrapped in a velvet cloth
+1,the covers are capped with metal corner pieces
+1,the covers have runes carved around their edges
+1,there is a picture of a castle on the cover
+1,there is a picture of a skull on the cover
+1,there is an odd, geometric pattern on the cover
+1,the cover has the image of {AorAn~[Creatures.Animal]} and {AorAn~[Creatures.Animal]} fighting
+1,a picture of a reclining [Creatures.Animal] adorns the cover
+1,there is a drawing of several men battling {AorAn~[Creatures.Fantastic]} on the cover
+1,the spine features a small image of {AorAn~[Creatures.Fantastic]}
+1,there is a picture of {AorAn~[Creatures.Bird of Prey]} on the cover

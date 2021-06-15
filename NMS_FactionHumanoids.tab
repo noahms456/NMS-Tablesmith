@@ -1,0 +1,40 @@
+﻿#
+# NMS_FactionHumanoids
+# Essentially, just to make gangs and tribes for a possible
+# function in the DunjonCorp generator 
+#
+
+;Start
+1,cyborgs
+1,hobgoblins
+1,mongrelmen
+1,eloi
+1,morlocks
+1,robots
+1,stray automatons
+1,stranded aliens
+1,demonoids
+1,fairies
+1,vegepygmies
+1,harpies
+1,deep gnomes
+1,deep dwarves
+1,derro
+1,[Humans]
+
+
+
+;Humans
+1,dervish
+1,nomads
+1,pilgrims
+1,barbarians
+1,berzerkers
+1,feral humans
+1,feral children
+1,scientists
+1,cultists
+1,clowns
+1,lepers
+1,stranded spacefarers
+

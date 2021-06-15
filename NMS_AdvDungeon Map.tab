@@ -1,0 +1,101 @@
+/OverrideRolls 1
+
+# Dungeon Map
+#
+# Copyright 2001 by Bruce A. Gulke
+#
+#
+# Demonstrates the use of variables, parameters, and 
+# graphics in a TableSmith file.
+#
+# The Dungeon Map table is intended to show off some of the more
+# advanced abilities of TableSmith tables, as well as utilizing
+# its inherent HTML-tag abilities (in particular, the use of graphics).
+# The Dungeon Map program uses "geomorphs" - tiles that can be placed
+# together to generate a virtual plethora of maps. 
+#
+# This table is primarily intended as a concept piece. Feel free to 
+# use it to make something much better (believe me, it won't take
+# much :)
+#
+# Thanks to Tony Marker (www.breminor.com) for the idea for the 
+# instructions method.
+
+%Path1%,<IMG SRC="Images\
+%Path2%," WIDTH="127" HEIGHT="127" BORDER="0">
+%Wd%,0
+%Ht%,0
+%X%,0
+%Y%,0
+
+@Wd,0,Enter width:
+@Ht,0,Enter height:
+
+:Start
+1,{If~%Wd%=0?[Instructions] / [GenMap]}
+
+:Instructions
+1,This table generates random dungeon maps. To use it, change the
+_ parameters (click 'change' below) to enter the height and width
+_ you want, then click the 'Roll' button.
+
+:GenMap
+1,|Y=%Ht%||Y-3|[GenTopRow][GenMiddleRows][GenBottomRow]
+
+:GenTopRow
+1,|X=%Wd%||X-3|[ULCorner][UpperEdge][URCorner]{CR~}
+
+:GenMiddleRows
+1,|X=%Wd%||X-3|[LeftEdge][Middle][RightEdge]{CR~}|Y-1|{If~%Y%>=0?[GenMiddleRows]}
+
+:GenBottomRow
+1,|X=%Wd%||X-3|[LLCorner][BottomEdge][LRCorner]{CR~}
+
+:ULCorner
+##1,%Path1%ULCorner{Dice~1d3}.jpg%Path2%
+1,%Path1%Middle{Dice~1d26}.jpg%Path2%|X-1|{If~%X%>=0?[Middle]}
+
+:UpperEdge
+##1,%Path1%UEdge{Dice~1d3}.jpg%Path2%|X-1|{If~%X%>=0?[UpperEdge]}
+1,%Path1%Middle{Dice~1d26}.jpg%Path2%|X-1|{If~%X%>=0?[Middle]}
+
+:URCorner
+##1,%Path1%URCorner{Dice~1d3}.jpg%Path2%
+1,%Path1%Middle{Dice~1d26}.jpg%Path2%|X-1|{If~%X%>=0?[Middle]}
+
+:LLCorner
+##1,%Path1%LLCorner{Dice~1d3}.jpg%Path2%
+1,%Path1%Middle{Dice~1d26}.jpg%Path2%|X-1|{If~%X%>=0?[Middle]}
+
+:BottomEdge
+##1,%Path1%BEdge{Dice~1d3}.jpg%Path2%|X-1|{If~%X%>=0?[BottomEdge]}
+1,%Path1%Middle{Dice~1d26}.jpg%Path2%|X-1|{If~%X%>=0?[Middle]}
+
+:LRCorner
+##1,%Path1%LRCorner{Dice~1d3}.jpg%Path2%
+1,%Path1%Middle{Dice~1d26}.jpg%Path2%|X-1|{If~%X%>=0?[Middle]}
+
+:LeftEdge
+##1,%Path1%LEdge{Dice~1d3}.jpg%Path2%
+1,%Path1%Middle{Dice~1d26}.jpg%Path2%|X-1|{If~%X%>=0?[Middle]}
+
+:Middle
+1,%Path1%Middle{Dice~1d26}.jpg%Path2%|X-1|{If~%X%>=0?[Middle]}
+
+:RightEdge
+##1,%Path1%REdge{Dice~1d3}.jpg%Path2%
+1,%Path1%Middle{Dice~1d26}.jpg%Path2%|X-1|{If~%X%>=0?[Middle]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

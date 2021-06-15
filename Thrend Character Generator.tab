@@ -1,0 +1,95 @@
+#
+# DCC THRENDIAN PC/NPC GENERATOR
+#
+# by Noah Stevens, April 2018
+
+# ------------------------------
+# Variables
+# ------------------------------
+%STR%,0
+%AGI%,0
+%STA%,0
+%PER%,0
+%INT%,0
+%LUK%,0
+
+%Total%,0
+%LowRoll%,0
+%Die1%,0
+%Die2%,0
+%Die3%,0
+%Die4%,0
+
+# ------------------------------
+# Main
+# ------------------------------
+:Start
+1,[GenStats][DisplayCharacter]
+
+:GenStats
+1,[GenAbilityScores]
+
+:DisplayCharacter
+1,[Dickensian Names.Start]{CR~}Race: [Races of Thrend.Start]{CR~}Occupation: [NMS_Occupations.Start]
+_<table border=0>
+_<td width=150 align="right"><b>Strength:</b></td>
+_<td width=50 align="center">%STR%</td>
+_<td width=50 align="center">[GetStatBonus=%STR%]</td>
+_</tr>
+_<tr>
+_<td width=150 align="right"><b>Agility:</b></td>
+_<td width=50 align="center">%AGI%</td>
+_<td width=50 align="center">[GetStatBonus=%AGI%]</td>
+_</tr>
+_<tr>
+_<td width=150 align="right"><b>Stamina:</b></td>
+_<td width=50 align="center">%STA%</td>
+_<td width=50 align="center">[GetStatBonus=%STA%]</td>
+_</tr>
+_<tr>
+_<td width=150 align="right"><b>Personality:</b></td>
+_<td width=50 align="center">%PER%</td>
+_<td width=50 align="center">[GetStatBonus=%PER%]</td>
+_</tr>
+_<tr>
+_<td width=150 align="right"><b>Intelligence:</b></td>
+_<td width=50 align="center">%INT%</td>
+_<td width=50 align="center">[GetStatBonus=%INT%]</td>
+_</tr>
+_<tr>
+_<td width=150 align="right"><b>Luck:</b></td>
+_<td width=50 align="center">%LUK%</td>
+_<td width=50 align="center">[GetStatBonus=%LUK%]</td>
+_</tr>
+_</table>
+
+# ------------------------------
+# Ability Score Generation
+# ------------------------------
+:GenAbilityScores
+1,|STR=[RollScore]|
+_|AGI=[RollScore]|
+_|STA=[RollScore]|
+_|PER=[RollScore]|
+_|INT=[RollScore]|
+_|LUK=[RollScore]|
+
+:RollScore
+1,|Die1={Dice~1d6}||Die2={Dice~1d6}||Die3={Dice~1d6}||Die4={Dice~1d6}|
+_|LowRoll={Min~%Die1%,%Die2%,%Die3%,%Die4%}|
+_|Total=0|
+_|Total+%Die1%||Total+%Die2%||Total+%Die3%||Total+%Die4%|
+_|Total-%LowRoll%|
+_%Total%
+
+# ------------------------------
+# Reference Tables
+# ------------------------------
+:GetStatBonus
+1-3,-3
+4-5,-2
+6-8,-1
+9-12,0
+13-15,1
+16-17,2
+18,3

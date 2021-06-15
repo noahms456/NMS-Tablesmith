@@ -1,0 +1,139 @@
+﻿#
+# NMS_HumanoidPheno
+#
+
+;Start
+1,[Size], [Body], [Color] beings. They wield [Weapons] and [Behave]. They also [Appear].
+
+;Size
+1,short
+1,man-sized
+1,dwarfen
+1,large
+1,tall
+1,very tall
+1,gigantic
+1,huge
+
+;Body
+1,skeletal
+1,gaunt
+1,thin
+1,gangly
+1,burly
+1,stout
+1,fat
+1,corpulent
+1,rotund
+1,muscular
+
+;Color
+1,chalky white
+1,albino
+1,pitch black
+1,dark gray
+1,light gray
+1,sky blue
+1,navy blue
+1,crimson red
+1,bright red
+1,yellow
+1,orange
+1,green
+1,brown
+1,purple
+1,translucent
+1,completely transparent
+1,human skin-toned
+
+;Weapons
+1,little more than hurled stones and sticks
+1,nets and spears
+1,long swords and daggers
+1,bows and daggers
+1,slings and clubs
+1,swords and shields, with metal armor and heraldry, as a knighted order of humanoids
+1,javelins (6 each)
+1,two-handed battleaxes and swords
+1,short swords and spears
+1,crude firearms and spears
+1,firearms and swords
+1,rapiers
+1,rayguns
+1,advanced technology
+1,terrible mental powers
+1,sinister magics
+1,highly poisoned blades
+1,natural weapons
+1,venomous stingers
+1,gaze attacks
+1,sonic attacks
+1,spinerettes and poisonous bites
+
+;Behave
+1,wear strange animal skins not from this world
+1,refuse to fight back
+1,are always encountered herding domesticated animals
+1,ride bareback on giant steers, bears, frogs, lizards, snakes, deer, etc
+1,force slaves to fight for them
+1,would rather barter than fight
+1,are fascinated with jewels and metal weapons, helmets, leatherworking, shoes, etc
+1,have prophesied a great hero to rescue them from bondage… who resembles a player character
+1,speak a racial language other than their own
+1,are scared of the light
+1,are scared of the dark
+1,speak only in whispers
+1,never surrender
+1,are psychic
+1,chant in a strange rhythm as they work or fight
+
+;Appear
+1,are covered with dots or spots
+1,have no hair whatsoever
+1,wear their hair in topknot
+1,have thick, bushy beards
+1,have bald heads
+1,have long mustaches
+1,have handlebar mustaches
+1,have Fu Manchu mustaches
+1,have amazing sideburns
+1,have goatees
+1,have glowing eyes
+1,have three eyes
+1,are blind with white eyes
+1,are blind with eyes overgrown with skin
+1,are blind and have ceremonial patches
+1,are blind, with empty eye sockets
+1,are blind and use echolocation
+1,have an acute sense of smell
+1,use heat sense
+1,have ESP
+1,cyclopean
+1,have large, unblinking fish-like eyes
+1,have a glowing aura
+1,do not have ears
+1,have elephantine ears
+1,gills on neck and webbed appendages, with amphibious capability
+1,have an extra digit on hands and feet
+1,have enormous claws on hands and feet
+1,have an extra joint in arms
+1,have thick fur or long hair
+1,are fanged
+1,are tusked
+1,have horns as a bull
+1,have horns as a ram
+1,have horns as a goat
+1,have horns as a demon
+1,have backward-bending legs
+1,have only one leg and hops
+1,have four legs
+1,have very long legs
+1,have long snouts
+1,have monkey-like posture, face, and tail and are able to climb walls
+1,are shy and furtive
+1,are sickly... covered in boils, and are feverish and weak
+1,have stripes as a zebra
+1,have skin covered in suckers as an octopus
+1,are feathered
+1,have cloven hooves
+1,have wings

@@ -1,0 +1,245 @@
+﻿#
+# NMS_SmallButViciousDiseases
+#
+
+;Start
+1,Black Plague
+1,Frothing Yellow Pox
+1,The Kruts
+1,Mootish Stinkfoot
+1,Gurglish Rot
+1,Scurvish Gob Rot
+1,Sinople Pox
+1,Sylvanian Tomb Rot
+1,Wound Rot
+30,[Combo]
+
+;Combo
+1,[Humour] [Symptom] [Type]
+1,[Magnitude] [Symptom] Ague
+1,[Magnitude] [Humour] [Type]
+1,Canker of the [Part]
+1,{Cap~[Creatures.Animal]} Pox
+1,{Cap~[Creatures.Start]} [Type]
+1,[Magnitude] [Symptom] Cough
+1,[Humour] Flux
+1,[Place] Measles
+1,[Colour] [Type]
+1,[Place] [Symptom] [Type]
+1,[Part] Pox
+1,[Place] [Humour] [Type]
+1,[Place] Sweats
+1,[Magnitude] [Symptom] [Part] [Type]
+1,[Place] [Insanities.Start]
+#1,An Inexplicable Medical Mystery
+#1,One For the Journals
+#1,Perhaps Magical In Nature
+#1,This is Beyond My Skills
+#1,I'm at a Loss, Milord
+#1,I've Never Seen its Like
+1,[Deity]'s [Colour] [Symptom] [Type]
+
+;Colour
+1,Green
+1,Chartreuse
+1,Crimson
+1,Umber
+1,Puce
+1,Jale
+1,Mossy
+1,Pink
+1,Indigo
+1,Purple
+1,Blue
+1,Black
+1,[Color.Start]
+
+;Humour
+1,Blood
+1,Sanguinous
+1,Bile
+1,Bilious
+1,Phlegmatic
+1,Choleric
+
+;Place
+1,Saratogan
+1,Khemrian
+1,Khushian
+1,Bretonian
+1,Germanic
+1,Austrian
+1,Lustrian
+1,Cathayan
+1,Moorish
+1,Frankish
+1,Turkish
+1,Grecian
+1,Tilean
+1,Arabian
+1,Merrylandish
+1,Mootish
+1,Bilbali
+1,Talabecan
+1,Khyphrian
+1,Hekharan
+1,Estalian
+1,Norse
+1,Roman
+1,Ruritanian
+1,Fredonian
+1,Threndian
+1,Latin
+1,Egyptian
+1,African
+1,Nilean
+1,Florinean
+1,Guilderean
+
+;Symptom
+1,Wheezing
+1,Shivering
+1,Sweating
+1,Dripping
+1,Gibbering
+1,Foaming
+1,Seeping
+1,Bloody
+1,Gritty
+1,Galloping
+1,Wasting
+1,Zombie
+1,Scaly
+1,Bony
+1,Festering
+1,Ranting
+1,Pouring
+1,Weeping
+1,Seeping
+1,Bursting
+1,Oozing
+1,Blistering
+1,Shimmering
+1,Creeping
+
+;Magnitude
+1,Lesser
+1,Greater
+1,Minor
+1,Major
+1,Petty
+1,Ghastly
+1,Abominable
+1,Mickle
+1,Irritating
+1,Deadly
+1,Terminal
+1,Likely-Terminal
+10,
+
+;Part
+1,Foot
+1,Eye
+1,Mouth
+1,Hair
+1,Fundament
+1,Groin
+1,Member
+1,Nose
+1,Scalp
+1,Blood
+1,Beard
+1,Mustache
+1,Toe
+1,Crotch
+1,Bowel
+1,Throat
+1,Ear
+1,Tongue
+1,Soul
+1,Psyche
+1,Ego
+1,Bone
+
+;Type
+1,Pox
+1,Flux
+1,Ague
+1,Wind
+1,Fever
+1,Plague
+1,Leprosy
+1,Shakes
+1,[Insanities.Start]
+
+;Deity
+1,Apollo
+1,Zeus
+1,Athena
+1,Nurgle
+1,Slannesh
+1,Sauron
+1,Hera
+1,Mars
+1,Bellona
+1,Indra
+1,Malloc
+1,Handrich
+1,Manaan
+1,Morr
+1,Myrmidia
+1,Ranald
+1,Shallya
+1,Taal
+1,Ulric
+1,Verena
+1,Dahz
+1,Khaine
+1,Olovald
+1,Rhya
+1,Tor
+1,Ursun
+1,Sigmar
+1,The Lady
+1,Lucan
+1,Luccina
+1,Gazul
+1,Grimnir
+1,Grugni
+1,Morgrim
+1,Rukh
+1,Smednir
+1,Thungni
+1,Valaya
+1,The Ancestor
+1,Adamnan-na-Brionha
+1,Asuryan
+1,Hoeth
+1,Isha
+1,Karnos
+1,Karnous
+1,Kurnous
+1,Khaela Mensha Khaine
+1,Liadriel
+1,Sarriel
+1,Torothal
+1,Esmerelda
+1,Ringil
+1,Hashut
+1,Khorne
+1,Malal
+1,Necoho
+1,The Horned Rat
+1,Tzeentch
+1,Zuvassin
+1,Gork
+1,Mork
+1,Chotec
+1,Huanchi
+1,Sotek
+1,Tepoc
+1,Tzunki
+1,Alluminas
+1,Arianka
+1,Solkan
+

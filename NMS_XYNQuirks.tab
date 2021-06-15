@@ -1,0 +1,388 @@
+#Name:	Xyntillan Character Quirks
+#Date:	March 12, 2021
+#By:	JDCorley and Noah Stevens
+
+;Start
+2,[Short]
+3,{Cap~[Long]}
+
+;Short
+1,[Physical]
+1,[Impression]
+
+;Physical
+1,[Color.Start]-haired
+1,[Color.Start]-eyed
+1,[Voiced]-voiced
+1,[Skinned]-skinned
+1,[Build] physique
+1,[Stature]
+1,[Complexion]
+1,[Other]
+
+;Other
+1,Heart-faced
+1,Gap-toothed
+1,Naked
+1,Hunchbacked
+1,Masked
+1,Veiled
+1,Foul-smelling
+1,Pierced all over
+1,Filthy
+1,Shapely
+1,Good-looking
+1,Ugly
+1,Balding
+1,Hairy
+
+;Complexion
+1,Freckled
+1,Jaundiced
+1,Pale
+1,Rosy-cheeked
+1,Ruddy
+1,Sallow
+1,Sanguine
+
+;Stature
+1,Compact
+1,Elongated
+1,Long
+1,Short
+1,Squat
+1,Tall
+
+;Build
+1,[Endo]
+1,[Ecto]
+1,[Meso]
+
+;Ecto
+1,Angular
+1,Bony
+1,Emaciated
+1,Gangling
+1,Gangly
+1,Gaunt
+1,Hollow-cheeked
+1,Lanky
+1,Pinched
+1,Rawboned
+1,Scraggly
+1,Scrawny
+1,Skeletal
+1,Skin-and-bones
+1,Skinny
+1,Spindly
+1,Underfed
+1,Undernourished
+1,Underweight
+1,Waiflike
+1,Wasted
+1,Weedy
+
+;Meso
+1,Able-bodied
+1,Athletic
+1,Beefy
+1,Brawny
+1,Broad-shouldered
+1,Burly
+1,Fit
+1,Hardy
+1,Healthy
+1,Hearty
+1,Hunky
+1,Husky
+1,Lusty
+1,Muscular
+1,Powerful
+1,Robust
+1,Strapping
+1,Strong
+1,Sturdy
+1,Trim
+1,Vigorous
+1,Well-built
+
+;Endo
+1,Ample
+1,Beefy
+1,Bulky
+1,Chubby
+1,Chunky
+1,Corn-fed
+1,Corpulent
+1,Fat
+1,Fleshy
+1,Full-figured
+1,Heavy-set
+1,Overweight
+1,Paunchy
+1,Porky
+1,Portly
+1,Pudgy
+1,Roly-poly
+1,Rotund
+1,Round
+1,Stout
+1,Tubby
+1,Well-padded
+1,Zaftig
+
+;Skinned
+3,Dark
+2,Rough
+1,Fair
+1,Light
+1,Pale
+
+;Voiced
+1,Annoying
+1,Deep
+1,Gravel
+1,High
+
+;Impression
+1,Animal-hater
+1,Animal-lover
+1,Bashful
+1,Boastful
+1,Bookish
+1,Boorish
+1,Bored
+1,Boring
+1,Bossy
+1,Businesslike
+1,Calm
+1,Cat-lover
+1,Chatty
+1,Cherubic
+1,Childlike
+1,Complainer
+1,Confused
+1,Courteous
+1,Cynical
+1,Daydreamer
+1,Depressed
+1,Diseased
+1,Dislikes children
+1,Dislikes crowds
+1,Disorganized
+1,Disrespectful
+1,Dog-lover
+1,Drunk
+1,Emotionless
+1,Familiar-looking
+1,Fashionable
+1,Fast-talker
+1,Fatalistic
+1,Fidgety
+1,Flamboyant
+1,Flea-infested
+1,Flirtatious
+1,Foppish
+1,Forbidding
+1,Forgetful
+1,Foul-mouthed
+1,Free-spirited
+1,Friendly
+1,Frightened
+1,Frowning
+1,Frustrated
+1,Garrulous
+1,Generous
+1,Gentle
+1,Giggly
+1,Glaring
+1,Glum
+1,Gluttonous
+1,Gnarled
+1,Gossipy
+1,Graceful
+1,Grateful
+1,Greedy
+1,Grim
+1,Grubby
+1,Gruff
+1,Guarded
+1,Guilt-ridden
+1,Gullible
+1,Happy
+1,Hard-hearted
+1,Hard-nosed
+1,Hardworking
+1,Hates children
+1,Haughty
+1,Haunted
+1,Heartbroken
+1,Hedonistic
+1,Helpful
+1,Hero-worshiping
+1,Hollow-eyed
+1,Homesick
+1,Hopeful
+1,Hospitable
+1,Hostile
+1,Hot-tempered
+1,Humble
+1,Humorless
+1,Husky
+1,Hypochondriac
+1,Inquisitive
+1,Jaded
+1,Jealous
+1,Jumpy
+1,Kind
+1,Klutzy
+1,Laconic
+1,Lecherous
+1,Likes children
+1,Likes crowds
+1,Limp
+1,Lisping
+1,Lively
+1,Lonely
+1,Looks drowsy
+1,Loud
+1,Lovesick
+1,Low-voiced
+1,Lusty
+1,Machiavellian
+1,Melancholy
+1,Near-sighted
+1,Nervous
+1,Nostalgic
+1,Nosy
+1,Pack-rat
+1,Patriotic
+1,Patronizing
+1,Pennypincher
+1,Pessimistic
+1,Pious
+1,Poker-faced
+1,Polite
+1,Pouty
+1,Probably crazy
+1,Quiet
+1,Rude
+1,Salty
+1,Shallow
+1,Shifty
+1,Shivering
+1,Silent
+1,Sing-song
+1,Sloucher
+1,Smiling
+1,Smirking
+1,Sneezes constantly
+1,Solemn
+1,Superstitious
+1,Suspicious of everything
+1,Spendthrift
+1,Uncomfortable around men
+1,Uncomfortable around women
+1,Well-bred
+
+;Long
+﻿1,has a peg leg
+1,owes 1d6x100 gold, and tries to get that sum by any means
+1,drunkard
+1,foul-mouthed
+1,accompanied by vicious hunting dog hd 1 ac 9 atk bite 1d4 ml 9 al n
+1,pretends to know important secret
+1,spy for royal tax collectors
+1,loyal to the last, ml +3
+1,owns 1d3 random potions
+1,owns random magic item
+1,shunned in civilisation
+1,sharpshooter, +1 to ranged atk and damage
+1,dishevelled appearance
+1,picks teeth with dagger
+1,uncanny talent for sniffing out alcohol
+1,never surprised
+1,can pick locks, has ring of false keys
+1,shambling gait
+1,unhealthy complexion
+1,others have seen him die 1d3 times
+1,cross-dresser
+1,wears heirloom plate mail
+1,very religious
+1,never takes lead
+1,has to be told everything twice
+1,coward, ml -2
+1,takes “sick leave” every other expedition
+1,contrarian
+1,delves into battle with cheerful “huzzah!”, +1 To hit in first round
+1,landed gentry, owns estate and small chateau, invites company after he gets through these difficult times
+1,lackwit
+1,always tries to press forward and pocket small valuables
+1,steals from party if he can get away with it
+1,spy for royal secret police
+﻿1,good fashion-sense but spends all money on frivolities
+1,gold teeth
+1,golden heart
+1,nervous, 1 in 6 of skipping first round
+1,strong, +1 damage
+1,gambler
+1,escaped convict
+1,escaped friar/nun
+1,lovestruck
+1,obsessed with the secrets of the underworld
+1,heavy sleeper, never agrees to go on watch
+1,bluffs about special abilities
+1,bluffs about experience
+1,modest about experience +1 lvl
+1,artful dodger, -1 ac
+1,skilled pickpocket
+1,pet crow
+1,hacking cough
+1,ex-miner, good sense of direction, senses closest exit
+1,meticulous, finds things others miss
+1,equipped with dungeoneering gear lan-tern, oil, coil of rope, hammer, spikes, iron rations, pole, and waterskin
+1,stays behind and tends to get separated from company
+1,panics in stressful situations 1 in 6
+1,constantly begs company for a little extra
+1,leaves to join rival company after first 1d3 expeditions, spills all
+1,wants to form own company, encourages companions to join
+1,keeps on going, +1 hd to hp only
+1,paranoid
+1,libertine and free-thinker
+1,staunch teetotaller
+1,has heard rumours about location
+1,adventures to care for sick relative
+﻿1,pretends to listen to orders but always does own thing
+1,owns random magic item
+1,has own retainer paid out of his own pocket
+1,always demands extra share from loot
+1,pockets valuables when nobody is looking
+1,spreads rumours about other companions
+1,fat
+1,expert at appraisal
+1,skirt-chaser
+1,outlaw
+1,strikes twice in first round
+1,leaves company in hazardous situations
+1,proactive, tries to second-guess companions and act before they ask
+1,secret nemesis 1 in 2 follows, 1 in 2 followed by
+1,obsessed by appearance, carries around box of perfumes and make-up
+1,has a pet hawk
+1,under a vampire’s charm
+1,party animal
+1,binge-drinking on duty, -1 penalty, cumulative
+﻿1,never leaves a companion in peril, ml +2
+1,1d6x400 gp from past jobs
+1,grumbler
+1,at the end of his wits, 1 in 6 of berserk rage in critical situation, +2 to hit, but 1 in 3 attacks indiscriminately
+1,escaped from the gallows
+1,fencing instructor, 1d3x100 xp to one char-acter on downtime after each expedition
+1,wants to retire in style after pulling that _one big job_
+1,pursues sworn enemy
+1,has already been down there and lost most of his companions, -2 ml but knows a few places
+1,scrounger, collects low-value items
+1,outstanding warrant at constable
+1,cynic
+1,accursed
+1,fanatical, +2 ml and +1 damage
+1,princeling travelling incognito, lvl +2, departs after 1d3 expeditions with parting gift of 1d6x200 gp per companion

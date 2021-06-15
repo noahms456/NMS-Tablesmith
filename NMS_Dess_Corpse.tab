@@ -1,0 +1,220 @@
+﻿#
+# NMS_Dess_Corpse
+# January 9, 2019
+#
+
+%Weapon%,knife
+%Armor%,plain clothes
+%Gear%,hatpin
+%Death%,shriveled
+
+;Start
+1,[Status] corpse of {AorAn~[Class]}, with %Weapon% and faded %Armor%
+1,[Status] remains of {AorAn~[Class]} in %Armor% are scattered around this room. Its [Gear] and {AorAn~%Weapon%} are nearby
+1,[Status] remains of {AorAn~[Class]}, still in its %Armor%, bearing {AorAn~%Weapon%}. It still has {AorAn~[Gear]}
+1,[Status] remains of a [Class]. It clasps {AorAn~[Gear]} in its bony hands
+1,[Status] [Class] still has its %Armor% on and {AorAn~%Weapon%} in its hands
+1,[Status] body of this [Class] still clings to its [Gear] and %Weapon%
+1,[Status] body of {AorAn~[Class]}, with its [Gear] and %Armor% intact
+
+;Class
+1,Fighting Man|Weapon=[Fighting Man]||Armor=[Heavy]|
+1,Fighting Man|Weapon=[Fighting Man]||Armor=[Medium]|
+1,Fighting Man|Weapon=[Fighting Man]||Armor=[Light]|
+1,Fighting Man|Weapon=[NMS_MagicItem.Swords]||Armor=leather jerkin|
+1,Wizard|Weapon=[Wizard]||Armor=[Ceremonial]|
+1,Cleric|Weapon=[Cleric]||Armor=[Medium]|
+1,Cleric|Weapon=[Cleric]||Armor=[Light]|
+1,Cleric|Weapon=Staff||Armor=[Medium]|
+1,Elf|Weapon=[Elf]||Armor=[Light]|
+1,Dwarf|Weapon=[Dwarf]||Armor=[Light]|
+1,Dwarf|Weapon=[Dwarf]||Armor=[Heavy]|
+1,Thief|Weapon=[Thief]||Armor=[Light]|
+1,Halfling|Weapon=[Halfling]||Armor=[Light]|
+
+;Gear
+5,backpack
+5,sack
+1,cloak
+1,flint and tinder
+3,lantern
+3,torch
+1,first aid kit
+1,journal
+1,mapping kit
+1,ball of twine
+1,climbing gear
+1,hatchet
+1,backpack
+1,flask of oil
+1,small hammer
+1,holy symbol
+1,vial of holy water
+1,iron spikes
+1,lantern
+1,steel mirror
+1,{Dice~2d2} iron rations
+1,{Dice~2d2} standard rations
+1,hemp rope
+1,silk rope
+1,thieves' tools
+1,tinder box
+1,torches
+1,water skin
+1,wine skin
+1,small bunch of wolfsbane
+1,wooden pole
+1,{Dice~1d12} silver pieces
+1,{Dice~2d12} copper pieces
+1,{Dice~2d4} gold pieces
+5,[NMS_Pockets.Start]
+1,[NMS_MagicItem.Start]
+
+;Fighting Man
+1,long sword
+1,halberd
+1,broadaxe
+1,spear
+1,flamberge
+1,short sword
+1,wicked knife
+1,wooden shield
+1,tower shield
+1,banded shield
+1,rapier
+
+;Elf
+1,short bow
+1,long bow
+1,bone dagger
+1,obsidian short sword
+1,stone dagger
+1,short bow
+1,spear
+1,sling
+1,holly staff
+1,bronze long sword
+1,[NMS_MagicItem.Start]
+
+;Wizard
+1,staff
+1,dagger
+1,oaken staff
+1,{Dice~2d2} 1st Level Spell Scrolls
+1,curvy dagger
+1,rusted dagger
+1,stained dagger
+1,[NMS_MagicItem.Start]
+
+;Cleric
+1,club
+1,holy symbol
+1,staff
+1,mace
+1,thurible
+1,censer
+1,aspergillum
+1,battered holy symbol
+1,prayer scroll
+1,melted holy symbol
+1,scorched holy symbol
+1,[NMS_MagicItem.Start]
+
+;Dwarf
+1,axe
+1,great axe
+1,cleaver
+1,spear
+1,crossbow
+1,mace
+1,club
+1,splintered axe
+1,rusty axe
+1,corroded axe
+1,[NMS_MagicItem.Start]
+
+;Thief
+1,dagger
+1,short sword
+1,short bow
+1,crossbow
+1,rusty knife
+1,stiletto
+1,poisoned stiletto
+1,sling
+1,blackjack
+1,garotte
+1,[NMS_MagicItem.Start]
+
+;Halfling
+1,short sword
+1,dagger
+1,sling
+1,[NMS_MagicItem.Start]
+
+;Heavy
+1,plate armor
+1,steel cuirass
+1,cuirass
+
+;Medium
+1,chainmail hauberk
+1,full leather armor
+1,studded leather armor
+
+;Light
+1,leather bodkin
+1,leather coat
+1,cured leather vest
+
+;Ceremonial
+1,embroidered robes
+1,tattered robes
+1,shredded finery
+1,cassock
+1,loincloth
+
+;Status
+1,scorched
+1,bloodied
+1,battered
+1,broken
+1,limp
+1,scorched
+1,dusty
+1,shriveled
+1,liquified
+1,smashed
+1,burned
+1,splattered
+1,spattered
+1,scattered
+1,smothered
+1,dessicated
+1,skeletal
+1,mummified
+1,irradiated
+1,twisted
+1,crushed
+1,fly-blown
+1,maggot-ridden
+1,slimy
+1,diseased
+1,rotten
+1,oily
+1,crystallized
+1,withered
+1,destroyed
+1,envenomed
+1,puffy
+1,swollen
+1,putrescent
+1,flayed
+
+
+
+
+
+
+
+

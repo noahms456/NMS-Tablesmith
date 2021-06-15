@@ -1,0 +1,241 @@
+#
+# Instant Adventure Namer
+#
+# This is a fun little table intended to generate names of
+# adventure modules (it's possible to see some familiar names
+# with this one). Nothing earth-shattering here, but some
+# of the results might inspire you!
+#
+# By Bruce A. Gulke, 2004
+
+:Start
+1,{Cap~[Action]} of the {CapEachWord~[Monster] [Ruler]}
+2,{CapEachWord~[Adjective] [Building]} of [Deity]
+3,{CapEachWord~[Adjective] [Building]} of [Name]
+4,{CapEachWord~[Adjective] [Place]} of [Name]
+5,{CapEachWord~[Adjective] [Item]} of [Name]
+6,{Cap~[Building]} of {CapEachWord~[Adjective] [Element]}
+7,{Cap~[Building]} of {Cap~[Element]}
+8,{Cap~[Building]} of [Name]
+9,{Cap~[Building]} of the {CapEachWord~[Creature] [Ruler]}
+10,{Cap~[Building]} of the {CapEachWord~[Color] [Ruler]}
+11,{Cap~[Building]} of the {Cap~[Monster]}
+12,{Cap~[Building]} of the {CapEachWord~[Monster] [Ruler]}
+13,{Cap~[Building]} on {CapEachWord~[Creature=2] [Geography]}
+14,{Cap~[Building]} on the {Cap~[Region]}
+15,{Cap~[Building]s} of the {Cap~[Monster]} [Ruler]s
+16,{CapEachWord~[Color] [Item] [Geography]}
+17,{Cap~[Escape]} from [Name]'s {Cap~[Building]}
+18,{Cap~[Escape]} from the [Name] {Cap~[Building]}
+19,{Cap~[Geography]} of {Cap~[Element]}
+20,{Cap~[Geography]} of the {CapEachWord~[Monster] [Ruler]}
+21,{Cap~[Item]} of [Deity]
+22,{Cap~[Item]} of {Cap~[Element]}
+23,{Cap~[Journey]} the {Cap~[Region]}
+24,{Cap~[Journey]} the [Name] {Cap~[Place]}
+25,{CapEachWord~[Monster] [Place]} of [Name]
+26,[Name] {Cap~[Building]}
+27,{Cap~[People]} of the {CapEachWord~[Adjective] [Place]}
+28,{Cap~[People]} of {Cap~[Element]}
+29,{Cap~[Person]} of [Name] {Cap~[Geography]}
+30,{Cap~[Place]} of [Name]
+31,{Cap~[Place]} of the {CapEachWord~[Color] [Item]}
+32,{Cap~[Place]} of the {Cap~[Monster]}
+33,{CapEachWord~[Person] [Place]} of the {Cap~[Place]}
+34,{CapEachWord~[Quest] [Adjective] [Item]}
+35,{CapEachWord~[Quest] [Adjective] [Place]}
+36,{Cap~[Quest]} [Name]'s {Cap~[Item]}
+37,{Cap~[Ruler]} of the {CapEachWord~[Monster] [Place]}
+38,{Cap~[Secret]} of the {CapEachWord~[People] [Building]}
+39,{Cap~[Secret]} of the {CapEachWord~[Adjective] [Item]}
+40,{Cap~[Secret]} of {CapEachWord~[Item] [Geography]}
+
+;Action
+1,attack
+1,fury
+1,revenge
+1,vengeance
+1,ambush
+1,gathering
+1,rise
+1,fall
+1,escape
+1,flight
+
+
+:Adjective
+1,[Color]
+2,dark
+3,elemental
+4,forbidden
+5,forgotten
+6,ghost
+7,hidden
+8,lost
+9,nightmare
+10,sinister
+11,unknown
+12,sunless
+
+:Building
+1,abbey
+2,citadel
+3,forge
+4,hall
+5,keep
+6,manor
+7,maze
+8,palace
+9,shrine
+10,steading
+11,stockade
+12,temple
+13,tomb
+14,tower
+15,vault
+
+:Color
+1,black
+2,blue
+3,gold
+4,green
+5,red
+6,silver
+7,white
+
+:Creature
+1,[Creatures.Animal]
+2,[Creatures.Fantastic]
+
+:Deity
+1,Demogorgon
+2,Freya
+3,Odin
+4,Orcus
+5,Tharizdun
+
+:Element
+1,air
+2,blood
+3,chaos
+4,darkness
+5,death
+6,desolation
+7,doom
+8,earth
+9,evil
+10,fire
+11,fury
+12,good
+13,horrors
+14,light
+15,madness
+16,order
+17,power
+18,water
+
+:Escape
+1,escape
+2,flight
+
+:Geography
+1,canyon
+2,desert
+3,forest
+4,glacial rift
+5,hill
+6,lake
+7,mountain
+8,river
+9,sea
+
+:Item
+1,bones
+2,crucible
+3,gold
+4,grimoire
+5,helm
+6,palm
+7,pearl
+8,plume
+9,scepter
+10,spear
+11,sword
+12,tome
+
+:Journey
+1,descent into
+2,expedition to
+3,journey into
+4,voyage to
+
+:Monster
+1,[Creatures.Fantastic]
+2,demon
+3,drow
+4,Fire Giant
+5,Frost Giant
+6,Hill Giant
+7,kuo-toa
+8,vampire
+
+:Name
+1,Inverness
+2,Saltmarsh
+3,Tamoachan
+4,Tegel
+5,Tsojcanth
+6,[Fantasy Names.Start]
+
+:People
+1,cultists
+2,druids
+3,dwellers
+4,followers
+5,masters
+6,slavers
+7,warriors
+8,wizards
+
+:Person
+1,necromancer
+2,slave
+3,sorcerer
+4,thrall
+5,warlock
+6,witch
+
+:Place
+1,caverns
+2,caves
+3,city
+4,lair
+5,mazes
+6,mines
+7,oasis
+8,pits
+9,undercity
+10,wastes
+
+:Quest
+1,In Search of
+2,Quest for the
+3,Search for the
+
+:Region
+1,Barrier Peaks
+2,borderlands
+3,Depths of the Earth
+
+:Ruler
+1,god
+2,jarl
+3,king
+4,lord
+5,master
+6,queen
+
+:Secret
+1,mystery
+2,riddle
+3,secret

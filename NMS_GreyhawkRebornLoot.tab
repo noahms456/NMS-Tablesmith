@@ -1,0 +1,310 @@
+﻿#
+# NMS_GreyhawkRebornLoot
+#
+
+:Start
+1,[ChartA]
+#2,[ChartB]
+#3,[ChartC]
+
+
+;ChartA
+1,Alchemy Jug 
+1,Ammunition (5), +1 
+1,Amulet Of Proof Against Detection And Location 
+1,Bag Of Beans 
+1,Bag Of Holding 
+1,Boots Of Elvenkind 
+1,Boots Of Striding And Springing 
+1,Boots Of The Winterlands 
+1,Bracers Of Archery 
+1,Brooch Of Shielding 
+1,Cap Of Water Breathing 
+1,Chime Of Opening 
+1,Cloak Of Protection 
+1,Cloak Of The Manta Ray 
+1,Decanter Of Endless Water 
+1,Deck Of Illusions 
+1,Driftglobe 
+1,Dust ·Of Dryness 
+1,Dust Of Sneezing And Choking 
+1,Elixir Of Health 
+1,Eversmoking Bottle 
+1,Eyes Of Charming 
+1,Eyes Of Minute Seeing 
+1,Eyes Of The Eagle 
+1,Figurine Of Wondrous Power (Silver Raven) 
+1,Folding Boat 
+1,Gem Of Brightness 
+1,Gloves Of Missile Snaring 
+1,Gloves Of Swimming And Climbing 
+1,Gloves Of Thievery 
+1,Goggles Of Night 
+1,Hat Of Disguise 
+1,Helm Of Comprehending Languages 
+1,Heward's Handy Haversack 
+1,Horseshoes Of Speed 
+1,Immovable Rod 
+1,Javelin Of Lightning 
+1,Keoghtom's Ointment 
+1,Lantern Of Revealing 
+1,Mariner's Armor 
+1,Mithral Armor 
+1,Necklace Of Adaptation 
+1,Oil Of Slipperiness 
+1,Pearl Of Power 
+1,Periapt Of Health 
+1,Periapt Of Wound Closure 
+1,Philter Of Love 
+1,Pipes Of Haunting 
+1,Pipes Of The Sewers 
+1,Potion Of Animal Friendship 
+1,Potion Of Clairvoyance 
+1,Potion Of Climbing 
+1,Potion Of Diminution 
+1,Potion Of Fire Breath 
+1,Potion Of Fire Giant Strength 
+1,Potion Of Frost Giant Strength 
+1,Potion Of Gaseous Form 
+1,Potion Of Greater Healing 
+1,Potion Of Growth 
+1,Potion Of Healing 
+1,Potion Of Heroism 
+1,Potion Of Hill Giant Strength 
+1,Potion Of Invulnerability 
+1,Potion Of Mind Reading 
+1,Potion Of Poison 
+1,Potion Of Resistance 
+1,Potion Of Stone Giant Strength 
+1,Potion Of Superior Healing 
+1,Potion Of Water Breathing 
+1,Quaal's Feather Token 
+1,Quiver Of Ehlonna 
+1,Ring Of Jumping 
+1,Ring Of Mind Shielding 
+1,Ring Of Swimming 
+1,Ring Of Warmth 
+1,Ring Of Water Walking 
+1,Robe Of Useful Items 
+1,Rope Of Climbing 
+1,Saddle Of The Cavalier 
+1,Scroll Of Protection 
+1,Sending Stones 
+1,Shield +1  
+1,Slippers Of Spider Climbing 
+1,Spell Scroll (1st Level) 
+1,Spell Scroll (2nd Level) 
+1,Spell Scroll (Cantrip) 
+1,Staff Of The Adder 
+1,Staff Of The Python 
+1,Sword Of Vengeance 
+1,Trident Of Fish Command 
+1,Wand Of Magic Detection 
+1,Wand Of Magic Missiles 
+1,Wand Of Secrets 
+1,Wand Of Web 
+1,Weapon Of Warning 
+1,Wind Fan
+
+;ChartB
+1,Ammunition (5), +2 
+1,Armor Of Resistance (Chain Mail) 
+1,Armor Of Resistance (Chain Shirt) 
+1,Armor Of Resistance (Leather) 
+1,Armor Of Resistance (Scale Mail) 
+1,Armor, +1 Leather 
+1,Armor, +1 Chain Mail 
+1,Armor, +1 Scale Mail 
+1,Armor,+1 Chain Shirt 
+1,Belt Of Dwarvenkind 
+1,Boots Of Levitation 
+1,Bracers Of Defense 
+1,Cape Of The Mountebank 
+1,Cloak Of Elvenkind 
+1,Cloak Of The Bat 
+1,Dagger Of Venom 
+1,Dimensional Shackles 
+1,Dragon Slayer 
+1,Elven Chain 
+1,Figurine Of Wondrous Power: Bronze Griffon 
+1,Figurine Of Wondrous Power: Onyx Dog 
+1,Figurine Of Wondrous Power: Ebony Fly 
+1,Figurine Of Wondrous Power: Golden Lions 
+1,Figurine Of Wondrous Power: Ivory Goats 
+1,Figurine Of Wondrous Power: Marble Elephant 
+1,Figurine Of Wondrous Power: Serpentine Owl 
+1,Flame Tongue 
+1,Gem Of Seeing 
+1,Giant Slayer 
+1,Glamoured Studded Leather 
+1,Horn Of Blasting 
+1,Horn Of Valhalla (Silver Or Brass) 
+1,Horseshoes Of A Zephyr 
+1,Instrument Of The Bards (Doss Lute) 
+1,Instrument Of The Bards (Fochlucan Bandore) 
+1,Instrument Of The Bards (Mac-Fuirmidh Cittern) 
+1,Instrument Of The Bards (Canaith Mandolin) 
+1,Instrument Of The Bards (Cli Lyre) 
+1,Iron Bands Of Bilarro 
+1,Ioun Stone (Awareness) 
+1,Ioun Stone (Protection) 
+1,Ioun Stone (Reserve) 
+1,Ioun Stone (Sustenance) 
+1,Mace Of Disruption 
+1,Mace Of Smiting 
+1,Mace Of Terror 
+1,Mantle Of Spell Resistance 
+1,Necklace Of Fireballs 
+1,Necklace Of Prayer Beads (Tp Cost Per Bead -Max ; Blessing, Curing And Smiting) 
+1,Nolzur's Marvelous Pigments 
+1,Oil Of Sharpness 
+1,Periapt Of Proof Against Poison 
+1,Portable Hole 
+1,Potion Of Cloud Giant Strength 
+1,Potion Of Flying 
+1,Potion Of Invisibility 
+1,Potion Of Longevity 
+1,Potion Of Speed 
+1,Potion Of Supreme Healing 
+1,Potion Of Vitality 
+1,Ring Of Animal Influence 
+1,Ring Of Evasion 
+1,Ring Of Feather Falling 
+1,Ring Of Free Action 
+1,Ring Of Protection 
+1,Ring Of Resistance 
+1,Ring Of The Ram 
+1,Ring Of X-Ray Vision 
+1,Robe Of Eyes 
+1,Rod Of Rulership 
+1,Rod Of The Pact Keeper, +1  
+1,Rope Of Entanglement 
+1,Sentinel Shield 
+1,Shield, +1 
+1,Spell Scroll (3rd Level) 
+1,Spell Scroll (4th Level) 
+1,Spell Scroll (5th Level) 
+1,Staff Of Charming 
+1,Staff Of Healing 
+1,Staff Of Swarming Insects 
+1,Staff Of The Woodlands 
+1,Staff Of Withering 
+1,Stone Of Good Luck 
+1,Sword Of Life Stealing 
+1,Sword Of Wounding 
+1,Tentacle Rod 
+1,Vicious Weapon 
+1,Wand Of Binding 
+1,Wand Of Enemy Detection 
+1,Wand Of Fear 
+1,Wand Of Paralysis 
+1,Wand Of The War Mage, +1  
+1,Wand Of Wonder 
+1,Weapon +1 
+
+;ChartC
+1,Adamantine Armor (Half Plate) 
+1,Adamantine Armor (Plate) 
+1,Ammunition (5), +2 
+1,Amulet Of Health 
+1,Animated Shield 
+1,Armor Of Invulnerability 
+1,Armor Of Resistance (Breastplate) 
+1,Armor Of Resistance (Half Plate) 
+1,Armor Of Resistance (Splint) 
+1,Armor Of Resistance (Studded Leather) 
+1,Armor, +2 Breastplate 
+1,Armor, +2 Half Plate 
+1,Armor, +2 Splint 
+1,Armor, +2 Studded Leather 
+1,Armor, +2 Plate 
+1,Armor, +2 Scale Mail 
+1,Armor, +2 Breastplate 
+1,Armor, +2 Chain Mail 
+1,Armor, +2 Chain Shirt 
+1,Armor, +2 Half Plate 
+1,Armor, +2 Plate 
+1,Armor, +2 Scale Mail 
+1,Armor, +2 Splint 
+1,Armor, +2 Studded Leather 
+1,Arrow Of Slaying 
+1,Belt Of Fire Giant Strength 
+1,Belt Of Frost (Or Stone) Giant Strength 
+1,Belt Of Hill Giant Strength 
+1,Boots Of Speed 
+1,Candle Of Invocation 
+1,Carpet Of Flying 
+1,Cloak Of Arachnida 
+1,Cloak Of Displacement 
+1,Cloak Of Invisibility 
+1,Crystal Ball (Very Rare Version) 
+1,Dancing Sword 
+1,Defender 
+1,Dragon Scale Mail 
+1,Dwarven Plate 
+1,Dwarven Thrower 
+1,Efreeti Chain 
+1,Frost Brand 
+1,Gauntlets Of Ogre Power 
+1,Hammer Of Thunderbolts 
+1,Headband Of Intellect 
+1,Helm Of Brilliance 
+1,Helm Of Teleportation 
+1,Horn Of Valhalla (Bronze) 
+1,Horn Of Valhalla (Iron) 
+1,Instrument Of The Bards (Anstruth Harp) 
+1,Instrument Of The Bards (Ollamh Harp) 
+1,Iron Flask 
+1,Ioun Stone (Absorption) 
+1,Ioun Stone (Agility) 
+1,Ioun Stone (Fortitude) 
+1,Ioun Stone (Greater Absorption) 
+1,Ioun Stone (Insight) 
+1,Ioun Stone (Intellect) 
+1,Ioun Stone (Leadership) 
+1,Ioun Stone (Mastery) 
+1,Ioun Stone (Regeneration) 
+1,Ioun Stone (Strength) 
+1,Nine Lives Stealer 
+1,Oath Bow 
+1,Plate Armor Of Etherealness 
+1,Plate Armor Of Resistance 
+1,Potion Of Storm Giant Strength 
+1,Potion Of Supreme Healing 
+1,Ring Of Invisibility 
+1,Ring Of Regeneration 
+1,Ring Of Shooting Stars 
+1,Ring Of Spell Storing 
+1,Ring Of Spell Turning 
+1,Ring Of Telekinesis 
+1,Ring Of Water Elemental Command 
+1,Robe Of Scintillating Colors 
+1,Robe Of Stars 
+1,Rod Of Absorption 
+1,Rod Of Alertness 
+1,Rod Of Security 
+1,Rod Of The Pact Keeper, +2 
+1,Scarab Of Protection 
+1,Scimitar Of Speed 
+1,Shield, +2 
+1,Sovereign Glue 
+1,Spell Scroll (6th Level) 
+1,Spell Scroll (7th Level) 
+1,Spellguard Shield 
+1,Staff Of Fire 
+1,Staff Of Frost 
+1,Staff Of Striking 
+1,Staff Of Thunder And Lightning 
+1,Sun Blade 
+1,Sword Of Answering 
+1,Sword Of Sharpness 
+1,Universal Solvent 
+1,Wand Of Fireballs 
+1,Wand Of Lightning Bolts 
+1,Wand Of Polymorph 
+1,Wand Of The War Mage, +2 
+1,Weapon, +2 
+1,Necklace Of Prayer Beads (TP Cost Per
+1,Bead - Max ; Favor, Wind Walking) 
+1,Winged Boots 
+1,Wings Of Flying

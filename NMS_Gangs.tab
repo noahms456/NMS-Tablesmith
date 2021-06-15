@@ -1,0 +1,159 @@
+﻿#
+# NMS_Gangs
+# Stolen blatantly from a Reddit thread posted by OrkishBlade
+#
+
+:Start
+1, The gang is called [NMS_Street Gangs.Start]. The gang's money-making schemes include [Money]. The gang's colors are [Colors]. The gang's symbol is [Symbol]. Gang members often sport matching [Matching]. The gang's leader is [Leader]. They target [Recruits] for new members. Their goals are [Goals]. They arm themselves with [Armed]. They fight with [Tactics]. The gang's headquarters are [Headquarters]. They are particularly feared by [Feared].     
+
+
+;Money
+1,distributing drugs—a smoked leaf,a hallucinogenic mushroom,or a potent libation 
+2,running heists of and/or fencing stolen gems and precious metals 
+3,petty theft,burglary,and/or pickpocketing 
+4,assassinations that look like accidents or that frame someone else 
+5,running brothels—exotic,low,or high-class 
+6,shaking down legitimate local businesses and/or city officials 
+7,serving as muscle for shady merchants and/or brothel-keepers 
+8,holding up outgoing ships or wagons
+
+;Colors
+1,black 
+2,red / scarlet 
+3,gold 
+4,forest green 
+5,royal blue 
+6,violet 
+7,silver / light grey 
+8,bronze 
+9,tan / khaki 
+10,brown / beaver 
+11,dark grey / gunmetal 
+12,white 
+13,maroon 
+14,sky blue 
+15,navy blue 
+16,dark brown / chocolate 
+17,teal / turquoise 
+18,steel / blue grey 
+19,orange 
+20,olive green 
+
+;Symbol
+1,a skull 
+2,a ghost 
+3,an open hand 
+4,a clenched fist 
+5,an arrow 
+6,a dagger 
+7,a sword 
+8,a hammer 
+9,a crown 
+10,a goblet 
+11,the moon 
+12,a star 
+13,a fish 
+14,a snake 
+15,a badger 
+16,a spider 
+17,a rat 
+18,a wolf 
+19,a bear 
+20,an eagle 
+
+;Matching
+1,shirts 
+2,jackets 
+3,scarves 
+4,vests 
+5,bandannas 
+6,boots 
+7,tattoos 
+8,hats 
+9,scars 
+10,mustaches 
+
+;Leader 
+1,a dangerous megalomaniac 
+2,a charismatic demagogue 
+3,a mysterious foreigner 
+4,a talented thief 
+5,a well-known public figure 
+6,a ruthless killer 
+7,a femme fatale 
+8,a charming rogue 
+9,a dashing swashbuckler 
+10,a brutish thug 
+
+;Recruits 
+1,artisans 
+2,relocated peasants 
+3,sailors 
+4,drunks 
+5,beggars 
+6,thieves 
+7,servants and slaves 
+8,combat veterans 
+9,young children 
+10,circus performers 
+
+;Goals
+1,domination of the city's politics 
+2,domination of the city's trade 
+3,revenge against a rival gang in the same city 
+4,revenge against a rival gang in another city 
+5,revenge against the city's elite 
+6,rebellion against the city's elite 
+
+;Armed 
+1,wooden clubs 
+2,throwing knives 
+3,over-sized daggers 
+4,serrated daggers 
+5,daggers and crossbows 
+6,hammers and daggers 
+7,sticks and stones 
+8,shortswords 
+9,brass knuckles 
+10,bare fists 
+
+
+;Tactics
+1,swarm tactics 
+2,hit-and-run tactics 
+3,ambush tactics 
+4,choreographed maneuvers 
+5,unpredictable maneuvers 
+6,lots of smiles and jokes 
+7,lots of fancy footwork 
+8,lots of screaming and shouting 
+9,kicking and stomping 
+10,lots of head-butting
+ 
+;Headquarters
+1,the residence of the leader or a senior gangmember 
+2,an artisan's shop or guildhall 
+3,a merchant's office 
+4,a tavern 
+5,a brothel 
+6,a warehouse or shipyard 
+7,a temple complex 
+8,the city's sewers 
+9,the town hall 
+10,an abandoned guildhall or warehouse 
+11,a shantytown
+12,the residence of a wealthy individual 
+
+;Feared
+1,fishermen and sailors 
+2,beggars and thieves 
+3,merchants and moneychangers 
+4,jewelers and gemcutters 
+5,politicians and magistrates 
+6,guards and sheriffs 
+7,soldiers and warriors 
+8,gladiators and pugilists 
+9,peasants and farmers 
+10,servants and slaves 
+11,priests and sages 
+12,women and children 

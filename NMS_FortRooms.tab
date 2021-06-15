@@ -1,0 +1,61 @@
+﻿#
+# Room Generator for Fortescues' Demesne
+# Noah Stevens
+# July 26, 2018
+#
+
+;Start
+1,The air in this [NMS_RoomTypes.Start] is [Air]. It is [Smell] and [Light], here. The walls are of [Wood] and the floors of [Floor].
+1,This is a [Light] passageway.
+1,This is a [Smell] hall.
+1,It is [Light] in this hallway.
+1,This small chamber is [Light] and [Smell].
+
+
+;Air
+1,lightly breezy
+1,slight, damp breezy
+1,gusting breezy
+1,cold
+1,slight downdraft
+1,strong downdraft
+1,still
+1,still, very chill
+1,still, warm
+1,slight updraft
+1,strong updraft
+1,strongly flowing
+1,gusting, strong
+1,moaning, strong
+
+;Smell
+1,musty
+1,dusty
+
+;Light
+3,dim
+1,dark
+1,bright
+1,pitch black
+
+;Floor
+10,[Wood]
+2,stone
+
+;Wood
+1,maple
+1,oak
+1,cedar
+1,pine
+1,birdseye maple
+1,cherry
+1,teak
+1,mahogany
+
+;Ceiling
+10,15 feet high
+1,30 feet high
+2,8 feet high with arches at 12 feet
+2,20 feet vaults
+
+

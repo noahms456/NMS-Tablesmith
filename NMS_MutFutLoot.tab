@@ -1,0 +1,194 @@
+﻿#
+# NMS_MutFutLoot
+# Loot From Mutant Future
+# Suitable for DunjonCorp 2019
+# January 1, 2019
+#
+
+:Start
+> [Condition]
+1-5,[Firearms]
+6-17,[Melee]
+18-25,[Pistols]
+26-33,[Rifles]
+34-41,[Armor]
+42-50,[Power]
+51-59,[Grenades]
+60-68,[Bombs]
+69-79,[Gizmos]
+80-90,[Drugs]
+91-100,[FoodJunk]
+101-120,[NMS_Junk.Start]
+
+
+:Firearms
+1-7,Ammo 1d6x10 rounds
+8-17,Automatic Pistol
+18-20,Black Powder Pistol
+21-30,Revolver
+31-36,Sub-machinegun
+37-41,Carbine
+42-49,Automatic Rifle
+50-52,Black Powder Rifle
+53-59,Sport Rifle
+60-69,Shotgun
+70-78,Automatic Shotgun
+79-81,Cannon
+82-90,Grenade Launcher
+91-100,Machinegun
+
+:Melee
+1-11,Energy Baton
+12-23,Shock Gloves
+24-35,Shock-Field Glove
+36-47,Stun Baton
+48-59,Vibro Dagger
+60-71,Vibro Sword
+72-81,Warp-Field Dagger
+82-91,Warp-Field Mace
+92-100,Warp-Field Sword
+
+:Pistols
+1-15,Gauss Machine Pistol
+16-30,Gauss Pistol Mk 1
+31-37,Laser Pistol Mk 1
+38-54,Laser Pistol Mk 2
+55-69,Maser Pistol
+70-84,Plasma Pistol
+85-100,Stun Pistol
+
+:Rifles
+1-5,Blaster Rifle
+06-16,EMP Rifle
+17-22,Fusion Rifle
+23-29,Plasma Rifle
+30-42,Gauss Auto Rifle
+43-57,Gauss Rifle
+58-68,Laser Rifle
+69-79,Maser Rifle
+80-84,Radiation Rifle
+85-92,Stun Rifle
+93-100,X-Laser Rifle
+
+:Armor
+1-11,Ballistic Nylon
+12-23,Metal Insert
+24-35,Plastic Plate
+36-47,Plastex
+48-59,Advanced Metal
+60-70,LazAb
+71-80,Environmental Armor
+81-85,Scout EMA
+86-90,Light EMA
+91-95,Medium EMA
+96-00,Heavy EMA
+
+:Power
+1-15,Power Cell
+16-30,Power Pack
+31-45,Power Clip
+46-60,Power Beltpack
+61-75,Power Backpack
+76-90,Minifusion Cell
+91-98,Plutonium Clip
+99-100,Radioactive Battery
+
+:Grenades
+1-6,Blood Agent Grenade
+07-13,Concussion Grenade
+14-19,Dynamite
+20-25,Energy Grenade
+26-31,Frag Grenade
+32-37,Inferno Grenade
+38-43,Irritant Gas Grenade
+44-49,Molotov Cocktail
+50-55,Mutation Grenade
+56-61,Nerve Gas Grenade
+62-67,Photon Grenade (Lethal)
+68-75,Photon Grenade (Nonlethal)
+76-82,Plasma Grenade
+83-88,Shock Grenade
+89-100,Smoke Grenade
+
+:Bombs
+1-8,Bio Toxin Bomb
+9-17,Concussion bomb
+18-21,Light Anti-Tank Weapon
+22-3,Mutation Bomb
+32-41,Negation Bomb
+42-48,Plasma Bomb
+49-50,Radiation Bomb (Dirty)
+51-59,Radiation Bomb
+60-69,Rocket-Propelled Grenade Launcher
+70-83,Satchel A
+84-93,Satchels BCD
+94-95,Micro-Missile Launcher (30% missiles only)
+96-97,Mini-Missile Launcher (30% missiles only)
+98-100,Missile Launcher (30% missiles only)
+
+:Gizmos
+1-5,Advanced Breathing Apparatus
+6-9,Autograpnel
+10-13,Boron Solution Spray
+14-18,Cigarette Lighter
+19-23,Clones
+24-27,Communicator
+28-31,Electronically Responsive Notation Instrument (“Ernie”)
+32-35,Firestarter Cube
+36-38,Flashlight
+39-42,Force Screen Belt
+43-48,Gas Mask
+49-53,Gas Mask Filter
+54-57,Chemical Sensor
+58-61,Geiger Counter
+62-66,Rad Tab
+67-71,Infra-Red Goggles
+72-76,Motion Detector
+77-81,Optic Scanner
+82-86,Portable Detection Radar
+87-91,Power Fist
+92-95,UV Sterilizer
+96-98,Water Purifier
+99-100,X-Ray Goggles
+
+:FoodJunk
+1-10,Canned Foods
+11-17,Dehydrated Pills
+18-24,Goo Tube
+25-30,Salt Pills
+31-38,Soup Mixes
+39-45,Synthihol
+46-51,Hologram Projector
+52-56,Identity Card
+57-67,Ion Bonding Tape
+68-76,Light Rod
+77-82,Light Stick
+83-87,Magnesium Firestarter
+88-94,Portable Stove
+95-100,Survival Kit
+
+:Drugs
+1-6,Antitox
+7-12,Filter-Dose
+13-18,Hercurin
+19-25,K-O Shot
+26-32,Medi-Spray I
+33-40,Medi-Spray II
+41-46,Proton Energy Pill
+47-52,Rad-Purge Shot
+53-58,Stimshot A
+59-63,Stimshot B
+64-69,Superegen
+70-75,Truth Serum
+76-83,Diagnostic Scanner
+84-91,Healing Pack
+92-98,Ready Syringe
+99-00,Regeneration Tank
+
+:Condition
+1-10, Functions on 1-19 in 20
+11-20, Functions on 1-16 in 20
+21-30, Functions on 1-12 in 20
+31-50, Functions on 1-8 in 20
+51-70,Functions on 1-4 in 20
+71-100, Nonfunctional

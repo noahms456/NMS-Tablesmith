@@ -1,0 +1,523 @@
+# Nms_3.5 Dmg Dungeon Encounter Tables
+# Noah Stevens
+# February 9, 2020
+
+:Level1
+1-03,{Dice~1d3} Medium Monstrous Centipedes
+4-08,{Dice~1d4} Dire Rats
+9-10,{Dice~1d4} Giant Fire Beetles
+11-13,{Dice~1d3} Small Monstrous Scorpions 
+14-16,{Dice~1d3} Small Monstrous Spiders
+17-20,{Dice~1d3} Dwarf Warriors
+21-22,{Dice~1d3} Elf Warriors
+23-25,Piercer
+26-28,Krenshar
+29-30,Lemure
+31-40,{Dice~1d3+1} Goblin Warriors
+41-50,{Dice~1d4+2} Kobold Warriors
+51-56,{Dice~1d4} Human Warrior Skeletons
+57-62,{Dice~1d3} Human Commoner Zombies
+63-71,{Dice~1d4+1} Tiny Viper Snakes
+72-80,{Dice~1d3} Orc Warriors
+81-85,{Dice~1d3} Stirges
+86-90,Spider Swarm
+91-100,[Level2]
+
+:Level2
+1-10,[Level1]
+11-12,Lantern Archon
+13-19,Hobgoblin Warrior And {Dice~1d4} Goblin Warriors
+20-23,Bugbear
+24-26,Choker
+27-28,Dretch
+29-30,Quasit
+31-32,Imp
+33-35,Dire Bat
+36-38,{Dice~1d4+1} Fiendish Dire Rats
+39-40,{Dice~1d3+1} Formian Workers
+41-43,{Dice~1d3+1} Halfling Warriors
+44-50,{Dice~2d4+1} Kobold Warriors
+51-55,Wererat
+56-62,{Dice~1d3+1} Orc Warriors
+63-65,Shocker Lizard
+66-68,Owlbear Skeleton
+69-70,Bat Swarm
+71-72,Rat Swarm
+73-74,Thoqqua
+75-79,Worg
+80-83,Constrictor Snake
+84-87,{Dice~1d4+2} Small Viper Snakes
+88-90,Huge Monstrous Centipede
+91-100,[Level3]
+
+:Level3
+1-10,[Level2]
+11-13,Allip
+14-16,Cockatrice
+17-19,{Dice~2d4+1} Dire Rats
+20-21,Doppelganger
+22-23,Wyrmling Brass Dragon
+24-27,{Dice~1d3} Drow Elves
+28-29,Ethereal Filcher
+30-31,Ethereal Marauder
+32-33,Ettercap
+34-35,Violet Fungus
+36-38,Ghast
+39-43,{Dice~1d3} Gnolls
+44-45,Grick
+46-48,Hell Hound
+49-50,Howler
+51-52,{Dice~1d3} Krenshars
+53-55,{Dice~1d3} Lizardfolk
+56-57,Werewolf
+58-62,Ogre
+63-65,Gelatinous Cube
+66-67,Phantom Fungus
+68-69,Rust Monster
+70-72,Shadow
+73-75,{Dice~2d4} Stirges
+76-77,Locust Swarm
+78-80,Wight
+81-82,Yuan-Ti Pureblood
+83-84,{Dice~1d3} Troglodyte Zombies
+85-86,{Dice~1d3} Medium Viper Snakes
+87-88,Giant Praying Mantis
+89-90,{Dice~1d3} Medium Monstrous Scorpions
+91-100,[Level4]
+
+:Level4
+1-10,[Level3]
+11-12,Barghest
+13-14,{Dice~1d3} Lantern Archons
+15-16,Hound Archon
+17-20,Carrion Crawler
+21-22,{Dice~1d4+1} Darkmantles
+23-27,Displacer Beast
+28-30,Young White Dragon
+31-33,{Dice~1d3+1} Duergar Dwarves
+34-38,Gargoyle
+39-40,Janni
+41-44,{Dice~1d3+1} Ghouls
+45-47,{Dice~1d3+1} Svirfneblin Gnomes
+48-50,{Dice~1d3+1} Grimlocks
+51-52,Harpy
+53-54,Five-Headed Hydra
+55-56,Wereboar
+57-59,Mimic
+60-62,Minotaur
+63-64,Gray Ooze
+65-67,Otyugh
+68-69,Owlbear
+70-71,Centipede Swarm
+72-73,{Dice~1d3+1} Spider Swarms
+74-76,{Dice~1d4+1} Troglodytes
+77-78,Vampire Spawn
+79-80,{Dice~1d3} Worgs
+81-83,Minotaur Zombie
+84-85,{Dice~1d3} Large Viper Snakes
+86-88,{Dice~1d4+1} Large Monstrous Centipedes
+89-90,{Dice~1d3} Large Monstrous Spiders
+91-100,[Level5]
+
+:Level5
+1-10,[Level4]
+11-12,Basilisk
+13-14,Greater Barghest
+15-17,{Dice~1d3+1} Bugbears
+18-19,{Dice~1d3} Celestial Lions
+20-21,Cloaker
+22-23,Bearded Devil
+24-26,{Dice~1d4+4}Dire Bats
+27-28,{Dice~1d3} Doppelgangers
+29-33,{Dice~1d4+2} Drow Elves
+34-35,Ettercap And {Dice~1d3+1} Medium Monstrous Spiders
+36-37,Djinni
+38-39,Gibbering Mouther
+40-41,Green Hag
+42-43,{Dice~1d3} Hell Hounds
+44-45,Six-Headed Hydra
+46-47,Werebear
+48-49,{Dice~1d3} Wererats And {Dice~2d4} Dire Rats
+50-51,Manticore
+52-53,Mummy
+54-56,{Dice~1d3} Ogres
+57-58,Ochre Jelly
+59-60,Phase Spider
+61-62,{Dice~1d3} Rust Monsters
+63-64,Shadow Mastiff
+65-66,{Dice~1d4+1} Skum
+67-68,{Dice~1d3+1} Rat Swarms
+69-71,Troll
+72-73,{Dice~1d4+1} Vargouilles
+74-76,Wraith
+77-78,Yuan-Ti Halfblood
+79-80,Giant Constrictor Snake
+81-82,{Dice~1d3} Huge Viper Snakes
+83-84,{Dice~1d3} Giant Worker Ants
+85-86,{Dice~1d3+1} Large Monstrous Scorpions
+87-88,5th-Level Human Monk Npc
+89-90,5th-Level Kobold Sorcerer NPC
+91-100,[Level6]
+
+:Level6
+1-10,[Level5]
+11-12,{Dice~1d4+2} Lantern Archons
+13-14,Gauth
+15-16,{Dice~1d3+1} Cockatrices
+17-18,Babau
+19-21,{Dice~1d3+1} Derros
+22-23,Chain Devil
+24-25,Digester
+26-30,{Dice~1d3} Displacer Beasts
+31-32,Bralani (Eladrin)
+33-36,Ettin
+37-38,{Dice~1d3+1} Formian Workers
+39-42,{Dice~1d3} Gargoyles
+43-45,{Dice~1d3+1} Ghasts
+46-48,{Dice~1d4+1} Gnolls And {Dice~1d3} Hyenas
+49-50,{Dice~1d3+1} Gricks
+51-52,Annis
+53-54,Half-Dragon 4th-Level Fighter
+55-56,{Dice~1d3} Harpies
+57-58,{Dice~1d3+1} Howlers
+59,Five-Headed Pyrohydra
+60,Five-Headed Cryohydra
+61-63,Wereboar And {Dice~1d3} Boars
+64-65,{Dice~1d3+1} Mephits (Mixed Types)
+66-67,Average Salamander
+68-71,{Dice~1d4+1} Shadows
+72-73,{Dice~1d3+2} Shocker Lizards
+74-75,{Dice~1d3+1} Locust Swarms
+76-78,{Dice~1d3+1} Troglodytes And {Dice~1d3} Monitor Lizards
+79-80,Will-O’-Wisp
+81-82,Xill
+83-84,{Dice~1d3+1} Minor Xorns
+85-86,{Dice~1d3+1} Yuan-Ti Purebloods
+87-88,{Dice~1d4+2} Giant Bombardier Beetles
+89-90,5th-Level Lizardfolk Druid NPC, with 1 Crocodile 
+91-100,[Level7]
+
+:Level7
+1-10,[Level6]
+11-12,Aboleth
+13-14,{Dice~1d4+1} Carrion Crawlers
+15-16,Chaos Beast
+17-19,Chuul
+20-21,Succubus
+22-23,Hellcat
+24-25,Dire Bear
+26-28,Young Copper Dragon
+29-31,Drider
+32-33,{Dice~1d3+1} Violet Fungi And {Dice~1d3+2} Shriekers
+34-35,{Dice~1d3+1} Jann
+36-38,Ghost, 5th-Level Fighter
+39-42,Hill Giant
+43-45,Flesh Golem
+46-47,Eight-Headed Hydra
+48-49,Invisible Stalker
+50-51,{Dice~1d3} Weretigers
+52-53,{Dice~1d3} Manticores
+54-56,Medusa
+57-59,{Dice~1d3+1} Minotaurs
+60-61,Ogre Barbarian, 4th Level
+62-63,Black Pudding
+64-65,Phasm
+66-67,{Dice~1d3+2} Flamebrother Salamanders
+68-69,{Dice~1d3} Shadow Mastiffs
+70-71,Red Slaad
+72-74,Spectre
+75-76,{Dice~1d3+1} Centipede Swarms
+77-80,Umber Hulk
+81-82,Vampire, 5th-Level Fighter
+83-84,{Dice~1d4+1} Wights
+85-86,Yuan-Ti Abomination
+87-88,Gargantuan Monstrous Centipede
+89-90,5th-Level Hobgoblin Fighter NPC And 5th-Level Goblin Rogue NPC
+91-100,[Level8]
+
+:Level8
+1-10,[Level7]
+11-12,{Dice~1d4+2} Hound Archons
+13-14,{Dice~1d4+2} Barghests
+15-17,Behir
+18-19,{Dice~1d3} Gauths
+20-21,Bodak
+22-23,Destrachan
+24-25,{Dice~1d3+1} Bearded Devils
+26-28,Erinyes
+29-31,{Dice~1d3} Bralanis
+32-35,Ettin And {Dice~1d3} Brown Bears
+36-37,Formian Taskmaster And 1 Dominated 5th-Level Human Barbarian NPC
+38-39,Noble Djinni
+40-42,Efreeti
+43-44,{Dice~1d3+1} Ghasts And {Dice~2d4+1} Ghouls
+45-46,Stone Giant
+47-48,Gorgon
+49-51,Seven-Headed Hydr(Pyro- Or Cryo-)
+52-54,Mind Flayer
+55-56,Mohrg
+57-58,{Dice~1d3+1} Mummies
+59-60,Dark Naga
+61-64,Ogre Mage
+65-66,{Dice~1d4+1} Phase Spiders
+67-69,Greater Shadow
+70-71,{Dice~1d3} Advanced Megaraptor Skeletons
+72-73,Blue Slaad
+74-75,Hellwasp Swarm
+76-78,{Dice~1d3+1} Trolls
+79-81,{Dice~1d4+1} Vampire Spawns
+82-83,{Dice~1d3} Average Xorns
+84-86,{Dice~1d3+1} Yuan-Ti Halfbloods
+87-88,{Dice~1d4+1} Giant Stag Beetles
+89-90,{Dice~1d3} 5th-Level Troglodyte Cleric NPCs
+91-100,[Level9]
+
+:Level9
+1-10,[Level8]
+11-13,{Dice~1d4+2} Greater Barghests
+14-16,{Dice~1d4+2} Basilisks
+17-19,{Dice~1d4+2} Cloakers
+20-21,Delver
+22-24,Vrock
+25-27,Bone Devil
+28-30,{Dice~1d3} Devils, Hellcat
+31-33,{Dice~1d3+1} Chain Devils
+34-36,{Dice~1d3} Dire Bears
+37-38,Young Adult Black Dragon
+39,Juvenile Bronze Dragon
+40-42,Drider And {Dice~2d4+3} Medium Monstrous Spiders
+43-44,Formian Myrmarch And {Dice~2d4+1} Formian Warriors
+45-48,Frost Giant
+49-52,Hill Giant And {Dice~1d4+2} Dire Wolves
+53-55,Avoral (Guardinal)
+56-58,Half-Fiend 7th-Level Cleric NPC
+59-61,Ten-Headed Hydra
+62-63,Zelekhut (Inevitable)
+64-66,Spirit Naga
+67-69,Night Hag
+70-72,Ogre Barbarian, 4th Level, And {Dice~1d4+3} Ogres
+73-75,Green Slaad
+76-77,{Dice~1d3+1} Will-O’-Wisps
+78-81,{Dice~1d4+1} Wraiths
+82-84,{Dice~1d3} Yuan-Ti Abominations
+85-87,{Dice~1d3+1} Gray Render Zombies
+88-90,{Dice~1d4+2} 5th-Level Human Paladin NPCs
+91-100,[Level10]
+
+:Level10
+1-10,[Level9]
+11-12,{Dice~1d3+1} Aboleths
+13-15,{Dice~1d3} Behirs
+16-17,{Dice~1d4+2} Gauths
+18-20,{Dice~1d4+1} Chuuls
+21-23,{Dice~1d4+2} Babaus
+24-26,Bebilith
+27-29,{Dice~1d4+2} Digesters
+30-33,{Dice~1d3+1} Ghosts, 5th-Level Fighters
+34-39,Fire Giant
+40-43,Clay Golem
+44-46,{Dice~1d3+1} Flesh Golems
+47-49,Nine-Headed Hydra (Pyro- Or Cryo-)
+50-52,{Dice~1d3+1} Medusas
+53-54,Guardian Naga
+55-57,{Dice~1d3} Ogre Mages
+58-60,{Dice~1d3+2} Average Salamanders
+61-62,Noble Salamander
+63-64,{Dice~1d3} Young Adult Red Dragon Skeletons
+65-67,{Dice~1d4+1} Red Slaadi
+68-70,Gray Slaad
+71-73,{Dice~1d3+1} Spectres
+74-76,{Dice~1d3+1} Umber Hulks
+77-80,{Dice~1d4+1} Xills
+81-83,{Dice~1d3} Elder Xorns
+84-86,Yuan-Ti Troupe: 1 Abomination, {Dice~1d3} Halfbloods, And {Dice~1d4+1} Purebloods
+87-88,{Dice~1d3+1} Huge Monstrous Scorpions
+89-90,5th-Level Drow Wizard NPC, 1 Hellcat, And 1 Mind Flayer
+91-100,[Level11]
+
+:Level11
+1-10,[Level10]
+11-13,{Dice~1d3+1} Aboleths And 2{Dice~1d4}+3 Skums
+14-18,Hezrou
+19-22,Retriever
+23-26,Barbed Devil
+27-30,Devourer
+31-35,{Dice~1d3+1} Efreet
+36-41,{Dice~1d4+1} Hill Giants
+42-45,Stone Golem
+46-49,{Dice~1d3} Avorals (Guardinal)
+50-52,Half-Celestial Paladin
+53-56,Twelve-Headed Hydra
+57-60,Hill Giant Dire Wereboar
+61-64,{Dice~1d3+1} Mohrgs
+65-67,{Dice~1d3+1} Dark Nagas
+68-71,Elder Black Pudding
+72-75,{Dice~1d4+1} Blue Slaadi
+76-78,{Dice~1d3+1} Hellwasp Swarms
+79-82,Troll Hunter
+83-86,Dread Wraith
+87-90,5th-Level Gnoll Ranger NPC, 1{Dice~1d3} Invisible Stalkers, And 1 Greater Shadow
+91-100,[Level12]
+
+:Level12
+1-10,[Level11]
+11-14,{Dice~1d3+1} Bodaks
+15-17,Abyssal Greater Basilisk
+18-24,{Dice~1d3+1} Vrocks
+25-27,{Dice~1d3}+3 Destrachans
+28-34,{Dice~1d3+1} Bone Devils
+35-38,Displacer Beast Pack Lord
+39-45,{Dice~1d4+1} Frost Giants
+46-48,Leonal (Guardinal)
+49-52,Eleven-Headed Hydra (Pyro- Or Cryo-)
+53-55,Kolyarut (Inevitable)
+55-58,{Dice~1d3+2} Mind Flayers
+59-62,10th-Level Half-Orc Barbarian NPC And 10th-Level Human Cleric NPC
+63-66,{Dice~1d3+1} Spirit Nagas
+67-72,Purple Worm
+73-77,Roper
+78-84,{Dice~1d3} Noble Salamanders
+85-90,{Dice~1d4+1} Green Slaadi
+91-100,[Level13]
+
+:Level13
+1-10,[Level12]
+11-18,Beholder
+19-24,Glabrezu
+25-31,Ice Devil
+32-33,Adult Green Dragon
+34-35,Young Adult Silver Dragon
+36-41,Ghaele
+42-48,{Dice~1d3} Fire Giants And 1 Nessian War Hound (Hell Hound)
+49-54,{Dice~1d3+1} Clay Golems
+55-61,Iron Golem
+62-66,Twelve-Headed Hydr(Pyro- Or Cryo-)
+67-70,Lich, 11th-Level Wizard
+71-73,10th-Level Drow Wizard NPC And 10th-Level Goblin Rogue NPC
+74-79,Mummy Lord
+80-84,{Dice~1d3+1} Guardian Nagas
+85-90,Death Slaad
+91-100,[Level14]
+
+:Level14
+1-10,[Level13]
+11-15,Astral Deva (Angel)
+16-20,Trumpet Archon
+21-27,{Dice~1d3+1} Hezrous
+28-35,Nalfeshnee
+36-45,{Dice~1d3+1} Barbed Devils
+46-52,2 Displacer Beast Pack Lords
+53-63,2{Dice~1d4+2} Stone Giants And 1 Elder Stone Giant
+64-69,{Dice~1d3+1} Stone Golems
+70-78,Werewolf Lord
+79-80,Nightwing (Nightshade)
+81-83,{Dice~1d4+2} 10th-Level Goblin Rogue NPCs
+84-90,Truly Horrid Umber Hulk
+91-100,[Level15]
+
+:Level15
+1-10,[Level14]
+11-17,Abyssal Greater Basilisk
+18-26,{Dice~1d3} Beholders
+27-37,Demon Troupe: 1 Glabrezu, 1 Succubus, And {Dice~1d4+1} Vrocks
+38-48,Devil Troupe: 1 Ice Devil, {Dice~2d4}+3 Bearded Devils, And {Dice~1d3} Bone Devils
+49-58,{Dice~1d3} Ghaeles
+59-65,Marut (Inevitable)
+66-74,Vampire, Elite
+75-82,5th-Level Hobgoblin Fighter NPC
+83-90,5th-Level Kobold Sorcerer NPC
+91-100,[Level16]
+
+:Level16
+1-10,[Level15]
+11-15,Planetar (Angel)
+16-21,Hound Archon Hero
+22-28,{Dice~1d3} Trumpet Archons
+29-36,Demon Troupe: 1 Nalfeshnee, 1 Hezrou, And {Dice~2d4+1} Vrocks
+37-47,Horned Devil
+48-50,Mature Adult Blue Dragon
+51-52,Adult Gold Dragon
+53-60,{Dice~1d3+1} Iron Golems
+61-67,Greater Stone Golem
+68-74,Nightshade, Nightwalker
+75-82,{Dice~1d4+2} Ropers
+83-90,5th-Level Lizardfolk Druid NPC
+91-100,[Level17]
+
+:Level17
+1-10,[Level16]
+11-20,Aboleth Mage
+21-30,{Dice~1d4+2} Beholders
+31-43,Marilith
+44-45,Very Old White Dragon
+46-47,Old Brass Dragon
+48-49,Mature Adult Bronze Dragon
+50-62,Frost Giant Jarl
+63-73,9th-Level Mind Flayer Sorcerer
+74-82,5th-Level Human Paladin NPC And 15th-Level Human Monk NPC
+83-90,{Dice~1d3} 15th-Level Hobgoblin Fighter NPCs
+91-100,[Level18]
+
+:Level18
+1-10,[Level17]
+11-25,{Dice~1d4+2} Astral Devas (Angel)
+26-35,{Dice~1d3} Planetars (Angel)
+36-38,Very Old Black Dragon
+39-41,Old Dragon (Blue Or Green)
+42-44,Mature Adult Dragon (Red Or Silver)
+45-47,Ancient White Dragon
+48-62,Nightcrawler (Nightshade)
+63-72,{Dice~1d3} 15th-Level Half-Orc Barbarian NPCs And 15th-Level Human Bard NPC
+73-90,5th-Level Kobold Sorcerer NPC And 1 Werewolf Lord
+91-100,[Level19]
+
+:Level19
+1-10,[Level18]
+11-21,2{Dice~1d4+5} Abyssal Greater Basilisks
+22-36,{Dice~1d3} Mariliths
+37-49,{Dice~1d3+1} Horned Devils
+50-52,Ancient Black Dragon
+53-55,Very Old Dragon (Blue, Green, Or Brass)
+56-58,Wyrm White Dragon
+59-61,Old Dragon (Bronze Or Copper)
+62-64,Mature Adult Gold Dragon
+65-79,{Dice~1d3+1} Greater Stone Golems
+80-90,{Dice~1d3+1} 15th-Level Gnoll Ranger NPCs
+91-100,[Level20]
+
+:Level20
+1-10,[Level19]
+11-45,Balor
+46-80,Pit Fiend
+81-85,Wyrm Black Dragon
+86-90,Old Dragon (Red Or Silver)
+91-95,Ancient Brass Dragon
+96-100,Very Old Copper Dragon
+
+;Low
+10,[Level1]
+5,[Level2]
+1,[Level3]
+
+;Medium
+10,[Level4]
+5,[Level5]
+3,[Level6]
+1,[Level7]
+
+;Hard
+10,[Level8]
+5,[Level9]
+3,[Level10]
+1,[Level11]
+
+;Extreme
+1,[Level12]
+1,[Level13]
+1,[Level14]
+1,[Level15]
+1,[Level16]
+1,[Level17]
+1,[Level18]
+1,[Level19]
+1,[Level20]

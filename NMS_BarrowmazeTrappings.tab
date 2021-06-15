@@ -1,0 +1,120 @@
+﻿#
+# NMS_Barrowmaze Trappings
+#
+# February 10, 2020
+
+:Start
+1,A statue of a terrible gargoyle
+2,the smell of burning garbage
+3,rubble piled into a pyramid in one corner
+4,a strong gust of wind extinguishes torches
+5,a helm with head and expression of horror
+6,a large pile of bone and decaying flesh
+7,a sack of weevil-infested biscuits
+8,footprints, clawed
+9,a statue of a paladin, defaced
+10,several adventurer corpses piled near wall
+11,body of a cleric adventurer, 50% equipped
+12,polished skulls setting on a table
+13,a pile of dead, half-eaten rats
+14,a chalk drawing of several constellations
+15,indiscernible shouting, very distant
+16,the slamming of a door in the distance
+17,rusted cauldron with rotten teeth inside
+18,an altar with fresh blood
+19,a strong gust of wind extinguishes torches
+20,puddles of scummy water
+21,rubble piled into a pyramid
+22,human teeth, yellowed (1d20)
+23,the smell of burning oil
+24,statue head, chipped beyond recognition
+25,a pool of rank water and the smell of mold
+26,statue of st ygg, defaced and knocked over
+27,clanging swords, then silence
+28,body of an elf adventurer, 50% equipped
+29,a large pile of bone and decaying flesh
+30,body of a dwarf adventurer, 50% equipped
+31,a sinister human cackle
+32,a sudden thud, then silence
+33,several adventurer corpses piled near wall
+34,stone grinding on stone in the distance
+35,a very loud hissing sound, very far off
+36,a low snarling noise from behind
+37,a path of dried up bread crumbs at a wall
+38,a strong gust of wind extinguishes torches
+39,painting of a red arrow: "go this way"
+40,a phantom appears with cryptic message
+41,floor coated with flour no prints (yet)
+42,a helm with head and expression of horror
+43,body of a halfling adventurer, 50% equipped
+44,a strong gust of wind extinguishes torches
+45,a sudden thud, then silence
+46,a very loud hissing sound, very far off
+47,stone grinding on stone in the distance
+48,body of a m-u adventurer, 50% equipped
+49,map shows area (& secret doors) in 40’ radius
+50,a scratching noise, just beyond a random wall
+51,footprints, barefoot
+52,wall broken, with rune inscribed beneath
+53,table with dried up tongues left on it
+54,row of spiked adventurer heads
+55,death screams, then silence
+56,rusted cauldron with rotten teeth inside
+57,row of spiked adventurer heads
+58,receding torchlight ahead of the party
+59,a pool of rank water and the smell of mold
+60,the sound of rapidly-beating insect wings
+61,stone grinding on stone in the distance
+62,hand print made in dried blood
+63,a strong gust of wind extinguishes torches
+64,a pool of rank water and the smell of mold
+65,stone grinding on stone in the distance
+66,footprints, booted
+67,the slamming of a door in the distance
+68,a strong gust of wind extinguishes torches
+69,footprints, clawed
+70,air suddenly becomes cool for 1d4 turns
+71,an altar with fresh blood
+72,a chalk drawing of several constellations
+73,a hammer in the distance "tap-tom, tom-tap"
+74,an altar with a pile of bones, gnawed
+75,an obelisk, broken
+76,a pile of dead, half-eaten rats
+77,3 adventurers impaled against wall
+78,a path of dried up bread crumbs stops at wall
+79,a rat carcass, completely flattened
+80,footprints, barefoot
+81,the sound of a door opening slowly
+82,a rat carcass, completely flattened
+83,a sack of weevil-infested biscuits
+84,partial collapse
+85,stones piled over human body with sword
+86,bucket helmet with head
+87,necklace with dried humanoid ears
+88,tattered black burial robes in a pile
+89,a pouch with spell components
+90,25 feet of rope
+91,a pouch with 5 darts
+92,wooden holy symbol
+93,a vial of holy water
+94,a dagger +1
+95,a scroll: 1 mu spell
+96,chalk marks on the walls
+97,air suddenly becomes warm for 1d4 turns
+98,a broken compass
+
+:Graffiti
+#From Barrowmaze I by Greg Gillespie
+1,The entrance sealed behind us Cannot get out
+2,They are coming
+3,Beware the pools
+4,Don’t go on!
+5,The dead walk here
+6,Abandon all hope, you who enter here
+7,Make no sound They will seek you out
+8,I screwed the barmaid at The Brazen Strumpet Lucius wrote this
+9,Antilus was here
+10,Remember: Up then Down
+11,Gaxx sent us!
+12,Beware the tentacle beast It ate Galstaff
+

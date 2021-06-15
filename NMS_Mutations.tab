@@ -1,0 +1,134 @@
+﻿#
+# NMS_Mutations
+#
+
+;Start
+1,[Physical]
+1,[Mental]
+1,[Plant]
+
+:Physical
+1-2,Aberrant Form
+3-4,Chameleon Epidermis
+5-6,Complete Wing Development
+7,Density Alteration
+8-9,Dermal Poison Slime
+10-11,Dual Headed
+12-13,Dwarfism
+14-16,Echolocation
+17-18,Energy Ray
+19,Energy Retaining Cell Structure
+20-21,Epidermal Photosynthesis
+22-23,Fragrance Development
+24-25,Gigantism
+26-27,Increased Balance
+28-29,Increased Physical Attribute
+30-31,Increased Sense
+32-33,Metamorph
+34,Natural Armor
+35-36,Night Vision
+37-38,Optic Emissions
+39,Parasitic Control
+40-41,Prehensile Tail
+42-43,Quickness
+44-45,Reflective Epidermis
+46,Regenerative Capability
+47-48,Shriek
+49-50,Spiny Growth
+51-53,Thermal Vision
+54,Toxic Weapon
+55-56,Ultraviolet Vision
+57,Unique Sense
+58-59,Albinism
+60-61,Bizarre Appearance
+62-63,Epidermal Susceptibility
+64-65,Frailty
+66-67,Hemophilia
+68-69,Increased Caloric Needs
+70-71,Obese
+72-73,Pain Insensitivity
+74-75,Pain Sensitivity
+76-79,Pituitary Deformation
+80-83,Poison Susceptibility
+84-86,Prey Scent
+87-88,Reduced Immune System
+89-90,Reduced Oxygen Efficiency
+91-93,Sensory Deficiency
+94-95,Simian Deformity
+96-98,Slow Mutant
+99-100,Vision Impairment
+
+:Mental
+1-3,Ability Boost
+4-5,Accumulated Resistance
+6-8,Acute Hyper Healing
+9-10,Ancestral Form
+11-13,Body Adjustment
+14-15,Combat Empathy
+16-18,Control Light Waves
+19-20,Control Weather
+21-23,Damage Turning
+24-25,Density Alteration
+26-27,Disintegration
+28-30,Dual Cerebellum
+31-33,Empathy
+34-35,Flight, Psionic
+36-38,Force Screen
+39-40,Force Screen, Greater
+41-42,Increased Willpower
+43-45,Intellectual Affinity
+46-47,Killing Sphere
+48-50,Know Direction
+51-53,Mental Barrier
+54-56,Mental Phantasm
+57-59,Metaconcert
+60-61,Mind Thrust
+62-63,Neural Telekinesis
+64-66,Neural Telepathy
+67-68,Plane Shift
+69-70,Possession
+71-72,Precognition
+73-75,Mind Reflection
+76-78,Quick Mind
+79-80,Teleport
+81-82,Temperature Control
+83-85,Vampiric Field
+86-87,Atrophied Cerebellum
+88-89,Dual Cerebellum 
+90-92,Mind Reflection
+91-93,Negative Empathy
+94-95,Phantasmal Damage
+96-98,Phobia
+99-100,Weak Will
+
+:Plant
+1-4,Abnormal Size
+5-7,Accumulated Resistance
+8-10,Animal Limbs or Organs
+11-13,Animate Seeds
+14-16,Carnivore
+17-19,Chameleon Metamorph
+20-23,Dermal Acid Sap
+24-27,Dermal Poison Sap
+28-30,Electric Charge Generation
+31-33,Flight
+34-36,Fragrance Development
+37-39,Free Movement
+40-42,Full Senses
+43-45,Grenade-like Fruit
+46-48,Injected Poison Sap
+49-51,Natural Armor
+52-54,Natural Vegetal Weapons
+55-57,Poisonous Spores
+58-60,Prehensile Tendrils
+61-63,Projectile Thorns
+64-67,Radioactive Emissions
+68-70,Reflective Cellular Structure
+71-73,Shriek
+74-77,Thermal Emissions
+78-80,Tripping Tendrils
+81-83,Vegetal Parasite
+84-86,Nocturnal
+87-90,Prey Scent
+91-94,Reduced Fertility
+95-100,Thermal Sensitivity

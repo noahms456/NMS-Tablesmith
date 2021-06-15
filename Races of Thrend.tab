@@ -1,0 +1,116 @@
+﻿#
+# Races of Thrend
+#
+# By Noah Stevens June 2018
+
+:Start
+1-20,Human
+22,Elf
+22,Dwarf
+23,Sea Blood
+24,Derro
+25,Voormis
+26,Ape
+27,White Ape
+28,Mutant
+29,Cyborg
+30,Synthoid
+31,Wood Golem
+32,Clay Golem
+33,Revenant
+34,Wereboar
+35,Werewolf
+36,Wererat
+37,Weretiger
+38,Dog
+39,Rabbit
+40,Kenku
+41,Scrappler
+42,Robot
+43,Cloth Golem
+44,Straw Man
+45,Winged Monkey
+46,Businessman
+47,Vampire
+48,Quasilich
+49,Neanderthal
+50,Mongrelman
+51,Zomborg
+52,Pumpkinhead
+53,Tinperson
+54,Hyooman
+55,Clockwork Person
+56,Porcelain Golem
+57,Dark Elf
+58,Dark Dwarf
+59,Wood Elf
+60,Scavvie
+61,Blinker
+62,Upright {Cap~[Creatures]}
+63,Newhon Ghoul
+64,Grey Man
+65,Blue Man
+66,Subhuman
+67,Atlantean
+68,Yuan-Ti
+69,Slug Man
+70,{Cap~[NMS_Candy.Start]} Person
+71,Food Person
+72,Cimmerian
+73,Ur-Men
+74,Centaur
+75,Satyr
+76,Goblin
+77,Gnome
+78,Kappa
+79,Githyanki
+80,Moon Dweller
+82,Dralasite
+83,Yazirian
+84,Bug Person
+85,Pixie
+86,Faerie
+87,Fay {Cap~[Creatures]}
+88,Dreamlands [Start]
+89,Shadow [Start]
+90,Alternate Dimension [Start]
+91,Were[Creatures]
+92,Amnestic [Start]
+93,Cursed [Start]
+94,Heaven-Flung [Start]
+
+:Creatures
+1-3,bear
+4-5,boar
+6-9,bull
+10,cow
+11,horse
+12-13,hound
+14-15,lamb
+16-19,lion
+20-22,serpent
+23-25,stag
+26-27,tiger
+28-30,wolf
+31,sturgeon
+32,elk
+33,badger
+34,hare
+35,bat
+36,lizard
+37,squirrel
+38-40,fox
+41,dolphin
+42-43,panther
+45-46,ram
+47,goat
+48,beaver
+49,mountain lion
+50,tortoise
+51,pike
+52,frog
+53,rat
+54,mare
+55,stallion
+56,plowhorse
+57,ox

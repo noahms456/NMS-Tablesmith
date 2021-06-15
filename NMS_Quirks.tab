@@ -1,0 +1,522 @@
+﻿#Name:	Character Quirks
+#Date:	2008-12-02
+#By:		JDCorley
+#edited by Noah Stevens June 2018
+
+;Start
+3,[short]
+1,[long]
+
+;short
+1,[physical]
+1,[impression]
+
+;physical
+2,[Color.Start]-haired
+2,[Color.Start]-eyed
+2,[voiced]-voiced
+2,[skinned]-skinned
+2,[build] physique
+2,[stature]
+2,[complexion]
+2,[other]
+
+;other
+1,Heart-faced
+1,Gap-toothed
+1,Naked
+1,Hunchbacked
+1,Masked
+1,Veiled
+1,Foul-smelling
+1,Pierced all over
+1,Filthy
+1,Shapely
+1,Good-looking
+1,Ugly
+1,Balding
+1,Hairy
+
+;complexion
+1,Freckled
+1,Jaundiced
+1,Pale
+1,Rosy-cheeked
+1,Ruddy
+1,Sallow
+1,Sanguine
+
+;stature
+1,Compact
+1,Elongated
+1,Long
+1,Short
+1,Squat
+1,Tall
+
+;build
+1,[endo]
+1,[ecto]
+1,[meso]
+
+;ecto
+1,Angular
+1,Bony
+1,Emaciated
+1,Gangling
+1,Gangly
+1,Gaunt
+1,Hollow-cheeked
+1,Lanky
+1,Pinched
+1,Rawboned
+1,Scraggly
+1,Scrawny
+1,Skeletal
+1,Skin-and-bones
+1,Skinny
+1,Spindly
+1,Underfed
+1,Undernourished
+1,Underweight
+1,Waiflike
+1,Wasted
+1,Weedy
+
+;meso
+1,Able-bodied
+1,Athletic
+1,Beefy
+1,Brawny
+1,Broad-shouldered
+1,Burly
+1,Fit
+1,Hardy
+1,Healthy
+1,Hearty
+1,Hunky
+1,Husky
+1,Lusty
+1,Muscular
+1,Powerful
+1,Robust
+1,Strapping
+1,Strong
+1,Sturdy
+1,Trim
+1,Vigorous
+1,Well-built
+
+;endo
+1,Ample
+1,Beefy
+1,Bulky
+1,Chubby
+1,Chunky
+1,Corn-fed
+1,Corpulent
+1,Fat
+1,Fleshy
+1,Full-figured
+1,Heavy-set
+1,Overweight
+1,Paunchy
+1,Porky
+1,Portly
+1,Pudgy
+1,Roly-poly
+1,Rotund
+1,Round
+1,Stout
+1,Tubby
+1,Well-padded
+1,Zaftig
+
+;skinned
+3,Dark
+2,Rough
+1,Fair
+1,Light
+1,Pale
+
+;voiced
+1,Annoying
+1,Deep
+1,Gravel
+1,High
+
+;impression
+1,Animal-hater
+1,Animal-lover
+1,Bashful
+1,Boastful
+1,Bookish
+1,Boorish
+1,Bored
+1,Boring
+1,Bossy
+1,Businesslike
+1,Calm
+1,Cat-lover
+1,Chatty
+1,Cherubic
+1,Childlike
+1,Complainer
+1,Confused
+1,Courteous
+1,Cynical
+1,Daydreamer
+1,Depressed
+1,Diseased
+1,Dislikes children
+1,Dislikes crowds
+1,Disorganized
+1,Disrespectful
+1,Dog-lover
+1,Drunk
+1,Emotionless
+1,Familiar-looking
+1,Fashionable
+1,Fast-talker
+1,Fatalistic
+1,Fidgety
+1,Flamboyant
+1,Flea-infested
+1,Flirtatious
+1,Foppish
+1,Forbidding
+1,Forgetful
+1,Foul-mouthed
+1,Free-spirited
+1,Friendly
+1,Frightened
+1,Frowning
+1,Frustrated
+1,Garrulous
+1,Generous
+1,Gentle
+1,Giggly
+1,Glaring
+1,Glum
+1,Gluttonous
+1,Gnarled
+1,Gossipy
+1,Graceful
+1,Grateful
+1,Greedy
+1,Grim
+1,Grubby
+1,Gruff
+1,Guarded
+1,Guilt-ridden
+1,Gullible
+1,Happy
+1,Hard-hearted
+1,Hard-nosed
+1,Hardworking
+1,Hates children
+1,Haughty
+1,Haunted
+1,Heartbroken
+1,Hedonistic
+1,Helpful
+1,Hero-worshiping
+1,Hollow-eyed
+1,Homesick
+1,Hopeful
+1,Hospitable
+1,Hostile
+1,Hot-tempered
+1,Humble
+1,Humorless
+1,Husky
+1,Hypochondriac
+1,Inquisitive
+1,Jaded
+1,Jealous
+1,Jumpy
+1,Kind
+1,Klutzy
+1,Laconic
+1,Lecherous
+1,Likes children
+1,Likes crowds
+1,Limp
+1,Lisping
+1,Lively
+1,Lonely
+1,Looks drowsy
+1,Loud
+1,Lovesick
+1,Low-voiced
+1,Lusty
+1,Machiavellian
+1,Melancholy
+1,Near-sighted
+1,Nervous
+1,Nostalgic
+1,Nosy
+1,Pack-rat
+1,Patriotic
+1,Patronizing
+1,Pennypincher
+1,Pessimistic
+1,Pious
+1,Poker-faced
+1,Polite
+1,Pouty
+1,Probably crazy
+1,Quiet
+1,Rude
+1,Salty
+1,Shallow
+1,Shifty
+1,Shivering
+1,Silent
+1,Sing-song
+1,Sloucher
+1,Smiling
+1,Smirking
+1,Sneezes constantly
+1,Solemn
+1,Superstitious
+1,Suspicious of everything
+1,Uncomfortable around men
+1,Uncomfortable around women
+1,Well-bred
+
+;long
+1,Adopts stray animals
+1,Always bragging about past accomplishments, even made-up ones
+1,Always breaks things, trips over things, etc
+1,Always buying new clothes
+1,Always corrects people
+1,Always faces an emergency by taking command of the situation
+1,Always gets off on a tirade when a particular subject is brought up
+1,Always has money in his or her pocket to give to beggars or homeless
+1,Always hides cash in socks, shorts, bra, etc
+1,Always knows the direction he or she is traveling in
+1,Always says “I worked hard!” to justify bad results
+1,Always sits with back to the wall
+1,Always speaks in a calm, cool voice, especially when enraged
+1,Always speaks of themselves in the third person
+1,Always treats everyone with respect, no matter their class or station
+1,Always tweaks what he’s already completed, to make it better
+1,Always wants someone to help, even with the simplest tasks
+1,Always wears gloves in public
+1,Asks for the same thing repeatedly, despite repeated assurances that it’s unfeasible, impossible, unavailable, etc
+1,Becomes depressed unless given a steady stream of positive feedback
+1,Becomes excited at the prospect of a favorite activity
+1,Becomes increasingly eloquent when lying
+1,Becomes mired in grief when a favorite fictional character dies
+1,Believes God is a sham created by the clergy to get money
+1,Believes people are born lucky or unlucky and will explain every event in these terms
+1,Brushes teeth compulsively
+1,Buys only red cars
+1,Can find happiness with any lover
+1,Can only see out of one eye or hear out of one ear
+1,Can sneeze on demand
+1,Can speak in a cartoon-like voice which sounds little or nothing like his or her real voice
+1,Can’t resist a dare
+1,Can’t resist a double dog dare
+1,Can’t swallow pills must dissolve or mush them up in food or drink
+1,Cannot drink anything with ice in it
+1,Cannot sleep without socks on
+1,Carries a large coin, which he or she is always rolling over his or her knuckles
+1,Carries a snack with them everywhere just in case
+1,Changes hair color weekly
+1,Collector. Collects art, antiques, trinkets or bottle-caps, etc
+1,Collects “tools of the trade”, even historical and outdated tools
+1,Complains that an old wound pains them
+1,Compulsively interrupts others telling stories, to interject facts he or she only knows from having heard the story before, not because they were involved with it
+1,Considers themselves a good judge of character, but is not
+1,Corrects people when they use colloquial speech
+1,Could never accept that their close friend has a fatal flaw, even if true
+1,Despises losing...at anything
+1,Dislikes clothes mainly shirts
+1,Dislikes music
+1,Dislikes smoking
+1,Dislikes tattoos
+1,Distrusts everyone outside a circle of close friends
+1,Doesn’t drink alcohol
+1,Doesn’t eat green things
+1,Doesn’t know how to dance
+1,Doesn’t wash his or her hands after using the bathroom
+1,Dots his or her I’s with a smiley face or heart
+1,Drags his or her feet
+1,Draws random doodles on any piece of paper in front of him or her and always carries a pen or pencil to facilitate this habit
+1,Early morning jogger and health nut
+1,Ends declarative sentences with interrogative inflection
+1,Enjoys being their own voice-over
+1,Enjoys friendly rivalry with others
+1,Excessively uses initials or acronyms for common and uncommon phrases and doesn’t explain them
+1,Falls into military “at ease” stance when relaxed
+1,Fancies himself (or herself) a womanizer or mankiller, depending on preference
+1,Gets angry when people mispronounce a certain word
+1,Gets others to agree first to something they don’t want knowing it will make it easier to get them to agree later to something they do want
+1,Giggles when afraid
+1,Goes barefoot whenever possible
+1,Goes strictly by-the-book
+1,Has 2 differently colored eyes
+1,Has a fear of burning
+1,Has a fear of developing B.O therefore carries around various perfumes or colognes
+1,Has a hairy big toe
+1,Has a huge beard (or loves beards)
+1,Has an autistic brother or sister who lives with him or her
+1,Has an embarrassing and enraging nickname
+1,Has an odd obsession
+1,Has drawn up a list of transgressions and a revenge appropriate for each
+1,Has odd sudden movements or ‘tics’
+1,Has outsized feet
+1,Has several double-jointed body parts that bend or flex in an unnatural or uncanny way
+1,Has several hidden body piercings or tattoos that regular clothing hide
+1,Hates Roughing it
+1,Hates awkward silences, and feels obliged to fill them with bad jokes
+1,Hates routine
+1,Hogs the middle of any aisle, sidewalk, or other shared walkway, forcing others to move around him or her
+1,If someone punches their left arm, they must hit the other arm to even it out
+1,Insists everyone call them by a different nickname each day, depending on their mood
+1,Insists upon sparring in some sport, martial art, or competition every day
+1,Intensely passionate in what they pursue and believe, often blowing up or screaming because of this passion
+1,Is a bargain hunter
+1,Is a chain smoker
+1,Is a habitual sniffler even when he or she is healthy
+1,Is a hypochondriac
+1,Is a quadruplet
+1,Is always at least ten minutes early to any meeting or appointment
+1,Is always trying to recruit people to his or her religious or philosophical beliefs
+1,Is an avid fisherman
+1,Is an avid Hunter
+1,Is an early riser
+1,Is an incessant fidgeter and is always touching his or her face or head
+1,Is disorganized (but always knows where everything is)
+1,Is easily deceived by anyone who uses words he doesn’t understand
+1,Is easily swayed by a pretty face
+1,Is fickle
+1,Is never seen without a baseball cap or stocking cap
+1,Is obsessed with the idea that people must respect them
+1,Is overly honest, always telling the truth even to his or her own detriment
+1,Is prone to drinking binges
+1,Is so determined to create a nuclear-free world that he or she has become a yes-person for all nonproliferation causes
+1,Is strongly susceptible to “brain freeze.”
+1,Is susceptible to malapropisms or spoonerisms
+1,Is terrified of all bugs, even butterflies and moths
+1,Is unable to digest proteins correctly and gets very ill if too much protein rich food is consumed
+1,Is unable to take advice from anyone because he or she thinks that they know it all
+1,Is upset when faced with a messy room
+1,Keeps a journal
+1,Keeps notes in a journal that is always in their pocket
+1,Laughs at inappropriate times
+1,Likes (or dislikes) to entertain
+1,Likes a particular animal as a pet and will explain why that animal is the best
+1,Likes a particular kind of music and will explain why it is the best
+1,Likes music
+1,Likes smoking
+1,Likes tattoos
+1,Likes tattoos on others
+1,Likes to drink a hot cup of tea before bedtime
+1,Likes to give small gifts, may be offended if not appreciated
+1,Likes to humiliate their enemies
+1,Likes to read books
+1,Likes to take things apart to see how they work
+1,Likes to tell bad jokes
+1,Likes to tell tall tales
+1,Likes to travel by water
+1,Loathes to be photographed
+1,Loves a particular drink (beer, wine, etc.) more than any other and will tell you so at length
+1,Loves to wear costume jewelry, tricked out clothing, etc
+1,Makes molehills out of mountains
+1,Makes up random lies about unimportant things for no reason
+1,Names and becomes attached to stuffed animals, caterpillars, rocks, raindrops on the window, etc
+1,Narrates his own actions
+1,Needs to be the center of attention
+1,Never asks for help
+1,Never forgets a favor or a debt owed
+1,Never shows strong emotion
+1,Never talks about their past
+1,Once ran in a cross-country relay race and voluntarily chose the leg that was supposed to be the hardest
+1,Once started hollering random numbers while someone was counting
+1,Only strengthens their resolve when told, “It’ll never make any difference.”
+1,Picks at nails
+1,Practically gives money away, knowing it will come back manyfold
+1,Prattles on about trivia when there are significant matters to discuss
+1,Prefers to rely on instincts
+1,Professes multiple, incompatible religions
+1,Profusely sweats even when at rest
+1,Raises chickens, pigs, or other small livestock
+1,Refuses to fight with anyone wearing glasses
+1,Refuses to go anywhere unarmed
+1,Refuses to learn how to drive
+1,Refuses to use the escalator, for fear of having a shoelace sucked under (even if wearing sandals!)
+1,Refuses to wear a specific color
+1,Regularly looks up at the sky to check the position of the sun or moon and comments on it
+1,Relates everything to a fable or allegory
+1,Shaves their head to avoid looking bald
+1,Short, but envies those who are tall
+1,Shouts “I’m here!” when startled
+1,Sings old songs all the time
+1,Speaks every errant thought
+1,Stares into fires
+1,Strongly dislikes the sound of chewing and hums a quiet song while eating
+1,Takes every question as a criticism
+1,Takes stupid bets or dares for small amounts of money
+1,Talks to a pet about their problems
+1,Talks to inanimate objects and or or their self
+1,Talks to their equipment and gives them pet names (i.e., “Mr. Blackie Boots, I think it is time for US to beat a hasty retreat.”)
+1,Tall, but envies those who are short
+1,Toys with random objects (e.g. bottle caps, straws, chopsticks)
+1,Turned on by any woman’s name (or man’s, depending on preference) with a certain sound in it
+1,Twirls or Pulls or Plays with own hair often
+1,Uses terms of endearment when angry. “Now dearie, you shouldn’t have done that.”
+1,Very vain about his appearance
+1,Wakes promptly at 6 AM; falls asleep at 10 PM
+1,Was a ward of the court until age 18
+1,Wear a pair of gloves that he or she is always adjusting
+1,Wears an old headband at all times
+1,Wears only new socks
+1,Wears only one earring
+1,Wears something [Color.Start] every day
+1,When dining out, always tidies up the table and resets the condiments
+1,When stressed or lying, speaks from the corner of his or her mouth
+1,When traveling by car, always stops for dinner at the same fast food chain and orders the same meal
+1,Whistles an annoying song at random time and refuses to stop
+1,Will accept almost anything as normal, once it is explained, no matter how outlandish the explanation
+1,Willing to do anything for new information
+1,Writes with left hand, but does everything else right-handed
+1,Always replies to any email within 24 hours
+1,Always uses a handkerchief to touch a public telephone, chair, etc
+1,Can calculate the total of any items put in a shopping cart and tax to within 5 cents
+1,Can name every freeway in Los Angeles, both name and number
+1,Carries batteries with them everywhere “just in case”
+1,Constantly quotes favorite movies and can usually identify the movie that a quote may come from
+1,Firmly believes the lunar landing was faked on a North Dakota prairie
+1,Forms an emotional attachment to fine cars, collectibles, etc., even if owned by someone else, and feels slighted if the they are mistreated
+1,Has a Chia Pet collection, and all Chia Pets in this collection are growing chia
+1,Is disgusted by the look of live fish, yet can eat cooked fish or sushi
+1,Is obsessed with reducing his or her carbon footprint
+1,Knows several people who work at fast food restaurants, but doesn’t work at a fast food restaurant
+1,Once boycotted an airplane flight simply because of the atrocious carbon footprint
+1,Once evacuated from a mere Category 1 hurricane, and has never lived in a mobile home
+1,Reads every newspaper and website and watches every news program
+1,Refuses to learn how to use a computer, but can’t live without their Blackberry
+1,Regularly mispronounces a certain word
+1,Always salutes his foe before battle
+1,Character is bigoted against a fantastical race
+1,Character is bigoted against dwarves
+1,Character is bigoted against elves
+1,Character is bigoted against half-breeds
+1,Committed to “Progress” and “Civilization.”
+1,Detests barbarians and savage behavior
+1,Detests Mages and magic in general
+1,Detests Pirates
+1,Dislikes white horses and will refuse to ride horses of this color
+1,Is covered in Tattoos that subtly move
+1,Likes white horses and will only ride horses of this color
+1,Wears warpaint into battle
+1,Xenophilic and loves to be around other races
+1,Always salutes his foe before battle
+1,Collects lightsabres
+1,Collects souvenirs from his fallen foes
+1,Detests Jedi and the Force in general
+1,Detests Pirates
+1,Xenophilic: Loves to be around other races

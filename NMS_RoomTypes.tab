@@ -1,0 +1,158 @@
+#
+# Room Types for Fortescues' Demesne
+# Noah Stevens
+# July 26, 2018
+# Many of these were stolen from Kabuki Kaiser's Terrific Castle Gargantua
+#
+#
+
+:Start
+1-10,[General]
+11,[Blood]
+12,[Lust]
+13,[Science]
+
+;General
+1,Antechamber
+1,Armory
+1,Audience
+1,Aviary
+1,Banquet
+1,Barracks
+1,Bath
+1,Bedroom
+1,Bestiary
+1,Cell
+1,Chantry
+1,Chapel
+1,Cistern
+1,Classroom
+1,Conjuring Room
+1,Court
+1,Crypt
+1,Dormitory
+1,Entryway
+1,Vestibule
+1,Gallery
+1,Guardroom
+1,Hall
+1,Great Hall
+1,Harem
+1,Seraglio
+1,Kennel
+1,Divination Room
+1,Kitchen
+1,Laboratory
+1,Library
+1,Meditation
+1,Observatory
+1,Pen
+1,Prison
+1,Secret Chamber
+1,Reception Room
+1,Refectory
+1,Robing Room
+1,Shrine
+1,Smithy
+1,Solarium
+1,Stable
+1,Storage
+1,Strongroom
+1,Vault
+1,Study
+1,Temple
+1,Throne Room
+1,Torture Chamber
+1,Training Room
+1,Gymnasium
+1,Trophy Room
+1,Museum
+1,Waiting Room
+1,Well
+1,Workroom
+1,Workshop
+
+;Blood
+1,Arena
+3,Barracks
+2,Battlefield
+1,Blacksmith Forge
+3,Butchery
+1,Charnel Ground
+1,Cold Locker
+1,Coppersmith Forge
+1,Court, Open Air
+1,Crematorium
+1,Crevasse
+1,Fissure
+1,Gorge
+4,Guardroom
+3,Jail, Cell
+1,Kennel
+2,Meat Larder
+1,Morgue
+1,Oubliette
+1,Ossuary
+1,Sacrificial Room
+1,Taxidermy Laboratory
+1,Torture Room
+1,Training Room
+1,Trophy Room
+1,Vault
+1,Wall Walk
+1,Zoo
+
+;Lust
+2,Antechamber
+1,Asylum
+1,Aviary
+1,Ballroom
+1,Banquet Room
+2,Bath
+3,Bedroom
+3,Boudoir
+1,Brothel
+1,Chamber Of Statues
+2,Cesspit
+1,Treasury
+1,Dressing Room
+1,Fishpond
+1,Gallery
+1,Game Room
+1,Hall Of Mirrors
+1,Harem
+1,Idol Chamber
+1,Kitchen
+1,Laundry
+1,Lounge
+1,Museum
+1,Pantry
+1,Privy
+1,Salon, Pink
+1,Salon, Purple
+1,Salon, Satin
+1,Storage Room
+1,Study
+1,Topiary Garden
+1,Vestibule
+1,Waiting Room
+
+;Science
+1,Laboratory
+1,Observatory
+1,Scullery
+1,Operating Gallery
+1,Battery Room
+1,Vivisection Laboratory
+1,Surgery
+1,Instrument Storage
+1,Planetarium
+1,Library
+1,Tannery
+1,Vats
+1,Brewery
+1,Alchemy Laboratory
+1,Cogitator
+1,Clockworks
+1,Steam Plant
+

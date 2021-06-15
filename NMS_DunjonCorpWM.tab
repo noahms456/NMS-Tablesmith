@@ -1,0 +1,162 @@
+﻿#
+# NMS_DunjonCorpWM
+#
+# DunjonCorp Wandering Monsters
+# Noah Stevens
+# September 5, 2018
+
+;Start
+1,[Level1]
+1,[Level2]
+1,[Level3]
+1,[Level4]
+1,[Level5]
+1,[Level6]
+1,[Level7]
+1,[Level8]
+1,[Level9]
+1,[Level10]
+
+;Low
+10,[Level1]
+5,[Level2]
+1,[Level3]
+
+;Medium
+10,[Level2]
+5,[Level3]
+3,[Level4]
+1,[Level5]
+
+;Hard
+10,[Level7]
+5,[Level8]
+3,[Level9]
+1,[Level10]
+
+;Extreme
+10,[Level8]
+3,[Level9]
+1,[Level10]
+
+
+:Level1
+1-5,{Dice~1d6} Giant Bats
+6-10,{Dice~1d4} Fire Beetles
+11-19,{Dice~2d6+3} Brigands
+20-25,{Dice~1d4+1} NPC Adventurers
+26-35,{Dice~1d12+5} Gibberlings
+36-42,{Dice~2d8+4} Jinxkins
+43-50,{Dice~6d3} Kobolds
+51-60,{Dice~3d6} Mites
+61-75,{Dice~5d4} Giant Rats
+76-79,{Dice~1d3} Rot Grubs
+80-85,{Dice~1d4} Skeletons
+86-90,{Dice~1d4} Animal Skeletons
+91-95,{Dice~1d8} Snyads
+96-100,{Dice~1d3} Zombies
+
+:Level2
+1-9,{Dice~2d6+1} Giant Centipede
+9-14,{Dice~1d4+1} NPC Adventurers
+15-25, a Coffer Corpse
+26-39,{Dice~2d4} Flinds
+40-48,{Dice~1d6} Giant Carnivorous Flies
+49-53,{Dice~2d4+2} Lizard Men 
+54-65,{Dice~1d8} Skulks
+66-75,{Dice~2d6+3} Stirges
+76-85,{Dice~1d6} Thieves 
+86-91,{Dice~1d4} Giant Toads
+92-100,{Dice~1d4+1} Vaporware Rats
+
+:Level3
+1-8,{Dice~1d6+1} Bugbears
+9-14,{Dice~1d4+1} NPC Adventurers
+15-23,a Dark Creeper
+24-28,{Dice~1d6} Fire Snakes
+26-35,a Gelatinous Cube
+36-45,{Dice~1d4} Ghouls
+46-52,{Dice~1d4} Huecuva
+53-61,an Iron Cobra
+62-78,{Dice~1d4+1} Wererats
+79-85,a Meazel
+86-89,a Necrophidius
+90-94,an Ochre Jelly 
+95-100,{Dice~1d3} Giant Ticks
+
+:Level4
+1-10,{Dice~1d3} Albino Apes
+11-20,a Caterwaul
+21-26,{Dice~1d4+1} NPC Adventurers
+27-35,a Dark Stalker
+36-40,a Flame Horror
+41-50,{Dice~1d2} Gargoyles
+51-65,{Dice~1d4} Ghasts
+66-75,a Gray Ooze
+76-80,a Giant Leech
+81-85,a Rust Monster
+86-90,a Giant Python
+91-95,{Dice~1d2} Rot Zombies
+96-100,a Wind Terror
+
+:Level5
+1-10,an Animated Iron Statue
+11-20,an Animated Stone Statue
+21-25,2 Caryatid Columns
+26-31,{Dice~1d4+1} NPC Adventurers
+32-42,a Cloaker
+43-50,a Crypt Aberration
+51-60,{Dice~1d3} Dopplegangers
+61-70,{Dice~1d3} Giant Horned Chameleons
+71-80,{Dice~1d2} Lesser Seran'kaths
+81-90,{Dice~1d4} Shadows
+91-100,a Crawling Death
+
+:Level6
+1-9,{Dice~1d2} Carcass Scavengers
+10-15,{Dice~1d4+1} NPC Adventurers
+16-26,a Djinni
+27-40,a Mustard Jelly
+41-50,a Raksasha
+51-60,{Dice~1d3} Phase Spiders
+61-70,{Dice~1d2} Giant Trolls
+71-75,a Spirit Troll
+76-80,a Vision of Horror
+81-90,{Dice~1d4} Wights
+91-100,{Dice~1d2} Wraiths
+
+:Level7
+1-9,a Black Pudding
+10-15,{Dice~1d4+1} NPC Adventurers
+16-20,an Eye of Chaos, Fear, and Flame
+21-30,{Dice~1d3} Stone Giants
+31-40,an Invisible Stalker
+41-45,a Lurker Above
+46-60,{Dice~1d2} Mummies
+61-70,{Dice~1d2} Spirit Nagas
+71-80,{Dice~1d2} Night Hags
+81-90,a Para-Elemental of Smoke
+91-100,a Specter
+
+:Level8
+1-6,{Dice~1d3} NPC Adventurers
+7-15,a Death Knight
+16-35,{Dice~1d3} Chasme Demons
+36-50,a Ghost
+51-65,a Clay Golem
+66-80,a Skeleton Warrior
+81-100,a Trapper
+
+:Level9
+1-6,{Dice~1d3} NPC Adventurers
+7-15,a Crimson Death
+16-45,a Gray Slaad
+46-65,a Stone Golem
+66-85,a Guardian Naga
+86-100, a Nycadaemon
+
+:Level10
+1-6,{Dice~1d2} NPC Adventurers
+7-30,a Death Slaad
+31-50,an Iron Golem
+51-100,a Lich Thief

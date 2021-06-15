@@ -1,0 +1,371 @@
+﻿#
+# NMS_Moldvay Dungeon method for DunjonCorp 2018
+# Noah Stevens
+# July 10, 2018
+# Edited for The Ancient Telengardians of Thrend
+#
+
+:Start
+# Variables
+
+%TreasureYES%,0
+%TreasureNO%,0
+%Level%,0
+
+@Level,1,What level of the dungeon do you wish to generate?,1,2,3,4,5,6,7,8,9,10
+
+1,[Contents][Loot]
+
+:Contents
+1-5,|TreasureYES=2||TreasureNO=1|This room is occupied by {Bold~[Monster=%Level%]}.
+6-8,|TreasureYES=1||TreasureNO=1|This room is trapped with {Italic~[Trap]}.
+9-10,|TreasureYES=3||TreasureNO=5|{Italic~[Feature]}.
+11-12,|TreasureYES=1||TreasureNO=15|[Empty]
+
+
+;Loot
+?%TreasureYES%, {Cap~[Treasure]} can be found hidden or concealed, here.<br />
+?%TreasureNO%,<br />
+
+:Monster
+1-10,[NMS_Telengard_WM.Start]
+
+
+;Empty
+5,It is dusty, here.
+5,It is very dusty, here. The dust is recently disturbed.
+5,It is [Light] here.
+5,[Air] air.
+5,[Smell] smell.
+2,This room was once a [Type].
+1,There are sproutings of luminescent fungi, here.
+
+;Trap
+10,[NMS_FantasyTraps.Start]
+1,AL x 10' Deep Pit 1d6 damage
+1,AL x 10' Deep Pit with Spikes 1d8 damage
+1,Cesspit - DC 15 Reflex or fall in, DC 15 Fort or catch random disease
+1,AL x 20' Deep Pit 2d6 damage per 10'
+1,AL x 20' Deep Pit with Spikes 2d8 damage per 10'
+1,Slowing Gas - slow for 4 turns, DC {Dice~1d10+12} Fort save
+1,Blinding Gas - blind for 4 turns, DC {Dice~1d10+12} Fort save
+1,Poison Gas - DC {Dice~1d10+12} Fort save or {Calc~%Level%*5} damage
+1,Hail Of Needles - 10 attacks per PC as fighter of Level %Level% doing 1 damage
+1,Falling Stones - d6 damage per PC
+1,Fusilade Of Darts - 4 attacks per PC as fighter of Level %Level% causing 1d3 damage
+1,Burning Oil Shower - d6 damage plus 1 per round for Level %Level% rounds
+1,Mummy Rot Powder - DC {Dice~1d10+12} Fort save or cursed as per mummy
+1,Acid Rain - %Level%d4 damage plus damage to items
+1,Javelin - d10 damage plus %Level%d4
+1,Contact Poison - DC {Dice~1d10+12} Fort save or die
+1,Shocking Grasp - DC {Dice~1d10+12} Reflex save vs {Calc~%Level%+8}
+1,Cold Glyph - DC {Dice~1d10+12} Fort save or {Calc~%Level%*2}
+1,Negative Energy Glyph - Save or lose 1 energy level
+1,Phantasmal killer - DC {Dice~1d10+12} Will save or Die, passed = [Insanities.Start]
+1,Lightning bolt - DC {Dice~1d10+12} Reflex save or {Dice~5d6} damage, passed = half
+1,Monomolecular scythe - attack everyone as Level %Level% Fighter for d20 damage, crits decapitate as Vorpal Sword
+1,Disintegration Beams - DC {Dice~2d10+5} Reflex Save or {Calc~%Level%*10} damage
+1,Radiation Field Projector - DC {Dice~1d10+12} Fort save or random major corruption
+1,Tachyon Bolt - DC {Dice~1d10+12} Reflex save or age d100 years
+1,Undeath Glyph - Awaken all undead, turn nearby recent dead into zombies
+1,Rust Glyph - DC {Dice~1d10+12} Will save or lose all non-magic metallic items
+1,Sonic Glyph - DC {Dice~1d10+12} Fort save or deafness for 4 turns
+1,Mud Glyph - DC {Dice~1d10+12} Reflex save or mired in room for 4 turns
+1,Arrrow trap - unluckiest PC gets Attack with d20+5 1d10 damage
+1,Arrow trap, poisoned unluckiest PC gets Attack with d20+5 1d10 damage and random poison DC 15
+1,Ball trap - all PCs in marching order DC 15 Reflex save
+1,Caltrops - DC 14 Reflex save or 1d6 damage
+1,Caltrops, poisoned - DC 14 Reflex save or 1d6 damage and poison or disease
+1,Ceiling block falls - 1d3 unluckiest get a DC 14 Reflex save or 2d12 damage 
+1,Ceiling collapses - everybody DC 14 Reflex save or death - all stunned
+1,Ceiling lowers - find the mechanism with DC 17 Intelligence check in 4 rounds or all die!
+1,Chute - into an oubliette or down 1d3 levels on whole party
+1,Door, falling - one door has a pit trap behind - roll under Agility to avoid falling
+1,Door, one way - will not open from other side
+1,Door, resisting - needs a DC 17 Strength check to open
+1,Door, specific - only opens with specific command or item
+1,Door, spring - door flies open and DC 15 Reflex save or 1d12 damage
+1,Floor, collapsing - suddenly, the whole party makes DC 15 to avoid falling into the depths
+1,Floor, illusionary - make a DC 13 Will save to disbelieve
+1,Gas, blinding - DC {Dice~1d10+12} Fort save or -4 to all attacks
+1,Gas, corroding - all items have a 1-5 on Action dice usage to fall apart
+1,Gas, panic - everyone moves at +4 in the Initiative order for {Dice~1d4} turns but all actions are at -1d
+1,Gas, nausea - DC {Dice~1d10+12} Fort save or roll -2d for initiative and -1d for Actions for {Dice~1d4} turns
+1,Gas, obscuring - vision impaired while random monsters arrive, party loses surprise
+1,Gas, poison - DC {Dice~1d10+12} Fort save or take 1d6 Stamina damage
+1,Vacuum chamber - within {Dice~1d4+2} turns, the breathable air from this area and nearby {Dice~1d4} rooms is evacuated
+
+
+;Feature
+1,Half-flooded with waist-high water. Next {Dice~1d4+1} rooms are also flooded
+1,Pixel mosaics, animated
+1,Voxel sculptures, lewd [Special]
+1,Statue from an ancient civilization: [Special]
+1,Broken scientific equipment: [Special]
+1,Magic Circle: [Special]
+1,Slime Patches - 1 in 10 is monstrous and/or dormant 
+1,{Dice~1d6} Shipping Containers containing {Dice~2d500} [NMS_Junk.Start]
+1,Cryostasis tombs - {Dice~1d4} slabs: {Bold~[Monster]}
+1,{Dice~1d4} Mummified corpses: disturbing them causes [Special]
+1,Huge fire pit - 10 percent chance still lit down there
+1,Broken and decaying furniture - space station style
+1,{Dice~1d4} Thrones - disturbing summons {Bold~[Monster]}
+1,Altar - [Special]
+1,Alarm screeching causes {Bold~[Monster]} to arrive in next turn
+1,Weapon racks - {Dice~1d4} ancient mono-scimitars, void grenades, or blasters
+1,Hyperbraziers and charcoal - inhaling fumes causes [Special]
+1,Ancient battlefield with {Dice~2d20} skeletons and their wargear
+1,Obscene hand-painted frescoes - viewing too long causes [Special]
+1,Mouldering Tapestries, worth {Dice~2d500} gp but weigh 1000gp
+1,Large demon idol from an ancient civilization - worshipping causes [Special]
+1,Gene resequencer - change to random race if interacted with
+1,Clone Vat - interacting character sacrifices {Dice~1d12} HP and gets faithful/insane/flawed clone
+1,Corpse renderer - breaks corpses down into 1d10 potions
+1,Trash incinerator - receive 5 gold/AL in antique coins for worhtless items
+1,Sauroid pen - either dusty bones or {Bold~{Dice~2d4} Large Dinosaurs} in stasis
+1,Pillars of Scrutiny: if diverge from Alignment, then judged and causes [Trap]
+1,Altar to Business/Commerce/Mammon - leaving money causes [Special]
+1,Archway - stepping through transports to Astral/Ethereal/Dreamlands
+1,Illusionary Ceiling - view the sky outside
+1,Ancient Container - contains small hoard of [Treasure] plus [NMS_Junk.Start]
+1,Interactive Map Dome - some far away region or land
+1,Fire - blazing fire in center of room
+1,Fire - nega-Fire will "unburn" things
+1,Fireplace - active
+1,Fireplace - inactive
+1,Force Field - constrains a [NMS_Telengard_WM.Hard]
+1,Fountain - Drinking Causes [Special]
+1,Fountain - Bathing Causes [Special]
+1,Illusion - [Special]
+1,Infernal Machine or Magiteck Device will - [Special]
+1,Magically confined monster - [NMS_Telengard_WM.Extreme]
+1,Pedestal - [Special]
+1,Pit - bottomless, or else the bottom goes to another realm
+1,Pool - mysterious waters cause [Special]
+1,Stairway to extra-/para-dimensional section of dungeon
+1,Elevator down 1d6 levels
+1,Elevator up 1 level
+1,Tangleweb vines - DC 14 Reflex save or held fast (whole party)
+1,Well - droppin in a coin will allow PC to make a wish
+1,Well - PC or party can climb down to [Pocket]
+1,Divinity terminal gives access to previously unknown minor godthing 
+1,Matter transmittal pad, moves within dungeon or far far away.
+1,Warpgate to [Pocket]
+1,Soul Gem [Gems] - every round a beam attacks random party member, DC {Dice~1d12+6} Will save negates, else soul sucked into Gem
+1,Planetarium projector - if disturbed then laser attacks at d24 on each party member for 1d10 damage
+1,Bottled City access
+1,Shimmering Warpgate to [Pocket]
+1,Misty Gray Cube to [Pocket]
+1,Natural Cavern with Mushroom Growths
+1,A Stream Runs Through This Room in a random direction
+1,A Sword is embedded in the floor, here
+1,A carcass of a medium sized dragon is here (previously looted)
+
+
+;Special
+1,Ages PC or NPC by {Dice~2d10} years
+1,Switches to opposite alignment or Neutral
+1,Curses with Lycanthropy - random type
+1,Causes Fear - shun this place and all exits
+1,Decrease random ability by 1
+1,Increase random ability by 1
+1,Casts Flesh to Stone
+1,Grants ancient form of random language
+1,Grants a Limited Wish (Once)
+1,Heals all damage (Once)
+1,Gates in {Dice~2d4} {Bold~Spirit Trolls} to fight
+1,Grants an evil {Bold~Black Pseudodragon} familiar
+1,Grants a good {Bold~Sprite} familiar
+1,Infests unwitting victims with {Bold~{Dice~2d4}Rot Grubs}
+1,Rejuvenates PC or NPC {Dice~2d10} years
+1,Turns flesh pitch-black
+1,Turns flesh golden
+1,Turns flesh, but not bones, transparent
+1,Converts PC or NPC to worship of Babylonian, Sumerian, or Egyptian deity
+1,Save vs. Spells or causes [Insanities.Start]
+1,Places NPC or PC in temporal stasis
+1,Grants a Thief level if DEX 9, else removes a Level
+1,Raises PC or NPC Charisma to 16
+1,Reduces PC or NPC Charisma to 6
+1,Cripples PC or NPC - movement speed halved and lose {Dice~1d4} Dexterity
+1,Bestows a huge flawless ruby worth {Calc~%Level%*1000} gold
+1,Animated information/quest giver
+1,Anti-Magic - all effects in room are dispelled
+1,Appearing/Disappearing - winks in and out of existence every turn
+1,Asks - deeply personal questions about PC, grants Limited Wishes in return
+1,Attacks - directly or gates in {Bold~[NMS_Telengard_WM.Medium]}
+1,Changes class of victim randomly DC {Dice~1d10+12} Will save
+1,Changes - switches intellect of PC and henchmen, captive, or nearby NPC DC {Dice~1d10+12} Will save
+1,Changes - Gender DC {Dice~1d10+12} Fort save
+1,Collapsing - floor falls away to reveal gravitational null zone
+1,Directs party to nearby room to complete some minor task in exchange for treasure
+1,Disintegrates all non-magic weapons in party inventory
+1,Dimensional distortion - Width/Length seems larger than maps suggest (multiply dimensions by d10x100 feet) 
+1,Dimensional distortion - Height/Depth - seems larger than maps suggest (multiply dimensions by d10x100 feet)
+1,Enlarges PC or victim for 1d10 turns DC {Dice~1d10+12} Will save
+1,Reduces PC or victim for 1d10 turns DC {Dice~1d10+12} Will save
+1,Enrages PC or victim for 1d10 turns DC {Dice~1d10+12} Will save
+1,Electrical Shock - If Metallic armor worn for d10 HP/AL
+1,False clue or rumor given
+1,Flesh To Stone PC or victim for 1d10 turns DC {Dice~1d10+12} Will save
+1,Fruit - the room slowly fills with tasty fruit
+1,Gaseous form nanites - PC or victim for 1d10 turns DC {Dice~1d10+12} Fort save
+1,Geases - implants compulsion to complete minor tasks in PC or victim for 1d10 days DC {Dice~1d10+12} Will save
+1,Gravity - Greater - initiatives for all at -2d, everyone counts as encumbered
+1,Gravity - Lesser - initiatives for all at +2d, everyone counts as unencumbered
+1,Gravitational null zone - 0 G effects in entire room
+1,Gravity - Varying direction
+1,Gravity - Varying strength
+1,Greed-Producing - PC or NPC will be compelled to take all treasures that can feasibly be taken
+1,Intelligent - AI or demon-haunted. Determine personality randomly
+1,Invisible - photon bending technology renders thing impossible to discern without DC 15 Intelligence
+1,Moves/Rolls- mobile, direction determined randomly
+1,Points to a store of treasure {Dice~3d4+4} rooms away
+1,Poison - hidden needle inflicts {Dice~1d10+12} Fort save, else Strength and Stamina are halved
+1,Polymorphing - to a random humanoid for {Dice~3d10} turns
+1,Releases - a spray of ancient coins worth {Dice~3d1000} - half are counterfeit or token money 
+1,Releases - Counterfeit [Treasure]
+1,Releases - [NMS_ExpandedJewelry.Start]
+1,Releases - Magic Item
+1,Releases - Map
+1,Grants spell allowing transport to [Pocket]
+1,Wish Fulfillment
+1,Wish Fulfillment, Reversal
+1,Transports to [Pocket]
+1,Opens to [Pocket]
+
+;Treasure
+5,{Dice~%Level%d500} Gold Coins
+2,{Dice~%Level%d4} [Gems]
+1,[NMS_ExpandedJewelry.Start]
+1,{AorAn~[NMS_MagicItem.Start]}
+1,{AorAn~[NMS_MagicItem.Misc]} and [Treasure]
+
+:Gems
+1,Tiger Eye 10gp
+2-3,Hematite 25gp
+4-5,Native Jasper 25gp
+6-7,Moonstone 50gp
+8-9,Bloodstone 75gp
+10-11,Amber 100gp
+12-13,Native Red Coral 100gp
+14,Garnet 125gp
+15,Native Amethyst 250gp
+16,Small Topaz 500gp
+17,Jet 500gp
+18,Fire opal 750gp
+19,Native Oriental Amethyst 750gp
+20,Black Opal 1000gp
+
+;Air
+1,Slight breezy
+1,Slight, damp breezy
+1,Gusting breezy
+1,Cold
+1,Slight downdraft
+1,Strong downdraft
+1,Still
+1,Still, very chill
+1,Still, warm
+1,Slight updraft
+1,Strong updraft
+1,Strongly flowing
+1,Gusting, strong
+1,Moaning, strong
+1,Thin, low-oxygen
+1,Humid
+1,Humid, still
+
+;Smell
+1,Musty
+1,Ozone
+1,Rotten flesh
+1,Rotten garbage
+1,Floral
+1,Industrial cleaner
+1,Dusty
+
+;Light
+3,dim
+1,dark
+1,bright
+1,pitch black
+
+;Type
+1,Antechamber
+1,Armory
+1,Audience
+1,Aviary
+1,Banquet
+1,Barracks
+1,Bath
+1,Bedroom
+1,Bestiary
+1,Cell
+1,Chantry
+1,Chapel
+1,Cistern
+1,Classroom
+1,Conjuring Room
+1,Court
+1,Crypt
+1,Dormitory
+1,Entryway
+1,Vestibule
+1,Gallery
+1,Guardroom
+1,Hall
+1,Great Hall
+1,Harem
+1,Seraglio
+1,Kennel
+1,Divination Room
+1,Kitchen
+1,Laboratory
+1,Library
+1,Meditation
+1,Observatory
+1,Pen
+1,Prison
+1,Secret Chamber
+1,Reception Room
+1,Refrectory
+1,Robing Room
+1,Shrine
+1,Smithy
+1,Solarium
+1,Stable
+1,Storage
+1,Strongroom
+1,Vault
+1,Study
+1,Temple
+1,Throne Room
+1,Torture Chamber
+1,Training Room
+1,Gymnasium
+1,Trophy Room
+1,Museum
+1,Waiting Room
+1,Well
+1,Workroom
+1,Workshop
+
+;Pocket
+1,Vast Garden
+1,Mushroom Caverns
+1,Ancient Forest
+1,Floating Castle
+1,Mysterious Island
+1,Infinite Sewer
+1,Random Level of Hell
+1,Random Shakespearean Play
+1,Bottled City
+1,Space Station
+1,Elemental Subplane
+1,Distant Future
+1,Alien Outpost
+1,Infinite Hedgemaze
+1,Abandoned Cloud City
+1,Grecian Labyrinth
+1,Multi-planar Intersection

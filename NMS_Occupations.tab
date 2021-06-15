@@ -1,0 +1,315 @@
+﻿#
+# NMS_Occupations
+# Random Occupations Chart based on a gonzo multiversal fantasy post apocalypse
+# Much inspiration stolen from Jez Gordon's Twisted Wonderland on the Purple Sorcerer
+#
+# by Noah Stevens, first iteration March 19, 2018
+
+:Start
+1,Butcher
+2,Baker
+3,Candle-stick Maker
+4,Sheperd
+5,Farmer
+6,Repairperson
+7,Mudlark
+8,Pickpocket
+9,Puppeteer
+10,Courtesan
+11,Streetwalker
+12,Costermonger
+13,Plumber
+14,Cliff-Diver
+15,Rat-Catcher
+16,Exterminator
+17,Dog-Walker
+18,Janitor
+19,Hole-Driller
+20,Treadle-Pumper
+21,Organ-Grinder
+22-50,[Noun]-[Verb]er
+51,Balloon Taxi Pilot
+52,Vaccuum Tube Repairperson
+53,Security
+54,Informer
+55,Hacker
+56,Snitch
+57,Ganger
+58-70,Freelance [Noun] [Verb]er
+71-90,Street [Noun] [Verb]er
+91,Shrine-Sweeper
+92,Temple-Tender
+93,Office-Drone
+94,Coffee-Toaster
+95,Recycler
+96,Street-Ball Hero
+97,Stick-Ball Hero
+98,Groupie
+99,Musician
+100,Hypnotist
+101,Ankle-Breaker
+102,Hitman
+103,Tax-Collector
+104,Summoner
+105,Courier
+106,Telephone Operator
+107,Barrister
+108,[Noun] Salesperson
+109,Sidewalk [Noun] [Verb]er
+110,Subway [Noun] [Verb]er
+111-120,Robot [Verb]er
+121,Brand Shouter
+122,Anti-Troll
+123,Augmented Reality [Noun] [Verb]er
+124,GIS-Monitored [Noun] [Verb]er
+125,Corporate Shill
+126,Talent-Finder
+127,Sandwich-Board Wanderer
+128,Drone-Monitor
+129,Drone-Operator
+130,Drone-Recovery Technician
+131,Data-Jack Quality Control
+132,Biosoft Tester
+133,Meat-Puppet Thug
+134,Billboard Defacer
+135,Billboard Security
+136,Background Extra
+137-150,Sanctioned [Verb]er
+151,Sanctioned Operator
+152,Rookie Operator
+153,Licensed [Verb]er
+154,Truck Driver
+155,Taxi Driver
+156,Taxi Sanitizer
+157,Autonomous Drone Stalker
+158,Temporary Organ-Host
+159,Behavior-Chip Bug Tester
+160,Cryotank Attendant
+161,Pleasure Doll
+162,Pillow Boy
+163,Tank Scrubber
+164,Tube Sanitation Technician
+165,Pixel Artist
+166,Render-Farm Technician
+167,Software Debugger
+168,Artificial Intelligence Backend
+169,Network Admin
+170,Network Node Guardian
+171,Gold Farmer
+
+
+;!Noun
+1,Valve
+1,Account
+1,Wood
+1,Metal
+1,Gear
+1,House
+1,Pest
+1,Mook
+1,Lab
+1,Steam
+1,Pipe
+1,Brick
+1,Tooth
+1,Tusk
+1,Hide
+1,Rag
+1,Mop
+1,Flagon
+1,Table
+1,Ale
+1,Drone
+1,Tank
+1,Vault
+1,Pocket
+1,Junk
+1,Wreck
+1,Balloon
+1,Clown
+1,Grease
+1,Paper
+1,Spirit
+1,Ghost
+1,Fur
+1,Hair
+1,Toilet
+1,Wire
+1,Vent
+1,Port
+1,Data Jack
+1,Vaccuum Tube
+1,Data
+1,Gourd
+1,Vermin
+1,Plate
+1,Dynamo
+1,Terminal
+1,Poem
+1,Ode
+1,Sonnet
+1,Pet
+1,Cat
+1,Dog
+1,Horse
+1,Iron
+1,Data Chip
+1,Packet
+1,Doll
+1,Meat Puppet
+1,Brain
+1,Dream
+1,Taste
+1,Face
+1,Shoe
+1,Spud
+1,Turnip
+1,Solar Panel
+1,Mince
+1,Meat
+1,Germ
+1,Plague
+1,Grub
+1,Pudding
+1,Dough
+1,Paste
+1,Poster
+1,Flyer
+1,Monkey
+1,Nut
+1,Snake
+1,Toad
+1,Net
+1,Surf
+1,Dirge
+1,Mine
+1,Alloy
+1,Dumpling
+1,Potion
+1,Soup
+1,Broth
+1,Pie
+1,Pastry
+1,Stew
+1,Flake
+1,Grain
+1,Noodle
+1,Bar
+1,Drink
+1,Chip
+1,Trash
+1,Fairy
+1,Magic
+1,Spell
+1,Cantrip
+1,Cauldron
+1,Lock
+1,Safe
+1,Worm
+1,Wyrm
+1,Puddle
+1,Roof
+1,Window
+1,Widow
+1,Joke
+1,News
+1,Newspaper
+1,Photo
+1,Image
+1,Idol
+1,Glitch
+1,Bug
+1,Code
+1,Rat
+1,Slurry
+1,Stew
+1,Fungus
+1,Mushroom
+1,Guild [Noun]
+1,Certified [Noun]
+1,Kite
+1,Rope
+1,Vial
+1,Bottle
+1,Bearing
+1,Lever
+1,Prose
+1,Contract
+1,Rock
+1,Concrete
+1,Rockcrete
+1,Syncrete
+1,Robot
+
+
+;Verb
+1,Grind
+1,Break
+1,Hopp
+1,Flipp
+1,Warbl
+1,Stuff
+1,Junk
+1,Wash
+1,Dump
+1,Pull
+1,Push
+1,Tast
+1,Greas
+1,Shredd
+1,Fly
+1,Grop
+1,Fiddl
+1,Groan
+1,Tiddl
+1,Wiggl
+1,Polish
+1,Leap
+1,Dodg
+1,Fil
+1,Fill
+1,Smash
+1,Sanitiz
+1,Rins
+1,Filk
+1,Blast
+1,Sniff
+1,Paint
+1,Melt
+1,Hack
+1,Minc
+1,Munch
+1,Sweep
+1,Tend
+1,Driv
+1,Dribbl
+1,Milk
+1,Stomp
+1,Stirr
+1,Mix
+1,Hassl
+1,Groom
+1,Lift
+1,Render
+1,Past
+1,Burn
+1,Wrangl
+1,Poach
+1,Dipp
+1,Tweak
+1,Organiz
+1,Disorganiz
+1,Flopp
+1,Zapp
+1,Chill
+1,Fri
+1,Liquidat
+
+
+
+
+
+
+
+
+

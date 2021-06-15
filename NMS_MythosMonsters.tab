@@ -1,0 +1,195 @@
+## NMS_Mythos Monsters
+## By CR - some excluded to reduce repetition
+## High Level Old Ones and Elder Gods Not Available
+## From Call of Cthulhu d20
+## February 15, 2020
+
+;Start
+1,[Level1]
+1,[Level2]
+1,[Level3]
+1,[Level4]
+1,[Level5]
+1,[Level6]
+1,[Level7]
+1,[Level8]
+1,[Level9]
+1,[Level10]
+1,[Level11]
+1,[Level12]
+1,[Level13]
+1,[Level14]
+1,[Level15]
+1,[Level16]
+1,[Level17]
+1,[Level18]
+1,[Level19]
+1,[Level20]
+1,[Overpower]
+
+
+
+## EL 1
+;Level1
+1,{Dice~1d3} Rat-Things
+1,{Dice~1d3} Tcho-Tcho
+1,{Dice~1d3} Terror from Beyond
+1,{Dice~1d3} Serpent Men
+1,{Dice~1d3} Animated Corpse
+1,1 HD Shoggoth
+
+## EL 2
+;Level2
+1,{Dice~1d3} White Apes
+1,{Dice~1d3} Deep Ones
+1,{Dice~1d3} Ghouls
+1,{Dice~1d3} Insects from Shaggai
+1,{Dice~1d3} Mi-Go Scientists
+1,2 HD Shoggoth
+
+## EL 3
+;Level3
+1,{Dice~1d2} Byahkee
+1,{Dice~1d2} Dimensional Shambler
+1,{Dice~1d2} Fire Vampires
+1,{Dice~1d2} Hounds of Tindalos
+1,{Dice~1d2} Spectral Hunters
+1,3 HD Shoggoth
+
+## EL 4
+;Level4
+1,{Dice~1d3} Bears
+1,{Dice~1d3} Elder Things
+1,{Dice~1d3} Night Gaunts
+1,{Dice~1d2} Star Vampires
+1,4 HD Shoggoth
+
+## EL 5
+;Level5
+1,{Dice~1d3} Cultists and a 5th Level Cultist Leader (Wiz 3/Cl 2)
+1,a Lloigor
+1,{Dice~1d2} Shantaks
+1,5 HD Shoggoth
+
+## EL 6
+;Level6
+1,a Servitor of the Outer Gods
+1,{Dice~1d4} Leng Spiders
+1,a Worm That Walks
+1,6 HD Shoggoth
+
+## EL 7
+;Level7
+1,[Template] [NMS_DunjonCorpMonsters.Level5]
+1,[Template] [Level5]
+1,7 HD Shoggoth
+
+## EL 8
+;Level8
+1,a Chosen of Hastur
+1,a Cthonian
+1,a Formless Spawn
+1,[Template] [Level6]
+1,8 HD Shoggoth
+
+## EL 9
+;Level9
+1,a Dark Young of Shub-Niggurath
+1,9 HD Shoggoth
+
+## EL10
+;Level10
+1,a Colour Out of Space
+1,a Gnoph-Keh
+1,a Great Race of Yith
+1,a Gug
+1,10 HD Shoggoth
+
+## EL11
+;Level11
+1,[Template] [NMS_DunjonCorpMonsters.Level10]
+1,11 HD Shoggoth
+
+## EL12
+;Level12
+1,[Template] [NMS_DunjonCorpMonsters.Level11]
+
+## EL13
+;Level13
+1,a Flying Polyp
+
+## EL14
+;Level14
+1,a Giant Male Deep One (Dagon)
+1,a Giant Female Deep One (Mother Hydra)
+
+## EL15
+;Level15
+1,a Shoggoth Lord
+1,[Template] [NMS_DunjonCorpMonsters.Level13]
+
+## EL16
+;Level16
+1,a 14th Level Mummy Lord (Cl 10,Wiz 4)
+1,[Template] [NMS_DunjonCorpMonsters.Level14]
+
+## EL17
+;Level17
+1,a Dhole
+1,Glaaki
+
+## EL18
+;Level18
+1,Y'golonac
+
+## El19
+;Level19
+1,Y'golonac
+
+## EL20
+;Level20
+1,a Hunting Horror
+
+## EL20Plus
+## Run!
+;Overpower
+1,Cthugha
+1,Shudde M’ell
+1,Chaugnar Faugn
+1,Ithaqua
+1,Eihort
+1,Yig
+1,Mordiggian
+1,Cthulhu
+1,Hastur
+1,Nodens
+1,Tsathoggua
+1,Nyarlathotep
+1,Shub-Niggurath
+1,Azathoth
+
+;Template
+1,Space
+2,Void
+3,Mecha
+4,Ice
+5,Nega-
+6,Candy
+7,Crystal
+8,Zombified
+9,Ghost
+10,Cyber
+11,Ghoul
+12,Shadow
+13,Chaos
+14,Frost
+15,Ice
+16,Steam
+17,Corrupted
+18,Infested
+19,T-Virus
+20,G-Virus
+21,Arachno
+22,Flesh
+23,Toxic
+

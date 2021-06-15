@@ -1,0 +1,95 @@
+﻿#
+# NMS_XYNHirelings
+# Quick and Easy Delineation of Meatshields and Such
+#
+# Based on Shelby's Labyrinth Minions http://www.lordkilgore.com
+# with my own goofy names, and dogs and beasts added
+
+:Start
+1-8,[NonCombatant]
+9-14,[ManAtArms]
+15,[Adventurer]
+16,[Beasts]
+
+# The output is in the format of Name-Job/Class/Role-Armor Class-Hit Points-Quirk
+# Intended to be exported to a table for layout purposes 
+
+;NonCombatant
+1,[Dickensian Names.Male First] [Job] {Dice~1d3+8} {Dice~1d2} [Gear] [Quirk]
+1,[Dickensian Names.Female First] [Job] {Dice~1d3+8} {Dice~1d2} [Gear] [Quirk]
+1,[Dickensian Names.Female First] [Job] {Dice~1d3+8} {Dice~1d2} [Gear] [Quirk]
+
+;ManAtArms
+1,[NMS_DarkestDungeonNames.Start] Man-At-Arms {Dice~1d3+10} {Dice~1d8} [Weapons] [Quirk]
+
+;Adventurer
+1,[NMS_DarkestDungeonNames.Start] [Class] {Dice~1d3+8} {Dice~1d2} [Gear] [Quirk]
+
+;Beasts
+10,[NMS_Stardew_Pet_Names.Start] Wardog {Dice~1d3+10} Teeth 1d6+1
+1,[NMS_Stardew_Pet_Names.Start] Fighting Bear {Dice~1d3+10} Maul and Claws 1d8
+1,[NMS_Stardew_Pet_Names.Start] Fighting Ape {Dice~1d3+10} Rend 1d8
+1,[NMS_Stardew_Pet_Names.Start] Hunting Cat {Dice~1d3+10} Teeth and Claws 1d10
+
+;Job
+10,Torchbearer
+8,Porter
+2,Cook
+1,Digger
+1,Muleskinner
+1,Carpenter
+1,Teamster
+1,Cartographer
+1,Scribe
+1,Jester
+1,Herald
+1,Prelate
+
+;Gear
+1,Hammer
+1,Candle
+1,Spool of String
+1,Pack of cards
+1,Chalk
+1,Pot of paint
+1,Bugle
+1,Ukulele
+1,Harmonica
+1,Accordion
+1,Whistle
+1,Pickaxe
+1,Chisel
+1,Holy symbol
+1,Frying pan
+1,Brass Lantern
+1,Vial of Holy Water
+1,Pet goose
+1,Pet chicken
+1,Pet monkey
+
+
+;Quirk
+1,[NMS_XYNQuirks.Start]
+
+;Weapons
+1,Hand Axe and Shield
+1,Short Sword and Mace
+1,Long Sword and Shield
+1,Short Sword and Spear
+1,Short Sword and Spear and Shield
+1,Short Sword and Short Bow
+1,Long Sword and Axe and Shield
+1,Long Sword and Short Bow
+
+;Class
+2,Fighter L{Dice~1d2+1}
+2,Thief L{Dice~1d2+1}
+1,Cleric L{Dice~1d2}
+1,Wizard L{Dice~1d2}
+1,Elf L{Dice~1d2}
+1,Dwarf L{Dice~1d2}
+1,Half-Orc L{Dice~1d2}
+1,Assassin L{Dice~1d2}
+1,Druid L{Dice~1d2}
+1,Paladin L{Dice~1d2}
+1,Bard L{Dice~1d2}

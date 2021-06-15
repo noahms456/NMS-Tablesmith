@@ -1,0 +1,89 @@
+﻿#
+# NMS_AngryMobs
+# Quickly Generate Unhappy Crowds
+#
+
+:Start
+1,{Dice~2d100+10} [Condition] [Faction] [Special]
+
+;Condition
+1,Hungry
+1,Angry
+1,Enraged
+1,Bedraggled
+1,Sopping
+1,Bloodied
+1,Saddened
+1,Moping
+1,Ecstatic
+1,Cheery
+1,Jubilant
+1,Frenzied
+1,Confused
+1,Impetuous
+1,Indignant
+1,Suspicious
+1,Patriotic
+1,Sickened
+1,Afflicted
+
+;Faction
+1,Tories
+1,Anarchists
+1,Communists
+1,Anti-Monarchists
+1,Monarchists
+1,Secessionists
+1,Rabble
+1,Sports Fanatics
+1,Anadentists
+1,Anabaptists
+1,Catholics
+1,Protestants
+1,Anglicans
+1,Socialists
+1,Atheists
+1,Luddites
+1,Anti-Magicians
+1,Unionists ([Union])
+
+;Special
+1,with a canon
+1,with a tethered Dragon
+1,with effigies of politicians
+1,with effigies of lords
+1,burning effigies
+1,in disguise
+1,bent upon destruction
+1,looting
+1,rioting
+1,pillaging
+1,with a charismatic leader
+1,with captured royalty
+1,with traitorous soldiers
+1,infiltrated by cultists
+1,looking for someone to tar and feather
+1,setting this afire
+1,storming the gates
+
+;Union
+1,Mudlarks
+1,Plumbers
+1,Porters
+1,Students
+1,Accountants
+1,Book-Keepers
+1,Bicyle Repairpersons
+1,Robot Repairpersons
+1,Clockworkers
+1,Steamfitters
+1,Bakers
+1,Farmers
+1,Midwives
+1,Cooks
+1,Opium-Processors
+1,Tailors
+1,Hatmakers
+1,Cabinetmakers
+1,Coffinmakers
+1,Binders

@@ -1,0 +1,275 @@
+# Putting Weird Little Animal Friends on Your Desert Islands since
+#
+# by Noah Stevens, April 2020
+
+# ------------------------------
+# Variables
+# ------------------------------
+%SKL%,0
+%STA%,0
+%LUK%,0
+
+
+# ------------------------------
+# Main
+# ------------------------------
+
+:Start
+1,[GenStats][DisplayCharacter]
+
+:GenStats
+1,[GenAbilityScores]
+
+;DisplayCharacter
+1,[NMS_Stardew_Pet_Names.Start],%SKL%,%STA%,%LUK%,[Type],[Animal],[Personality],[Gothic Problems.Start]
+1,[NMS_Stardew_Pet_Names.Start],%SKL%,%STA%,%LUK%,[Type],[Monster],[Personality],[NMS_Quirks.Start]
+#1,List of Animal Crossing Villager Names as Needed
+
+# ------------------------------
+# Ability Score Generation
+# ------------------------------
+:GenAbilityScores
+1,|SKL=[RollScore]|,|STA=[RollScore]|,|LUK=[RollScore]|
+
+:RollScore
+1,{Dice~4d4+2}
+
+
+;!Type
+1,Normal
+2,Fighting
+2,Flying
+2,Poison
+2,Ground
+2,Rock
+2,Bug
+2,Ghost
+2,Steel
+2,Fire
+2,Water
+2,Grass
+2,Electric
+2,Psychic
+2,Ice
+2,Dragon
+2,Dark
+2,Fairy
+1,Light
+1,Music
+1,Magic
+1,Sound
+1,Cosmic
+1,Cyber
+1,Magma
+1,Steam
+1,Rain
+1,Wind
+1,Plastic
+1,Glass
+1,Virus
+1,Fission
+1,Phoenix
+1,Medic
+1,Plasma
+1,Clone
+1,Flint
+1,Stone
+1,Iron
+1,Morph
+1,Mana
+1,Fusion
+1,Cluster
+1,Ancient
+1,Gory
+1,Ritual
+1,Trap
+1,Spell
+1,Pure
+1,Holy
+1,Forest
+1,Negative
+1,Positive
+1,Fungus
+1,Oblivion
+1,Void
+1,Vacuum
+1,Dream
+1,Rainbow
+1,Eldritch
+1,Cursed
+1,Crystal
+1,Fog
+1,Acid
+
+;!Animal
+1,[Creatures.Start]
+1,Alligator
+1,Anteater
+1,Bear
+1,Bird
+1,Bull
+1,Cat
+1,Chicken
+1,Cow
+1,Cub
+1,Deer
+1,Dog
+1,Duck
+1,Eagle
+1,Elephant
+1,Frog
+1,Goat
+1,Gorilla
+1,Hamster
+1,Hippo
+1,Horse
+1,Kangaroo
+1,Koala
+1,Lion
+1,Mouse
+1,Monkey
+1,Octopus
+1,Ostrich
+1,Penguin
+1,Pig
+1,Rabbit
+1,Rhino
+1,Sheep
+1,Squirrel
+1,Tiger
+1,Wolf
+
+;!Monster
+1,Baba Yaga
+1,The Beast
+1,Behemoth
+1,Bigfoot
+1,Catoblepas
+1,Cerberus
+1,Charon
+1,Chimera
+1,Coatlicue
+1,Cockatrice
+1,Cyclops
+1,Ghost
+1,Ghoul
+1,Goblin
+1,Great Beast
+1,Gremlin
+1,Griffin
+1,Haniver
+1,Harpy
+1,Hobgoblin
+1,Hunchback
+1,Hydra
+1,The Invisible Man
+1,Jotun Troll (Þrívaldi)
+1,Kali
+1,Karnak
+1,Kraken
+1,Mad scientist
+1,Manticore
+1,Medusa
+1,Mummy
+1,The Monster
+1,Ogre
+1,The Phantom
+1,Red Cap
+1,Roc
+1,Skeleton
+1,Spring-heeled Jack
+1,Tengu
+1,Triton
+1,Tyrannosaurus Rex
+1,Vampire
+1,Vampiress
+1,Wendigo
+1,Werewolf
+1,Winged Panther
+1,Witch
+1,Zombie
+1,Ancient Gorgon
+1,Bishop Fish
+1,Bloody Bones
+1,Dragon
+1,Dryad
+1,Ectoplasmic Phantom
+1,Elbow Witch
+1,Ganesha
+1,Gargoyle
+1,Golem
+1,Herne the Hunter
+1,Jabberwocky
+1,Loch Ness Monster
+1,Merrow
+1,Minotaur
+1,Nuckelavee
+1,Sebek
+1,Scorpion man
+1,Spectre
+1,Swamp Beast
+1,Tarasque
+1,Undine
+1,Warlock
+1,Ymir
+1,Abominable Snowman
+1,Amphisbaena
+1,Anubis
+1,Blemmyea
+1,Centaur
+1,Jimmy Squarefoot
+1,Leviathan
+1,Orobas
+1,Siren
+1,Achelous
+1,Ankou
+1,Banshee
+1,Bash Tchelik
+1,Beast of Gévaudan 
+1,Catarenha
+1,Djinn Shapeshifter
+1,Genie
+1,Grendel
+1,Hairy Boggart
+1,The Headless Man
+1,Hieracosphinx
+1,Hodag
+1,Sciapod
+1,Talus
+1,Troll
+1,Alu
+1,Astaroth
+1,Boogeyman
+1,Charun
+1,Creature from the Closet
+1,Drude
+1,Dybbuk
+1,Fachen
+1,Ghilan
+1,Grave Watcher
+1,Hanuman
+1,Houngan
+1,Imp
+1,Jenny Greenteeth
+1,Jersey Devil
+1,Lamia
+1,Mad Gasser
+1,Poltergeist
+1,Slaughterford
+1,Thunderdell
+1,Umi Bozu
+1,Wildman of China
+1,Wurdulac
+1,Yama
+1,Golem
+
+;Personality
+1,Jock
+1,Big Brother or Sister
+1,Weirdo
+1,Peppy
+1,Lazy
+1,Snooty
+1,Cranky
+1,Smug
+1,[Insanities.Start]

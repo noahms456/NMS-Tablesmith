@@ -1,0 +1,55 @@
+﻿#
+# NMS_Moldvay Dungeon Stocking 1.0
+# Noah Stevens
+# June 2018
+# This will produce room contents with the same statistical frequency as described
+# In Moldvay Basic, page B52. The treasure and monster entries are placeholders that
+# Will call to random monster tables with level passed through parameters eventually.
+#
+
+:Start
+# Variables
+%TreasureYES%,0
+%TreasureNO%,0
+
+1,[Contents] [Loot]
+
+;Contents
+2,|TreasureYES=3||TreasureNO=3|[Monster]
+1,|TreasureYES=2||TreasureNO=4|[Trap]
+1,|TreasureYES=1||TreasureNO=100|[Special]
+2,Empty|TreasureYES=1||TreasureNO=5|
+
+;Loot
+?%TreasureYES%, and [Silver].
+?%TreasureNO%,
+
+;Monster
+#1,[NMS_MoldvayWM1.Level1]
+1,[NMS_MoldvayWM1.Level2]
+#1,[NMS_MoldvayWM1.Level3]
+
+;Trap
+1,Poison gas - Save vs Poison or die
+1,Fog that looks like Poison gas, but is harmless
+1,Pit that causes 1d6 points of damage per 10' fallen
+1,Ceiling Block that falls - Save vs. Turn to Stone or take 1d10 points of damage
+1,Pendulum blade that swings from ceiling to do 1d8 points of damage
+1,Chute that causes no damage but victims slide to the next dungeon level down
+
+;Special
+1,Moaning room or corridor
+1,Room turns or sinks while the door locks
+1,Illusionary stairs or corridor
+1,Shifting block to close off corridor
+1,Trap door to tunnels
+1,Alarm that summons special monster
+1,Talking statue
+1,Magic pool whose waters have a strange effect
+1,Magic gate to another part of the dungeon
+1,Flying weapons that attack only if disturbed
+
+
+:Silver
+1,{Dice~1d6*100} silver pieces
+

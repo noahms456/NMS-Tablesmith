@@ -1,0 +1,129 @@
+﻿#
+# NMS_Moldvay Dungeon Stocking with Kabuki Kaiser's Monsters, Traps and Specials from ROTU 1.0
+# Noah Stevens
+# June 29 2018
+#
+
+:Start
+# Variables
+%TreasureYES%,0
+%TreasureNO%,0
+
+1,[Contents][Loot]
+
+;Contents
+2,|TreasureYES=3||TreasureNO=3|Occupied by [Monster]
+1,|TreasureYES=2||TreasureNO=4|Trapped with [Trap]
+1,|TreasureYES=1||TreasureNO=100|[Feature]
+2,|TreasureYES=1||TreasureNO=5|Empty
+
+;Loot
+?%TreasureYES%, and contains [Treasure].{CR~}
+?%TreasureNO%,.{CR~}
+
+:Monster
+1,[NMS_RoTUWM.Start]
+
+:Trap
+1-15,10' Deep Pit 1d6 damage
+16-30,10' Deep Pit with Spikes 1d8 damage
+31-40,Cesspit 
+41-45,20' Deep Pit 2d6 damage
+46-50,20' Deep Pit with Spikes 2d8 damage
+51-53,Slowing gas - slow for 2 hours
+54-56,Blinding gas - blind for 4 hours
+57-60,Poison gas - Save vs Poison or 5 damage per AL
+61-63,Hail of needles - 10 attacks per PC as fighter of AL causing 1 damage
+64-69,Falling stones - d6 damage per PC
+70-74,Fusilade of darts - 4 attacks per PC as fighter of AL causing 1d3 damage
+75-79,Burning oil shower - d6 damage plus 1 per round for AL rounds
+80-81,Mummy Rot Powder - save vs spells or cursed as per mummy
+82-85,Acid Rain - d4 damage per AL plus damage to items
+86-90,Javelin d10 damage plus d4 per AL
+91-92,Contact Poison - save or die
+93-94,Shocking Grasp - d8 damage plus 1 point per AL
+95-96,Cold Glyph - 2 damage per AL
+97-98,Negative Energy Glyph - Save or lose 1 energy level
+99,Phantasmal killer
+100,Lightning bolt - {Dice~5d6} damage
+
+:!Feature
+01-30,Damp & moldy
+31-40,Half-flooded with waist-high water. Next {Dice~1d4} rooms are also flooded
+41-50,Refuse & putrid smell
+51-60,Frescoes from an ancient civilization
+61-65,Statue from an ancient civilization: [Special]
+66-70,Pottery shards
+71,Magic Circle: [Special]
+72,Common fungi
+73,Slime patches - 1 in 10 is Green Slime
+74,{Dice~1d12} Kegs (equal chance empty,putrid food, oil, or fresh food)
+75,Tombs - {Dice~1d4} slabs: [Special]
+76,{Dice~1d4} Mummified corpses: [Special]
+77,Slithering sound
+78,Fire pit - 10 percent chance still lit
+79,Broken and decaying furniture
+80,{Dice~1d4} Thrones: [Special]
+81,Altar: [Special]
+82,Drumming sound
+83,Weapon racks - 10 percent chance of {Dice~1d4} scimitars
+84,Braziers and charcoal: [Special]
+85,Ancient battlefield with {Dice~2d6} skeletons
+86,Obscene Frescoes: [Special]
+87,Tapestries, worth 200gp but weigh 1000gp
+88,Large demon idol from an ancient civilization: [Special]
+89,Pillars: [Special]
+90-100,{Lockout~Feature,90-100}[Feature] and [Feature]{Unlock~Feature,90-100}
+
+:Special
+1-5,Ages PC or NPC by {Dice~2d10} years
+6-10,Switches to opposite alignment
+11-15,Bestows Lycanthropy - Wererat
+16-20,Causes Fear - shun this place and all exits
+21-25,Decrease random ability by 1
+26-30,Increase random ability by 1
+31-35,Casts Flesh to Stone
+36-40,Grants ancient form of random language
+41-45,Grants limited wish
+46-50,Heals all damage
+51-55,Gates in {Dice~1d4} Spirit Trolls to fight
+56-60,Grants an evil Black Pseudodragon familiar
+61-65,Infests victims with {Dice~2d4} Rot Grubs
+66-70,Rejuvenates PC or NPC {Dice~2d10} years
+71-75,Turns flesh gold, transparent, or pitch-black
+76-80,Converts PC or NPC to worship of Babylonian, Sumerian, or Egyptian deity
+81-85,Save vs. Spells or causes [~Insanities.Start]
+86-90,Switches gender
+91-92,Places NPC or PC in Temporal stasis
+93-94,Grants a Thief level if DEX 9 or above otherwise removes a level
+95-96,Raises PC or NPC Charisma to 18
+97-98,Reduces PC or NPC Charisma to 3
+99,Cripples PC or NPC - movement speed halved and lose {Dice~1d4} Dexterity
+100,Bestows a huge ruby worth 1000 gp per AL
+
+:Treasure
+1-4,Glass & Clay shards worth 1000 coppers per AL
+5-7,Precious conch shells equivalent to 1000 silvers per AL
+8-11,Ancient coins of brass and gold worth 750 electrum per AL
+12-14,250 gold per AL
+15-16,Imperial coins worth 100 platinum per AL
+17-18,{Dice~1d4} [Gems] per AL
+19,[NMS_ExpandedJewelry.Start]
+
+:Gems
+1,Tiger eye 10gp
+2-3,Hematite 25gp
+4-5,Native jasper 25gp
+6-7,Moonstone 50gp
+8-9,Bloodstone 75gp
+10-11,Amber 100gp
+12-13,Native red coral 100gp
+14,Garnet 125gp
+15,Native amethyst 250gp
+16,Small topaz 500gp
+17,Jet 500gp
+18,Fire opal 750gp
+19,Native oriental amethyst 750gp
+20,Black opal 1000gp
+
+

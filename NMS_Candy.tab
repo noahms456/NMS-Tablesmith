@@ -1,0 +1,51 @@
+﻿#
+# Candy Types
+#
+# by Noah Stevens
+
+;Start
+1,licorice
+1,black licorice
+1,[Flavor]-flavored gum
+1,lemon
+1,sour
+1,grape
+1,gummi
+1,peppermint
+1,fudge
+1,cake
+1,cupcake
+1,mint
+1,spearmint
+1,strawberry
+1,rootbeer
+1,ice cream
+1,taffy
+1,nougat
+1,candy corn
+1,chocolate
+1,red hot
+1,cherry
+1,cola
+1,yogurt
+1,[Cookie]
+
+;Flavor
+1,cherry
+1,lemon
+1,lime
+1,grape
+1,vanilla
+1,chocolate
+1,cola
+1,orange
+1,caramel
+1,cinnamon
+1,herbal
+
+;Cookie
+1,graham-cracker
+1,oreo
+1,chocolate chip
+1,snickerdoodle
+

@@ -1,0 +1,72 @@
+﻿#
+# NMS_GammaWorld
+# Gamma World Monsters, Taken from Gamma 5
+# Monsters From Mutant Future
+# February 15, 2020
+
+:Start
+
+:Level1
+1,spidergoat
+1,security probe robot
+1,minor worker-class robot
+1,minor pleasure-class robot
+1,dysfunctional warrior robot
+
+:Level2
+1,{Dice~2d3} Spidergoats
+1,{Dice~1d3} security robot
+
+:Level3
+1,Spidergoat
+
+:Level4
+1,Spidergoat
+
+:Level5
+1,{Dice~1d3+1} Obbs
+
+:Level6
+1,Spidergoat
+
+:Level7
+1,Spidergoat
+
+:Level8
+1,Spidergoat
+
+:Level9
+1,Spidergoat
+
+:Level10
+1,Spidergoat
+
+:Level11
+1,Spidergoat
+
+:Level12
+1,Spidergoat
+
+:Level13
+1,Spidergoat
+
+:Level14
+1,Spidergoat
+
+:Level15
+1,Spidergoat
+
+:Level16
+1,Spidergoat
+
+:Level17
+1,Spidergoat
+
+:Level18
+1,Spidergoat
+
+:Level19
+1,Spidergoat
+
+:Level20
+1,Spidergoat

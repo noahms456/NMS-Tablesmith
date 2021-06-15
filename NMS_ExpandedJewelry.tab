@@ -1,0 +1,197 @@
+# Jewelry 2+
+#
+# Originally created by Bruce A. Gulke
+#
+# Improved Again by Noah Stevens again on 12/9/2020
+
+:Start
+1-6,{AorAn~[NMS_Materials.Precious_Metal_Plus]} [Item], worth {Dice~1d8*100} gold coins
+7-11,{AorAn~[NMS_Materials.Precious_Metal_Plus]} [Item], set with {AorAn~[Gem]}, worth {Dice~1d8*100} gold coins
+12-15,{AorAn~[NMS_Materials.Precious_Metal_Plus]} [Item], set with [Gem]s, worth {Dice~1d8*100} gold coins
+16-17,{AorAn~[NMS_Materials.Precious_Metal_Plus]} [Item], [Design], worth {Dice~1d8*100} gold coins
+18-19,{AorAn~[NMS_Materials.Precious_Metal_Plus]} [Item], set with {AorAn~[Gem]}, worth {Dice~1d8*100} gold coins
+21-22,{AorAn~[NMS_Materials.Precious_Metal_Plus]} [Item], set with [Gem]s, worth {Dice~1d8*100} gold coins
+23-27,{AorAn~[NMS_Materials.Precious_Metal_Plus]} [Item], set with [Gem], worth {Dice~1d8*25} gold coins
+28,{AorAn~[Quality]} [NMS_Materials.Precious_Metal_Plus] [Item], set with [Gem], worth {Dice~1d8*250} gold coins
+29,{AorAn~[Quality]} [NMS_Materials.Precious_Metal_Plus] [Item], set with [Gem], worth {Dice~2d8*500} gold coins
+
+:Item
+1,anklet
+2,armband
+3-4,bracelet
+5,brooch
+6,buckle
+7,circlet
+8-9,clasp
+10,earring
+11-12,locket
+13-14,necklace
+15-16,pendant
+17-18,ring
+19,tiara
+20,torc
+21,crown
+22,miter
+23,cap
+24,amulet
+25,skullcap
+26,mask
+27,domino mask
+28,headdress
+29,mouthguard
+30,choker
+31,gorget
+32,vestment
+33,nosering
+34,crown
+35,diadem
+36,gauntlet
+37,pauldron
+38,helmet
+39,piercing stud
+40,armlet
+41,fascinator
+42,hatpin
+43,hairpin
+44,sarpech
+45,aigrette
+46,makuta
+47,kokoshnik
+48,pschent
+49,khephresh
+50,carcanet
+51,bangle
+52,belly chain
+53,chatelaine
+54,breastplate
+55,toe ring
+56,pledge pin
+57,prayer beads
+58,rosary beads
+59,puzzle ring
+60,poisoner's ring
+61,signet ring
+62,skull ring
+63,cameo
+64,emblem
+65,medallion
+66,pendant
+67,garland
+68,oddiyanam waist ornament
+69,jadanagam pony-tail holder
+70,shinka hair band
+71,chandrahaar hip ornament
+72,hathphool hand ornament
+73,paizeb feet ornament
+74,netsuke
+75,figurine
+
+
+
+:Design
+1,engraved with strange symbols
+2,engraved with concentric circles
+3,carved with a twisting, vine-like pattern
+4,inlaid with a pattern of gold
+5,inlaid with a pattern of silver
+6,engraved with an ancient proverb
+7,engraved with a dragon-like shape
+8,engraved with the likeness of an ancient king
+9,covered in a web-like pattern of lines
+10,engraved with an image of the sun
+11,engraved with the image of the moon
+12,engraved with the image of a demon
+13,engraved with the image of a dragon
+14,engraved with the image of a family
+15,engraved with the image of an ancestral hero
+16,engraved with the image of the night sky
+17,studded with pearls
+18,inset with bits of [Gem] in tantalizing patterns
+19,with beads of [Gem]
+20,scored with a circuit-like pattern
+21,inscribed with the words of a spell
+22,carved into grimacing faces
+23,painted with fluorescent pigments
+24,illuminated by some clever mechanism
+
+:Gem
+1-3,jade
+4-6,onyx
+7-9,turquoise
+10-12,emerald
+13,diamond
+14-16,sapphire
+17-19,ruby
+20-22,garnet
+23-25,rose quartz
+26-27,amber
+28,pearl
+29,topaz
+30,opal
+31,amethyst
+32,abalone
+33,actinolite
+34,adamite
+35,aegirine
+36,alabaster
+37,alexandrite
+38,almandine
+39,amazonite
+40,ametrine
+41,ammonite
+42,azurite
+43,bird's eye
+44,bismuth
+45,bloodstone
+46,carnelian
+47,cat's eye
+48,chalcedony
+49,cinnabar
+50,dinosaur bone
+51,fire agate
+52,fluorite
+53,hematite
+54,jasper
+55,lapis lazuli
+56,malachite
+57,moonstone
+58,mother of pearl
+59,obsidian
+60,pinolith
+61,psilomelane
+62,pyrite
+63,rhodolite
+64,selenite
+65,sodalite
+66,star ruby
+67,sunstone
+68,thulite
+69,umbalite
+70,trilobite fossil
+71,ivory
+
+;Quality
+1,beautiful
+1,elfin
+1,dwarfin
+1,gnomish
+1,goblinish
+1,fae
+1,extraterrestrial
+1,seafolk-made
+1,otherworldly
+1,delicate
+1,intricate
+1,elegant
+1,ornate
+1,sinister
+1,demonic
+1,horrendous
+1,insidious
+1,diabolic
+1,ominous
+1,cursed
+1,unlucky
+1,magical
+1,wondrous
+1,legendary

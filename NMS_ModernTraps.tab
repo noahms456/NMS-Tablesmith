@@ -1,0 +1,77 @@
+﻿#
+# NMS_ModernTraps
+# Some of these triggers etc stolen from TSR's Top Secret from 1991
+#
+
+:Start
+1,a [Trigger] activates {AorAn~[Damager]}
+
+;Trigger
+3,pressure pad
+1,low frequency sonic motion detector
+1,electric eye
+1,heat sensor
+1,ultrasonic motion detector
+1,particle sensor
+1,video motion detector
+1,tripwire
+1,hidden floor switch
+1,broken floorboard
+1,pitched floor
+1,swiveling floor
+1,false switch
+1,false control panel
+1,laser tripwire
+1,crumbling floor
+1,illusionary floor
+
+;Damager
+1,hail of needles
+1,wall of spears
+1,wall of swords
+1,acid pit
+1,acid spray
+1,sonic canon
+1,sleep gas
+1,nausea gas
+1,stun gas
+1,paralysis gas
+1,hallucination gas
+1,spiked pit
+1,saw blade
+1,crushing walls
+1,pendulum blade
+1,swinging spiked ball
+1,flamethrower
+1,cutting laser
+1,burning laser
+1,exploding light bulbs
+1,claymore mine
+1,shotgun blast
+1,fragmentation grenade
+1,fragmentation mine
+1,buckshot blast
+1,salt blast
+1,[Animal] release
+1,[Damager] followed by [Damager]
+1,concussion grenade
+1,deafening sonic blast
+1,blinding light
+1,poisonous plants
+1,poison ivy
+
+
+;Animal
+1,spider
+1,scorpion
+1,poisonous snake
+1,dog
+1,tiger
+1,lion
+1,wolf
+1,rabid dog
+1,rabid wolf
+1,wasp
+1,killer bee
+1,biting ant
+

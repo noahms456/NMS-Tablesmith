@@ -1,0 +1,134 @@
+﻿#
+# NMS_Interactables
+#
+# A list of qualities, arranged by PC Trait (e.g. class, race, skillset)
+# In order to smoosh some more levels of interactions upon randomly generated dungeons
+
+;Start
+1,[Class]
+1,[Race]
+1,[Skills]
+
+;Class
+1,[Warrior]
+1,[Wizard]
+1,[Cleric]
+1,[Thief]
+
+;Race
+1,[Human]
+1,[Elf]
+1,[Dwarf]
+1,[Halfling]
+1,[Other]
+
+;Warrior
+1,smashable
+1,breakable
+1,liftable
+1,armed
+1,irritable
+1,paranoid
+1,bendable
+1,throwable
+1,flimsy
+1,sturdy
+
+;Wizard
+1,enchanted
+1,mazed
+1,confused
+1,disoriented
+1,magically locked
+1,ensorcelled
+1,cursed
+1,geased
+1,turned to stone
+1,turned to metal
+1,turned to glass
+1,turned to sand
+1,magic jarred
+
+;Cleric
+1,hostile
+1,wounded
+1,defilable
+1,defiled
+1,heretical
+1,cursed
+1,quested
+
+;Thief
+1,locked
+1,trapped
+1,has a secret compartment
+1,stealable
+1,covered in gems
+1,covered in silver filigree
+1,plated in precious metals
+1,covered in contact poison
+1,has the fingerprints of a murderer on it
+1,beautifully made
+
+;Human
+1,human-sized
+1,pushable
+1,pullable
+
+;Dwarf
+1,poorly-made
+1,very well made
+1,of exquisite craftsmanship
+1,cunningly hidden
+1,architecturally unsound
+1,flawed in its design
+1,hiding treasure within it
+1,crawlable
+
+;Elf
+1,faintly enchanted
+1,connected to the fairy world
+1,covered with tiny letters
+1,throbbing imperceptibly
+1,haunted
+1,somehow tainted
+1,emitting an almost undectable odor
+1,intrinsically good
+1,ineffably damned
+
+;Halfling
+1,edible
+1,enterable
+1,crawlable
+1,somehow made for napping
+1,stores food inside
+1,so big that smaller people escape it
+1,smells delicious
+1,badly cooked
+1,smokable
+
+;Other
+1,tied to the will of dead gods
+1,immortal
+
+;Skills
+1,hackable
+1,repairable
+1,breakable
+1,cookable
+1,climable
+1,locked
+1,unlocked
+1,trapped
+1,decipherable
+1,written in an ancient language
+1,encoded
+1,hungry
+1,lost
+1,confused
+
+
+
+
+
+

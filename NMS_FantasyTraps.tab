@@ -1,0 +1,153 @@
+﻿#
+# NMS_FantasyTraps
+# Stolen from d20SRPD
+# Edited on June 16,2020
+
+:Start
+1-2,[CR1]
+3-4,[CR2]
+5-6,[CR3]
+7-8,[CR4]
+9-10,[CR5]
+11-12,[CR6]
+13-14,[CR7]
+15-16,[CR8]
+17-18,[CR9]
+19-20,[CR10]
+
+;CR1
+1,Basic Arrow 
+1,Camouflaged Pit 
+1,Deeper Pit 
+1,Fusillade of Darts
+1,Poison Dart 
+1,Poison Needle 
+1,Portcullis 
+1,Razor-Wire across Hallway
+1,Rolling Rock 
+1,Scything Blade 
+1,Spear 
+1,Swinging Block 
+1,Wall Blade 
+
+;CR2
+1,Box of Brown Mold
+1,Bricks from Ceiling
+1,Burning Hands 
+1,Camouflaged Pit 
+1,Inflict Light Wounds 
+1,Javelin 
+1,Large Net 
+1,Pit 
+1,Poison Needle 
+1,Spiked Pit 
+1,Tripping Chain
+1,Well-Camouflaged Pit 
+
+;CR3
+1,Burning Hands 
+1,Camouflaged Pit 
+1,Ceiling Pendulum
+1,Fire 
+1,Extended Bane 
+1,Ghoul Touch 
+1,Hail of Needles
+1,Acid Arrow 
+1,Pit 
+1,Poisoned Arrow 
+1,Spiked Pit 
+1,Stone Blocks from Ceiling
+
+;CR4
+1,Bestow Curse 
+1,Camouflaged Pit 
+1,Collapsing Column
+1,Glyph of Warding (Blast)
+1,Lightning Bolt 
+1,Pit 
+1,Poisoned Dart 
+1,Sepia Snake Sigil 
+1,Spiked Pit 
+1,Wall Scythe 
+1,Water-Filled Room 
+1,Wide-Mouth Spiked Pit 
+
+;CR5
+1,Glyph of [NMS_MRSpells.Start]
+1,Glyph of [NMS_VancianSpells.Start]
+1,Camouflaged Pit 
+1,Doorknob Smeared with Contact Poison
+1,Falling Block 
+1,Fire 
+1,Fireball 
+1,Flooding Room 
+1,Fusillade of Darts
+1,Moving Executioner Statue
+1,Phantasmal Killer 
+1,Pit 
+1,Poison Wall Spikes
+1,Spiked Pit 
+1,Spiked Pit  (80 Ft. Deep)
+1,Ungol Dust Vapor 
+
+;CR6
+1,Glyph of [NMS_MRSpells.Start]
+1,Glyph of [NMS_VancianSpells.Start]
+1,Built-to-Collapse Wall
+1,Compacting Room
+1,Flame Strike 
+1,Fusillade of Spears
+1,Glyph of Warding (Blast)
+1,Lightning Bolt 
+1,Spiked Blocks from Ceiling
+1,Spiked Pit  (100 Ft. Deep)
+1,Whirling Poison Blades
+1,Wide-Mouth Pit 
+1,Wyvern Arrow 
+
+;CR7
+1,Glyph of [NMS_MRSpells.Start]
+1,Glyph of [NMS_VancianSpells.Start]
+1,Acid Fog 
+1,Blade Barrier 
+1,Burnt Othur Vapor 
+1,Chain Lightning 
+1,Black Tentacles 
+1,Fusillade of Greenblood Oil Darts
+1,Lock Covered in Dragon Bile
+1,Summon Monster VI 
+1,Water-Filled Room
+1,Well-Camouflaged Pit 
+
+;CR8
+1,Glyph of [NMS_MRSpells.Start]
+1,Glyph of [NMS_VancianSpells.Start]
+1,Deathblade Wall Scythe
+1,Destruction 
+1,Earthquake 
+1,Insanity Mist Vapor 
+1,Acid Arrow 
+1,Power Word Stun 
+1,Prismatic Spray 
+1,Reverse Gravity 
+1,Well-Camouflaged Pit 
+1,Word of Chaos 
+
+;CR9
+1,Glyph of [NMS_MRSpells.Start]
+1,Glyph of [NMS_VancianSpells.Start]
+1,Drawer Handle Smeared with Contact Poison
+1,Dropping Ceiling
+1,Incendiary Cloud 
+1,Wide-Mouth Pit 
+1,Wide-Mouth Spiked Pit with Poisoned Spikes
+
+;CR10
+1,Glyph of [NMS_MRSpells.Start]
+1,Glyph of [NMS_VancianSpells.Start]
+1,Crushing Room
+1,Crushing Wall 
+1,Energy Drain 
+1,Forcecage and Summon Monster VII 
+1,Poisoned Spiked Pit 
+1,Wail of the Banshee 

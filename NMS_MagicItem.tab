@@ -1,0 +1,345 @@
+﻿#
+# NMS_MagicItem
+# Magic Items with help from Labyrinth Lord and Maze Rats 0.1
+
+:Start
+1-20,[Potions]
+21-25,[Rings]
+26-56,[Scrolls]
+57-61,[Rods]
+62-66,[Misc]
+67-87,[Swords]
+88-92,[Weapon]
+93-100,[Armor]
+101-120,[Artifact]
+
+:Potions
+<Potion of 
+1-3,Animal Control
+4-6,Clairaudience
+7-9,Clairvoyance
+10-12,Climbing
+13-17,Delusion
+18-20,Diminution
+21-23,Dragon Control
+24-26,ESP
+27-28,Extra-healing
+29-31,Fire Resistance
+32-36,Flying
+37-40,Gaseous form
+41-43,Giant Control
+44-47,Giant Strength
+48-50,Growth
+51-54,Healing
+55-58,Heroism
+59-61,Human Control
+62-64,Invisibility
+65-66,Invulnerability
+67-69,Levitation
+70-71,Longevity
+72-73,Oil of Etherealness
+74-75,Oil of Slipperiness
+76-78,Philter of Love
+79-81,Plant Control
+82-83,Poison
+84-85,Polymorph
+86-88,Speed
+89-90,Super-heroism
+91-93,Sweet Water
+94-95,Treasure Finding
+96-97,Undead Control
+98-100,Water Breathing
+
+:Rings
+<Ring of 
+1-4,Animal Command
+5-9,Command Human
+10-15,Command Plant
+16-25,Delusion
+26-27,Djinni Calling
+28-38,Fire Resistance
+39-49,Invisibility
+50-70,Protection
+71-72,Regeneration
+73-74,Spell Storing
+75-79,Spell Turning
+80-81,Telekinesis
+82-87,Water Walking
+88-94,Weakness
+95-97,Wishes
+98-100,X-ray Vision
+
+:Scrolls
+<Scroll of 
+1-5,Cursed
+6-15,Ward against Elementals
+16-25,Ward against Lycanthropes
+26-30,Ward against Magic
+31-40,Ward against Undead
+41-55,Spells (1)
+56-66,Spells (2)
+67-69,Spells (3)
+70-72,Spells (4)
+73-74,Spells (5)
+75,Spells (6)
+76,Spells (7)
+77-80,Treasure Map (Value {Dice~1d4}x1000 gp)
+81-85,Treasure Map (Value {Dice~5d6}x1000 gp)
+86-87,Treasure Map (Value {Dice~6d6}x1000 gp)
+88-89,Treasure Map (Value {Dice~5d6}x1000 gp, {Dice~5d6} gems)
+90-91,Treasure Map (Value {Dice~1d6} gems, {Dice~2d10} jewelry)
+92-93,Treasure Map (Value 1 magic item)
+94-95,Treasure Map (Value 2 magic items)
+96,Treasure Map (Value 3 magic items, no weapons)
+97,Treasure Map (Value 3 magic items, +1 potion)
+98,Treasure Map (Value 3 magic items, +1 potion,+1 Scroll)
+99,Treasure Map (Value {Dice~5d6}x1000 gp, 1 magic item)
+100,Treasure Map (Value {Dice~5d6} gems, 2 magic items)
+
+:Rods
+1-6,Rod of Cancellation
+7-8,Rod of Resurrection
+9-10,Staff of Commanding
+11-20,Staff of Healing
+21-22,Staff of Power
+23-26,Staff of Striking
+27-28,Staff of Withering
+29,Staff of Wizardry
+30-36,Staff of the Serpent
+37-40,Wand of Cold
+41-45,Wand of Detecting Enemies
+46-50,Wand of Detecting Magic
+51-55,Wand of Detecting Metals
+56-60,Wand of Detecting Secret Doors
+61-64,Wand of Detecting Traps
+65-69,Wand of Device Negation
+70-74,Wand of Fear
+75-79,Wand of Fire Balls
+80-84,Wand of Illusion
+85-88,Wand of Lightning Bolts
+89-93,Wand of Magic Missiles
+94-96,Wand of Paralyzation
+97-100,Wand of Polymorphing
+
+:Misc
+1-2,Amulet versus Crystal Balls and ESP
+3,Apparatus of the Crab
+4-5,Bag of Devouring
+6-10,Bag of Holding
+11,Folding Boat
+12-14,Boots of Levitation
+15-17,Boots of Speed
+18-20,Boots of Traveling and Springing
+21,Bowl of Commanding Water Elementals
+22-23,Bracers of Armor
+24,Brazier of Commanding Fire Elementals
+25-26,Brooch of Shielding
+27-29,Broom of Flying
+30,Censer of Controlling Air Elementals
+31,Chime of Opening
+32-33,Cloak of Protection
+34-36,Crystal Ball
+37-38,Crystal Ball with Clairaudience
+39,Crystal Ball with ESP
+40,Cube of Force
+41,Cube of Frost Resistance
+42-43,Decanter of Endless Water
+44-45,Displacer Cloak
+46,Drums of Panic
+47-49,Dust of Appearance
+50-52,Dust of Disappearance
+53,Efreeti Bottle
+54-57,Elven Cloak
+58-61,Elven Boots
+62,Eyes of Charming
+63-64,Eyes of the Eagle
+65-67,Eyes of Petrification
+68-71,Flying Carpet
+72-74,Gauntlets of Ogre Power
+75-77,Girdle of Giant Strength
+78-80,Helm of Alignment Changing
+81-84,Helm of Comprehend Languages and Read Magic
+85,Helm of Telepathy
+86,Helm of Teleportation
+87,Horn of Blasting
+88-90,Medallion of Receiving Thoughts
+91-92,Medallion of Broadcasting Thoughts (90')
+93,Mirror of Life Trapping
+94,Mirror of Opposition
+95,Necklace of Adaptation
+96-97,Rope of Climbing
+98-99,Scarab of Protection
+100,Stone of Controlling Earth Elementals
+
+:Swords
+1-39,Sword +1
+40-44,Sword +1, +2 versus lycanthropes
+45-49,Sword +1, +2 versus spell casters
+50-53,Sword +1, +3 versus undead
+54-57,Sword +1, +3 versus dragons
+58-62,Sword +1, +3 versus regenerating monsters
+63-67,Sword +1, +3 versus magical monsters
+68-75,Sword +1, light 30 foot radius
+76-80,Sword +1, Flame Tongue
+81,Sword +1, Life Drinker
+82-84,Sword +1, Locate Objects
+85-86,Sword +1, Luck Blade
+87,Sword +1, Wish Blade
+88-90,Sword +2,
+91-92,Sword +2, Charm Person
+93-94,Sword +3
+95,Sword +3, Frost Brand
+96-97,Sword –1 (cursed)
+98-99,Sword –2 (cursed)
+100,Sapient Sword
+
+:Weapon
+1-10,Arrows +1 {Dice~2d6}
+11-12,Arrows +1 {Dice~3d10}
+13-18,Arrows +2 {Dice~1d6}
+19-21,Arrows +3 {Dice~1d4}
+22,Arrow +3, Slaying Arrow
+23-31,Axe +1
+32-34,Axe +2
+35-41,Bow +1
+42-51,Crossbow Bolts +1 {Dice~2d6}
+52-53,Crossbow Bolts +1 {Dice~3d10}
+54-60,Crossbow Bolts +2 {Dice~1d6}
+61-63,Crossbow Bolts +3 {Dice~1d4}
+64-68,Dagger +1
+69,Dagger +2, +3 versus goblins, kobolds and orcs
+70-75,Sling +1
+76-82,Spear +1
+83-86,Spear +2
+87,Spear +3
+88-94,War Hammer +1
+95-99,War Hammer +2
+100,War Hammer +2, Dwarven Thrower
+
+:Armor
+1-15,Armor +1
+16-25,Armor +1 and Shield +1
+26-27,Armor +1 and Shield +2
+28,Armor +1 and Shield +3
+29-32,Armor +2
+33-35,Armor +2 and Shield +1
+36-38,Armor +2 and Shield +2
+39,Armor +2 and Shield +3
+40,Armor +3
+41,Armor +3 and Shield +1
+42,Armor +3 and Shield +2
+43,Armor +3 and Shield +3
+44-63,Shield +1
+64-73,Shield +2
+74-79,Shield +3
+80-82,Armor –1 (cursed)
+83-85,Armor –2 (cursed)
+86,Armor –1 (cursed) and Shield +1
+87,Armor –2 (cursed) and Shield +1
+88-90,Armor AC 9 (cursed)
+91-94,Shield –1 (cursed)
+95-97,Shield –2 (cursed)
+98-100,Shield AC 9 (cursed)
+
+;Artifact
+> of [NMS_MRSpells.Start]
+1,Amulet
+1,Arrow
+1,Arrowhead
+1,Axe
+1,Bell
+1,Belt
+1,Boots
+1,Bottle
+1,Bow
+1,Bowl
+1,Box
+1,Bracelet
+1,Breastplate
+1,Brooch
+1,Candle
+1,Card
+1,Censer
+1,Circlet
+1,Claw
+1,Cloak
+1,Coin
+1,Comb
+1,Compass
+1,Conch
+1,Crown
+1,Cup
+1,Doll
+1,Egg
+1,Eye
+1,Eyepatch
+1,Fang
+1,Feather
+1,Figurine
+1,Finger
+1,Flute
+1,Gauntlet
+1,Gem
+1,Glove
+1,Hammer
+1,Handkerchief
+1,Hat
+1,Helm
+1,Horn
+1,Hourglass
+1,Jar
+1,Key
+1,Knife
+1,Lamp
+1,Lens
+1,Locket
+1,Lute
+1,Lyre
+1,Mace
+1,Machine
+1,Mask
+1,Mirror
+1,Necklace
+1,Needle
+1,Net
+1,Orb
+1,Painting
+1,Pearl
+1,Pen
+1,Phial
+1,Pillow
+1,Pipe
+1,Pipes
+1,Purse
+1,Puzzle Box
+1,Pyramid
+1,Razor
+1,Ring
+1,Rod
+1,Rook
+1,Rope
+1,Salve
+1,Scarf
+1,Scepter
+1,Scissors
+1,Scroll
+1,Shield
+1,Shoe
+1,Signet Ring
+1,Skull
+1,Slippers
+1,Snuffbox
+1,Spear
+1,Staff
+1,Strand
+1,Sword
+1,Thread
+1,Tome
+1,Tooth
+1,Torch
+1,Tuning Fork
+1,Turnip
+1,Wand
+1,Whetstone
+1,Whistle
+1,Wine

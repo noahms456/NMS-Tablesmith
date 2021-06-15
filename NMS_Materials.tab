@@ -1,0 +1,206 @@
+﻿#
+# Materials
+# By Noah Stevens
+# April 2018
+#
+
+;Start
+5,Adamantium
+5,Admantium
+1,Alloy 20
+1,Alnico
+20,Alumel
+20,Aluminium
+5,Amalgam
+2,Amazonium
+20,Argentium Sterling Silver
+5,Babbitt
+20,Bell Metal
+1,Bergman Phase Magnesium
+1,Beta C Titanium
+1,Billon
+15,Bismuth
+30,Brass
+20,Britannium Tin
+20,Brittania Silver
+10,Bulat Steel
+15,Calamine Brass
+30,Cast Iron
+2,Celestrium
+2,Cerrosafe
+8,Chinese Silver
+1,Chromel
+10,Chromium
+8,Chromoly
+10,Cobalt
+10,Constantan
+25,Copper
+15,Corinthian Bronze
+1,Cor-ten
+5,Crown Gold
+12,Crucible Steel
+1,Cunife
+1,Cupronickel
+20,Cymbal Alloy
+20,Damascus Steel
+1,Depleted Uranium
+1,Devarda's Alloy
+1,Dore' Bullion
+1,Duralumin
+12,Dutch Metal
+1,Elecktron
+12,Electrum
+1,Elinvar
+1,Fernico
+1,Ferroboron
+1,Ferrocerium
+1,Ferrochrome
+1,Ferromagnesium
+1,Ferromanganese
+1,Ferromolybdenum
+1,Ferronickel
+1,Ferrophosphorus
+1,Ferrosilicon
+1,Ferrotitanium
+1,Ferrovanadium
+8,Field's Metal
+8,Florentine Bronze
+1,Galfenol
+1,Galinstan
+12,Gallium
+12,German Silver
+1,Gilding Metal
+5,Glucydur
+20,Gold
+5,Goloid
+5,Guanin
+12,Gunmetal
+2,Hastelloy
+1,Hepatizon
+12,Heusler Alloy
+1,Hiduminium
+1,Inconel
+12,Indium
+1,Invar
+30,Iron
+1,Kovar
+1,Kryron
+30,Lead
+2,Magnalium
+20,Magnesium
+1,Magnox
+2,Manganin
+5,Maraging Steel
+7,Martensitic Stainless Steel
+7,Megallium
+1,Mischmetal
+1,Mithril
+2,Molybdochalkos
+4,Monel Metal
+2,Mu-Metal
+4,Muntz Metal
+4,Mushet Steel
+1,Nambe
+1,Nichrome
+10,Nickel
+15,Nickel Silver
+1,Nicrosil
+12,Niobium-Tin
+1,Nisil
+1,Nitinol
+1,Nivarox
+12,Nordic Gold
+15,Orichalcum
+15,Ormolu
+2,Permalloy
+4,Permendur
+6,Phosphor Bronze
+15,Pig Iron
+2,Pinchbeck
+12,Platinum Sterling Silver
+1,Plutonium
+1,Polydenum
+1,Potassium
+1,Prince's Metal
+4,Pseudo-Palladium
+2,Rhodite
+2,Rhodium
+10,Rose Gold
+10,Rose Metal
+2,Scandium
+2,Scandium-Aluminium
+2,Sendust
+3,Shakudo
+3,Shibuichi
+25,Silver
+12,Silver Steel
+15,Solder
+12,Speculum Metal
+7,Spiegeleisen
+20,Spring Steel
+2,Staballoy
+20,Stainless Steel
+2,Stellite
+12,Sterling Silver
+2,Supermalloy
+15,Surgical Stainless Steel
+2,Talonite
+2,Terfenol-D
+2,Terne
+8,Tibetan Silver
+12,Tin
+12,Titanium
+4,Tombac
+20,Tool Steel
+6,Tumbaga
+15,Type Metal
+1,Ultimet
+1,Vibranium
+1,Vitallium
+1,Vizorium
+20,Weathering Steel
+4,White Gold
+4,Wood's Metal
+4,Wootz Steel
+2,Y alloy
+1,Zamak
+1,Zeron 100
+7,Zinc
+2,Zircaloy
+2,Vanadium
+
+;Precious_Material_Plus
+1,amber
+1,ivory
+1,enriched [Precious_Metal_Plus]
+1,jade
+1,onyx
+1,sardonyx
+1,diamond
+1,red ivory
+1,blue ivory
+1,ferrocrete
+1,plasticrete
+1,argonium
+1,etherium
+
+
+;Precious_Metal_Plus
+1,platinum 
+1,gold 
+1,silver 
+1,copper 
+1,brass 
+1,bronze 
+1,steel
+1,lead
+1,iron
+1,pewter
+1,meteoric iron
+1,cold iron
+1,adamantium
+1,ominium
+1,argonium
+1,ironwood
+1,tin
+1,iridium
