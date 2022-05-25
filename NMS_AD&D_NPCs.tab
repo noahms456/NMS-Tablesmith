@@ -1,0 +1,314 @@
+﻿#
+# NMS_AD&D_NPCs
+# March 19, 2022
+# To make NPCs for an AD&D1e-style party generator, to
+# roughly approximate the process on page 175 of the DMG
+# It seems to me that valid 1e NPCs per the PHB will be
+# difficult
+#
+# ------------------------------
+# Variables
+# ------------------------------
+%STR%,0
+%INT%,0
+%WIS%,0
+%DEX%,0
+%CON%,0
+%CHA%,0
+%Level%,1
+%Name%,NoName
+%Race%,Human
+%Class%,Fighter
+%Align%,NG
+%Armor%,Robe
+%Weapon%,Dagger
+%Gear1%,Candle
+%Gear2%,Tin Mirror
+%Gear3%,Toothbrush
+
+@Level,1,What level of NPC do you wish to generate?,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
+
+# ------------------------------
+# Main
+# ------------------------------
+:Start
+1,[GenStats][GenFacts][DisplayCharacter]
+
+:GenStats
+1,[GenAbilityScores]
+
+;DisplayCharacter
+1,%Name%, %Race% %Class% %Level%, %Align%, S %STR%, I %INT%,W %WIS%,D %DEX%,Cn %CON%,Ch %CHA%, %Weapon%, %Armor%
+#_%Gear1%, %Gear2%, %Gear3% 
+
+# ------------------------------
+# Ability Score Generation
+# ------------------------------
+:GenAbilityScores
+1,|STR=[RollScore]|
+_|INT=[RollScore]|
+_|WIS=[RollScore]|
+_|DEX=[RollScore]|
+_|CON=[RollScore]|
+_|CHA=[RollScore]|
+
+:GenFacts
+1,|Align=[MakeAlign]|
+_|Name=[MakeName]|
+_|Race=[MakeRace]|
+
+
+#:ModChar
+
+
+:RollScore
+10,{Dice~4d4+2}
+
+:MakeName
+1-10,[Fantasy Names.Start]
+11-20,[NMS_DarkestDungeonNames.Start]
+21,[Dickensian Names.Start]
+
+# Random Human-Centric Race
+;MakeRace
+20,Human|Class=[HumanClass]|
+3,Dwarf|Class=[DwarfClass]|
+3,Elf|Class=[ElfClass]|
+2,Gnome|Class=[GnomeClass]|
+3,Half-Elf|Class=[HElfClass]|
+5,Halfling|Class=[HalflingClass]|
+2,Half-Orc|Class=[HOrcClass]|
+
+
+
+# Random (really - Humans only) Classes (from page 175 of the DMG)
+:HumanClass
+1-17,Cleric|Weapon=[DwarfWeap]||Armor=[Medarm]|
+18-20,Druid|Align=Neutral||Weapon=[ElfWeap]|
+21-60,Fighter|Weapon=[FighterWeap]||Armor=[AllArmor]|
+61-62,Paladin|Align=LG||Weapon=[FighterWeap]||Armor=[Heavyarm]|
+63-65,Ranger|Weapon=[ElfWeap]||Armor=[Ltarm]|
+66-86,Magic-User|Weapon=[WizardWeap]|
+87-88,Illusionist|Weapon=[WizardWeap]|
+89-98,Thief|Weapon=[ThiefWeap]||Armor=[Ltarm]|
+99,Assassin|Align=[EvilAlign]||Weapon=[ThiefWeap]||Armor=[Ltarm]|
+100,Monk|Weapon=[ThiefWeap]|
+101,Bard|Weapon=[ThiefWeap]|
+
+#Dwarf Classes
+;DwarfClass
+5,Fighter|Weapon=[DwarfWeap]|
+5,Thief|Weapon=[ThiefWeap]||Armor=[Ltarm]|
+2,Cleric|Weapon=[DwarfWeap]||Armor=[Medarm]|
+1,Assassin|Align=[EvilAlign]||Armor=[Ltarm]|
+
+#Elf Classes
+;ElfClass
+5,Fighter|Weapon=[ElfWeap]|
+2,Thief|Weapon=[ElfWeap]||Armor=[Ltarm]|
+5,Magic-User|Weapon=[WizardWeap]|
+3,Cleric|Weapon=[DwarfWeap]||Armor=[Medarm]|
+1,Assassin|Align=[EvilAlign]||Armor=[Ltarm]|
+
+#Gnome Classes
+;GnomeClass
+3,Fighter|Weapon=[HalfWeap]||Armor=[AllArmor]|
+5,Thief|Weapon=[ThiefWeap]||Armor=[Ltarm]|
+2,Cleric|Weapon=[ClericWeap]||Armor=[Medarm]|
+4,Illusionist|Weapon=[WizardWeap]|
+1,Assassin|Align=[EvilAlign]||Weapon=[ThiefWeap]||Armor=[Ltarm]|
+
+#Half-Elf Classes
+;HElfClass
+5,Fighter|Weapon=[FighterWeap]||Armor=[AllArmor]|
+5,Ranger|Weapon=[ElfWeap]||Armor=[Ltarm]|
+5,Illusionist|Weapon=[WizardWeap]|
+5,Magic-User|Weapon=[WizardWeap]|
+5,Druid|Align=Neutral||Weapon=[ElfWeap]|
+5,Thief|Weapon=[ThiefWeap]||Armor=[Ltarm]|
+2,Cleric|Weapon=[ClericWeap]||Armor=[Medarm]|
+1,Assassin|Align=[EvilAlign]||Armor=[Ltarm]|
+
+#Halfling Classes
+;HalflingClass
+5,Druid|Align=Neutral||Weapon=[ElfWeap]||Armor=[Ltarm]|
+5,Fighter|Weapon=[HalfWeap]||Armor=[AllArmor]|
+5,Thief|Weapon=[ThiefWeap]||Armor=[Ltarm]|
+
+#Half-Orc Classes
+;HOrcClass
+5,Fighter|Weapon=[FighterWeap]||Armor=[AllArmor]|
+5,Thief|Weapon=[ThiefWeap]||Armor=[Ltarm]|
+2,Cleric|Weapon=[DwarfWeap]||Armor=[Medarm]|
+1,Assassin|Align=[EvilAlign]||Weapon=[ThiefWeap]||Armor=[Ltarm]|
+
+# PseudoRandom Alignment
+;MakeAlign
+5,LG
+10,NG
+10,CG
+10,LN
+5,N
+2,CN
+4,LE
+4,NE
+2,CE
+
+:EvilAlign
+1,LE
+2,CE
+3,NE
+
+;FighterWeap
+1,Long Sword
+1,Halberd
+1,Broadaxe
+1,Spear
+1,Short Sword
+1,Rapier
+1,Club
+1,Staff
+1,Mace
+1,Hammer
+1,Axe
+1,Great Axe
+1,Hammer
+1,Warhammer
+1,Spear
+1,Crossbow
+1,Mace
+1,Club
+
+;ElfWeap
+1,Short Bow
+1,Long Bow
+1,Spear
+1,Staff
+
+;WizardWeap
+1,Staff
+1,Dagger
+
+;ClericWeap
+1,Club
+1,Staff
+1,Mace
+1,Hammer
+
+;DwarfWeap
+1,Axe
+1,Great Axe
+1,Hammer
+1,Warhammer
+1,Spear
+1,Crossbow
+1,Mace
+1,Club
+
+;ThiefWeap
+1,Dagger
+1,Short Sword
+1,Short Bow
+1,Crossbow
+1,Stiletto
+1,Sling
+1,Blackjack
+1,Garotte
+
+;HalfWeap
+1,Short Sword
+1,Dagger
+1,Sling
+
+;Heavyarm
+1,Plate Armor
+1,Cuirass
+1,Banded Mail
+
+;Medarm
+1,Chainmail
+1,Scalemail
+1,Studded Leather Armor
+
+;Ltarm
+1,Padded Armor
+1,Hide Armor
+1,Furs
+
+;AllArmor
+1,[Heavyarm]
+1,[Medarm]
+1,[Ltarm]
+
+#Magic Gear
+;Table1
+1,2 POTIONS: Climbing, Flying
+2,2 POTIONS: Extra-Healing, Polymorph (Self)
+3,2 POTIONS: Fire Resistance, Speed
+4,2 POTIONS: Healing, Giant Strength
+5,2 POTIONS: Heroism, Invulnerability
+6,2 POTIONS: Human Control, Levitation
+7,2 POTIONS: Super-Heroism, Animal Control
+8,1 SCROLL: 1 Spell, Level 1-6
+9,1 SCROLL: 2 Spells, Level 1-4
+10,1 SCROLL: Protection From Magic
+11,1 RING: Mammal Control
+12,1 RING: Protection +1
+13,1 ARMOR: Leather +1
+14,1 SHIELD: +1
+15,1 SWORD: +1 (No Special Abilities)
+16,10 ARROWS: +1
+17,4 BOLTS: +2
+18,1 DAGGER: +1 (Or +2) Et Al.
+19,1 JAVELIN +2
+20,1 MACE +1
+
+;Table2
+1,1 SCROLL: 3 Spells, Level 2-9 Or 2-7
+2,2 RINGS: Fire Resistance, Invisibility
+3,1 RING: Protection +3
+4,1 STAFF: Striking
+5,1 WAND: Illusion
+6,1 WAND: Negation
+7,1 Bracers Of Defense, Armor Class 4
+8,1 Brooch Of Shielding
+9,1 Cloak Of Elvenkind
+10,1 Dust Of Appearance
+11,1 FIGURINE OF WONDROUS POWER: Serpentine Owl
+12,3 Javelins Of Lightning
+13,1 Set: Chainmail +1, Shield +2
+14,1 ARMOR: Splint Mail +4
+15,1 SWORD: +3 (No Special Abilities)
+16,2 WEAPONS: Crossbow Of Speed, Hammer +2
+
+;Table3
+1,1 RING: Spell Storing
+2,ROD: Cancellation
+3,1 STAFF: Serpent — Python Or Adder
+4,1 Bag Of Tricks
+5,1 Boots Of Speed
+6,1 Boots Of Striding And Leaping
+7,1 Cloak Of Displacement
+8,1 Gauntlets Of Ogre Power
+9,1 Pipe Of The Sewers
+10,1 Robe Of Blending
+11,2 ROPES: Climbing, Entanglement
+12,1 Set: Plate Mail +3, Shield +2
+13,1 SHIELD: +5
+14,1 SWORD: +4, Defender
+15,1 Mace +3
+16,1 Spear +3
+
+;Table4
+1,1 RING: Djinni Summoning
+2,1 RING: Spell Turning
+3,1 ROD: Smiting
+4,1 WAND: Fire
+5,1 Cube Of Force
+6,1 Eyes Of Charming
+7,1 Horn Of Valhalla
+8,1 Robe Of Scintillating Colors
+9,1 Talisman Of Either Ultimate Evil Or Pure Good
+1,1 Set: Plate Mail +4, Shield +3
+11,1 SWORD: Wounding
+12,1 Arrow Of Slaying (Select Character Type)
